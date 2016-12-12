@@ -11,20 +11,6 @@
 			"url": "#portfolio/:id"
 		},{
 			"id": 0,
-			"name": "Business Card",
-			"category": "graphic",
-			"location": "./img/portfolio/graphics/business_card",
-			"desc": "A Business Card for my freelance company KOYdesigns.",
-			"url": "#portfolio/:id"
-		},{
-			"id": 0,
-			"name": "Vertical Card",
-			"category": "graphic",
-			"location": "./img/portfolio/graphics/business_card_vertical",
-			"desc": "A Vertical Business Card for my freelance company KOYdesigns",
-			"url": "#portfolio/:id"
-		},{
-			"id": 0,
 			"name": "Iconography",
 			"category": "graphic",
 			"location": "./img/portfolio/graphics/cisco_icons",
@@ -70,7 +56,7 @@
 			"id": 0,
 			"name": "Line Chart Icon",
 			"category": "graphic",
-			"location": "./img/portfolio/graphics/icon_upcoming_events",
+			"location": "./img/portfolio/graphics/line_chart_256",
 			"desc": "An Line Chart icon made for one of Cisco's reporting applications",
 			"url": "#portfolio/:id"
 		},
@@ -91,24 +77,10 @@
 			"url": "#portfolio/:id"
 		},{
 			"id": 100,
-			"name": "Pamphlet",
+			"name": "Poster Apply",
 			"category": "graphic",
-			"location": "./img/portfolio/graphics/pamphlet",
-			"desc": "A pamphlet designed for a Chiropractic company. ",
-			"url": "#portfolio/:id"
-		},{
-			"id": 100,
-			"name": "Rack Car ",
-			"category": "graphic",
-			"location": "./img/portfolio/graphics/rack_card_front",
-			"desc": "A Rack Card (front) designed for a Chiropractic company. ",
-			"url": "#portfolio/:id"
-		},{
-			"id": 100,
-			"name": "Rack Card - Back",
-			"category": "graphic",
-			"location": "./img/portfolio/graphics/rack_card_back",
-			"desc": "A Rack Card (back) designed for a Chiropractic company. ",
+			"location": "./img/portfolio/graphics/poster_vote",
+			"desc": "A poster to encourage students to apply for Student Government positions.",
 			"url": "#portfolio/:id"
 		},{
 			"id": 100,
@@ -132,6 +104,20 @@
 			"desc": "A class project to create a stationary design based on a logo. ",
 			"url": "#portfolio/:id"
 		},{
+			"id": 0,
+			"name": "Business Card",
+			"category": "graphic",
+			"location": "./img/portfolio/graphics/business_card",
+			"desc": "A Business Card for my freelance company KOYdesigns.",
+			"url": "#portfolio/:id"
+		},{
+			"id": 0,
+			"name": "Vertical Card",
+			"category": "graphic",
+			"location": "./img/portfolio/graphics/business_card_vertical",
+			"desc": "A Vertical Business Card for my freelance company KOYdesigns",
+			"url": "#portfolio/:id"
+		},{
 			"id": 100,
 			"name": "Tea string",
 			"category": "graphic",
@@ -151,13 +137,6 @@
 			"category": "graphic",
 			"location": "./img/portfolio/graphics/tea_box_b",
 			"desc": "A class project to design a fictitious product",
-			"url": "#portfolio/:id"
-		},{
-			"id": 100,
-			"name": "Poster Apply",
-			"category": "graphic",
-			"location": "./img/portfolio/graphics/vote_poster",
-			"desc": "A poster to encourage students to apply for Student Government positions.",
 			"url": "#portfolio/:id"
 		},{
 			"id": 100,
@@ -328,6 +307,27 @@
 			"location": "./img/portfolio/web/career_center_about_us",
 			"desc": "San Jose State University - Career Center About Us Webpage. <a" +
 			" href='http://klarence.net/career_center/about_us'>SJSU Career Center - About Us</a>",
+			"url": "#portfolio/:id"
+		},{
+			"id": 100,
+			"name": "Pamphlet",
+			"category": "graphic",
+			"location": "./img/portfolio/graphics/pamphlet",
+			"desc": "A pamphlet designed for a Chiropractic company. ",
+			"url": "#portfolio/:id"
+		},{
+			"id": 100,
+			"name": "Rack Car ",
+			"category": "graphic",
+			"location": "./img/portfolio/graphics/rack_card_front",
+			"desc": "A Rack Card (front) designed for a Chiropractic company. ",
+			"url": "#portfolio/:id"
+		},{
+			"id": 100,
+			"name": "Rack Card - Back",
+			"category": "graphic",
+			"location": "./img/portfolio/graphics/rack_card_back",
+			"desc": "A Rack Card (back) designed for a Chiropractic company. ",
 			"url": "#portfolio/:id"
 		}
 	];
