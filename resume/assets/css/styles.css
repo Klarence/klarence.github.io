@@ -156,7 +156,7 @@ p {
 	margin-top: 0;
 	padding: 11px 0 0 0;
 	color: #000;
-	font: 13px/0;
+	/*font: 13px/0px;*/
 	font-weight: bold;
 	font-size: 16px;
 	font-family: Lucida, Lucida Grande, Lucida Sans, Lucida Sans Unicode, Century Gothic, Avant Garde, Helvetica, Arial, sans-serif;

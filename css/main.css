@@ -34,26 +34,47 @@ footer {
 	margin: 50px 0;
 }
 
-nav.navbar.navbar-default.navbar-static-top,
-nav.navbar.navbar-default.navbar-static-top .container {
-	height: 110px;
-	position: relative
+.navbar-header h1 {
+	margin: 24px 0 24px 105px;
+	font-size: 24px;
 }
 
-nav.navbar.navbar-default.navbar-static-top .navbar-nav,
-nav.navbar.navbar-header h1 {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	/*	float: right;*/
-	right: 0;
+.navbar-brand>img {
+	width: 75px;
 }
 
 @media (min-width: 768px) {
+	.navbar-header h1 {
+		margin: 40px 0 auto 152px;
+		font-size: 36px;
+	}
+	.navbar-brand>img {
+		width: 128px;
+	}
+}
+@media (min-width: 768px) {
+
 	.navbar-nav {
 		float: right;
 		margin: auto 0;
 	}
+	nav.navbar.navbar-default.navbar-static-top,
+	nav.navbar.navbar-default.navbar-static-top .container {
+		height: 110px;
+		position: relative;
+		margin-bottom: 0;
+
+	}
+
+	nav.navbar.navbar-default.navbar-static-top .navbar-nav,
+	nav.navbar.navbar-header h1 {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		/*	float: right;*/
+		right: 0;
+	}
+
 }
 
 .filter label {
@@ -94,9 +115,7 @@ p {
 	color: #5baf89;
 }
 
-.navbar-header h1 {
-	margin: 40px 0 auto 152px;
-}
+
 
 .experience h4 small {
 	display: block;
