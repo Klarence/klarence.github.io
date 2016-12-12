@@ -1,0 +1,75 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.clearfix:after {
+	  content:" ";
+	  display:table;
+	  clear:both;
+  }
+/*.clearfix:after {*/
+	/*visibility: hidden;*/
+	/*display: block;*/
+	/*font-size: 0;*/
+	/*content: " ";*/
+	/*clear: both;*/
+	/*height: 0;*/
+/*}*/
+/** html .clearfix             { zoom: 1; } !* IE6 *!*/
+/**:first-child+html .clearfix { zoom: 1; } !* IE7 *!*/
+
+body {
+	/*	padding-top: 70px;*/
+	/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	/*			padding-top: 50px;*/
+	padding-bottom: 20px;
+}
+
+.portfolio-item {
+	margin-bottom: 25px;
+}
+
+footer {
+	margin: 50px 0;
+}
+
+nav.navbar.navbar-default.navbar-static-top,
+nav.navbar.navbar-default.navbar-static-top .container {
+	height: 110px;
+	position: relative
+}
+
+nav.navbar.navbar-default.navbar-static-top .navbar-nav {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	/*	float: right;*/
+	right: 0;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav {
+		float: right;
+		margin: auto 0;
+	}
+}
+
+.filter label {
+	margin-right: 18px;
+}
+h1 {
+	color: #3c763d;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #3c763d;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.lightbox .lb-image {
+	/*display: block;*/
+	height: auto !important;
+	/*height: auto;*/
+	min-width: 600px;
+}
