@@ -94,7 +94,8 @@
 			"name": "Resume",
 			"category": "graphic",
 			"location": "./img/portfolio/graphics/resume_design",
-			"desc": "A class project to design a resume. ",
+			"desc": "A class project to design a <a" +
+			" href='http://koydesigns.com/resume/'>Resume</a>. ",
 			"url": "#portfolio/:id"
 		},{
 			"id": 100,
@@ -150,8 +151,7 @@
 			"name": "Bauhuas Booklet",
 			"category": "graphic",
 			"location": "./img/portfolio/graphics/graphics_booklet",
-			"desc": "A Booklet designed with inspiration from the Bauhuas movement. <a" +
-			" href='http://koydesigns.com/resume/'>Resume</a>",
+			"desc": "A Booklet designed with inspiration from the Bauhuas movement.",
 			"url": "#portfolio/:id"
 		},{
 			"id": 1,
