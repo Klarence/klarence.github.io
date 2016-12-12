@@ -355,6 +355,9 @@
 				// 	templateUrl: 'partials/portfolio-detail.tpl.html',
 				// 	controller: PortfolioDetailCtrl
 				// })
+				.when('/presentations', {
+					templateUrl: 'partials/presentations.tpl.html'
+				})
 				.when('/services', {
 					templateUrl: 'partials/services.tpl.html'
 				})
