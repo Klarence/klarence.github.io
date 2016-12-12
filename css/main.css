@@ -39,7 +39,8 @@ nav.navbar.navbar-default.navbar-static-top .container {
 	position: relative
 }
 
-nav.navbar.navbar-default.navbar-static-top .navbar-nav {
+nav.navbar.navbar-default.navbar-static-top .navbar-nav,
+nav.navbar.navbar-header h1 {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -57,14 +58,22 @@ nav.navbar.navbar-default.navbar-static-top .navbar-nav {
 .filter label {
 	margin-right: 18px;
 }
-h1 {
+h1, h2, h3, h4, h5, h6 {
 	color: #3c763d;
 }
+p {
+	font-size: 16px;
+}
 
-.navbar-default .navbar-nav>li>a{
-	color: #3c763d;
+.navbar-default .navbar-nav>li>a {
+	/*color: #3c763d;*/
+	color: #36634e;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #5baf89;
 }
 
 .lightbox .lb-image {
@@ -72,4 +81,25 @@ h1 {
 	height: auto !important;
 	/*height: auto;*/
 	min-width: 600px;
+}
+
+.contact_details ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.contact_details i {
+	padding-right: .5em;
+	color: #5baf89;
+}
+
+.navbar-header h1 {
+	margin: 40px 0 auto 152px;
+}
+
+.experience h4 small {
+	display: block;
+}
+footer p {
+	color: #808080;
 }
