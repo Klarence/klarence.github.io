@@ -95,7 +95,7 @@
 			"category": "graphic",
 			"location": "./img/portfolio/graphics/resume_design",
 			"desc": "A class project to design a <a" +
-			" href='http://koydesigns.com/resume/'>Resume</a>. ",
+			" href='http://klarence.net/resume/' target='_blank'>Resume</a>. ",
 			"url": "#portfolio/:id"
 		},{
 			"id": 100,
