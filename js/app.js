@@ -317,7 +317,7 @@
 			"url": "#portfolio/:id"
 		},{
 			"id": 100,
-			"name": "Rack Car ",
+			"name": "Rack Card",
 			"category": "graphic",
 			"location": "./img/portfolio/graphics/rack_card_front",
 			"desc": "A Rack Card (front) designed for a Chiropractic company. ",
