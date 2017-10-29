@@ -10,17 +10,17 @@
 
 <div data-ng-controller="PortfolioCtrl as ctrl">
 		<div class="filter">
-			<h5>Filter By</h5>
+			<span>Filter By</span>
 				<!--<label>-->
 					<!--<input type="checkbox" />-->
 					<!--All-->
 				<!--</label>-->
-			<div class="filter">
+			<!--<div class="filter">-->
 				<label data-ng-repeat="category in ctrl.getCategories()">
 					<input type="checkbox" data-ng-model="ctrl.filter[category]" />
 					{{ category }}
 				</label>
-			</div>
+			<!--</div>-->
 		</div>
 		<!--<hr />-->
 		<!--<h3>Available Items</h3>-->

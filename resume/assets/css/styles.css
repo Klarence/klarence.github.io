@@ -32,6 +32,7 @@ body {
 	font: 16px Helvetica, Arial, sans-serif;
 	/*	font-size: 14px/22px*/
 	font-weight: 500;
+	background: #f8f8f8;
 }
 
 
@@ -133,8 +134,9 @@ p {
 	margin-top: 20px;
 	margin-bottom: 5px;
 	color: #006633;
-	font-weight: bold;
-	font-family: Lucida, Lucida Grande, Lucida Sans, Lucida Sans Unicode, Century Gothic, Avant Garde, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	/*font-family: Lucida, Lucida Grande, Lucida Sans, Lucida Sans Unicode, Century Gothic, Avant Garde, Helvetica, Arial, sans-serif;*/
+	font-family: Verdana,"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .page-title {
@@ -229,7 +231,8 @@ p {
 	.web + .contact_desc {
 		/*	right: 227px;*/
 		/*		right: 207px;*/
-		right: 211px;
+		/*right: 211px;*/
+		right: 144px;
 	}
 	.linkedin + .contact_desc {
 		/*		right: 248px;*/
@@ -238,7 +241,7 @@ p {
 	.resume + .contact_desc {
 		/*		right: 200px;*/
 		/*		right: 204px;*/
-		right: 322px;
+		right: 329px;
 	}
 	.skype + .contact_desc {
 		/*		right: 156px;*/
@@ -260,7 +263,7 @@ p {
 		left: -268px;
 	}*/
 	.fin_int {
-		right: 428px;
+		right: 440px;
 	}
 	.web_ass {
 		right: 378px;
@@ -281,13 +284,13 @@ p {
 		right: 430px;
 	}
 	.award_senator {
-		right: 323px;
+		right: 315px;
 	}
 	.award_honor {
-		right: 379px;
+		right: 371px;
 	}
 	.award_eli {
-		right: 379px;
+		right: 371px;
 	}
 }
 
@@ -296,8 +299,14 @@ p {
 		position: relative;
 		top: 20px;
 		float: right;
-		box-shadow: 3px 3px 7px #777;
+		/*box-shadow: 3px 3px 7px #777;*/
 		margin-right: 59px;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
 	}
 	.column-left {
 		float: left;

@@ -41,9 +41,10 @@ footer {
 
 .navbar-brand>img {
 	width: 75px;
+	border: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 991px) {
 	.navbar-header h1 {
 		margin: 40px 0 auto 152px;
 		font-size: 36px;
@@ -122,4 +123,10 @@ p {
 }
 footer p {
 	color: #808080;
+}
+img {
+	vertical-align: middle;
+	border: 3px solid #eee;
+	border-radius: 10px;
+	padding: 5px;
 }
