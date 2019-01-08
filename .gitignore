@@ -1,6 +1,8 @@
-# Created by .ignore support plugin (hsz.mobi)
 /.recognizer/
 .DS_Store
-*.xml
-/.idea
+/.idea/
 .idea/*
+*.xml
+.idea/dictionaries/kouyang.xml
+/old site/
+/elements.html

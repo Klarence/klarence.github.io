@@ -109,7 +109,9 @@ h1 {
 	margin-bottom: 5px;
 }
 */
-
+.headshot {
+	padding-top: 20px;
+}
 .item-header {
 	margin-top: 0;
 	padding: 11px 0 0 0;
@@ -186,7 +188,7 @@ p {
 
 .time_desc {
 	color: #999;
-	font-weight: bold;
+	font-weight: normal;
 	/*
 	margin-bottom: 0;
 	padding-left: 5px;
@@ -262,13 +264,16 @@ p {
 		left: -268px;
 	}*/
 	.fin_int {
-		right: 440px;
+		right: 428px;
 	}
 	.web_ass {
-		right: 378px;
+		right: 292px;
 	}
 	.office_ass {
-		right: 299px;
+		right: 482px;
+	}
+	.deg_hci {
+		right: 500px;
 	}
 	.deg_bus_mis {
 		right: 372px;
@@ -283,20 +288,20 @@ p {
 		right: 430px;
 	}
 	.award_senator {
-		right: 315px;
+		right: 317px;
 	}
 	.award_honor {
-		right: 371px;
+		right: 370px;
 	}
 	.award_eli {
-		right: 371px;
+		right: 370px;
 	}
 }
 
 @media screen and (min-width: 1024px) {
 	.headshot {
 		position: relative;
-		top: 20px;
+		top: 90px;
 		float: right;
 		/*box-shadow: 3px 3px 7px #777;*/
 		margin-right: 59px;
