@@ -1,8 +1,6 @@
 /.recognizer/
 .DS_Store
 /.idea/
-.idea/*
-*.xml
-.idea/dictionaries/kouyang.xml
 /old site/
 /elements.html
+*.xml
