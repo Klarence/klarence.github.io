@@ -222,30 +222,21 @@ p {
 		position: relative;
 	}
 	.tel + .contact_desc {
-		/*		right: 145px;*/
 		right: 149px;
 	}
 	.email + .contact_desc {
-		/*	right: 188px;*/
-		/*		right: 168px;*/
 		right: 172px;
 	}
 	.web + .contact_desc {
-		/*	right: 227px;*/
-		/*		right: 207px;*/
-		/*right: 211px;*/
 		right: 144px;
 	}
 	.linkedin + .contact_desc {
 		right: 252px;
 	}
 	.resume + .contact_desc {
-		/*		right: 200px;*/
-		/*		right: 204px;*/
-		right: 329px;
+		right: 289px;
 	}
 	.skype + .contact_desc {
-		/*		right: 156px;*/
 		right: 160px;
 	}
 	.github + .contact_desc {

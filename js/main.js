@@ -1,10 +1,10 @@
 'use strict';
-$(window).on('load', function() { 
+$(window).on('load', function() {
 	/*------------------
-		Preloder
+		Preloader
 	--------------------*/
-	$(".loader").fadeOut(); 
-	$("#preloder").delay(400).fadeOut("slow");
+	$(".loader").fadeOut();
+	$("#preloader").delay(400).fadeOut("slow");
 
 	if($('.portfolios-area').length > 0 ) {
 		var containerEl = document.querySelector('.portfolios-area');
@@ -115,10 +115,11 @@ if($().circleProgress){
 }
 
     var texts = [
-        "Web Developer",
-        "UX Designer",
-        "Usability Analyst"
-        // , "Entrepreneur"
+        "Design Technologist",
+        "Product Designer",
+        "Usability Analyst",
+		"Web Developer"
+        //, "Entrepreneur"
     ];
     var count = 0;
 

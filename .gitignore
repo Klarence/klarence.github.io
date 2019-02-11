@@ -1,6 +1,10 @@
 /.recognizer/
 .DS_Store
-/.idea/
 /old site/
 /elements.html
 *.xml
+.idea/workspace.xml
+/.vscode/
+/.idea/
+/node_modules/
+
