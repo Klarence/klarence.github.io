@@ -1,6 +1,5 @@
 /.recognizer/
 .DS_Store
-/old site/
 /elements.html
 *.xml
 .idea/workspace.xml
@@ -8,3 +7,6 @@
 /.idea/
 /node_modules/
 
+*.xml
+.idea/misc.xml
+.idea/workspace.xml

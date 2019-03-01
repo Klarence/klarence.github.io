@@ -5,88 +5,91 @@ aside,
 nav,
 article,
 figure {
-	display: block;
+  display: block;
 }
 
 aside {
-	max-width: 260px;
+  max-width: 260px;
 }
 
 address li {
-	margin-bottom: 4px;
-	font-size: 14px;
-	line-height: 18px;
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .wrapper {
-	margin: 0 auto;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	/*	background-color: #fff;*/
-	max-width: 820px;
-	text-align: left;
+  max-width: 820px;
+  margin: 0 auto;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+
+  /*	background-color: #fff; */
+  text-align: left;
 }
 
 body {
-	text-align: left;
-	font: 16px Helvetica, Arial, sans-serif;
-	/*	font-size: 14px/22px*/
-	font-weight: 500;
-	background: #f8f8f8;
+  font: 16px Helvetica, Arial, sans-serif;
+
+  /*	font-size: 14px/22px */
+  font-weight: 500;
+  text-align: left;
+  background: #f8f8f8;
+
 }
 
 
 /*
 body::after {
-	content: "";
-	background: url(../images/paper_bg.jpg) repeat;
-	opacity: 0.5;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: absolute;
-	z-index: -1;
-	border: 1px solid #999;
+  content: "";
+  background: url(../images/paper_bg.jpg) repeat;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  border: 1px solid #999;
 }
 */
 
 .awards {
-	margin: 0 0 0 5px;
-	padding: 0;
-	list-style-position: inside;
-	list-style-type: disc;
+  margin: 0 0 0 5px;
+  padding: 0;
+  list-style-position: inside;
+  list-style-type: disc;
 }
 
 .pdf {
-	padding: 0 18px 0 0;
-	background: url(../images/pdf_icon_32.png) center right no-repeat;
-	background-size: 16px;
-	white-space: nowrap;
+  padding: 0 18px 0 0;
+  white-space: nowrap;
+  background: url(../images/pdf_icon_32.png) center right no-repeat;
+  background-size: 16px;
 }
 
 .doc {
-	padding: 0 18px 0 0;
-	background: url(../images/word_icon_32.png) center right no-repeat;
-	background-size: 16px 16px;
-	white-space: nowrap;
+  padding: 0 18px 0 0;
+  white-space: nowrap;
+  background: url(../images/word_icon_32.png) center right no-repeat;
+  background-size: 16px 16px;
 }
 
 
 /*
 .mail {
-	background: url(../images/mail_icon.png) center right no-repeat;
-	padding: 0 20px 0 0;
-	white-space: nowrap;
+  background: url(../images/mail_icon.png) center right no-repeat;
+  padding: 0 20px 0 0;
+  white-space: nowrap;
 }
 */
 
 
 /*
 .www {
-	background: url(../images/www_icon.png) center right no-repeat;
-	padding: 0 20px 0 0;
-	white-space: nowrap;
+  background: url(../images/www_icon.png) center right no-repeat;
+  padding: 0 20px 0 0;
+  white-space: nowrap;
 }
 */
 
@@ -94,225 +97,258 @@ body::after {
 /*
 h1,
 h2 {
-	color: #006633;
-	font-family: Lucida, Lucida Grande, Lucida Sans, Lucida Sans Unicode, Century Gothic, Avant Garde, Helvetica, Arial, sans-serif;
-	font-weight: bold;
-		font-size: 13px/0px;
+  color: #006633;
+  font-family: Lucida, Lucida Grande, Lucida Sans, Lucida Sans Unicode, Century Gothic, Avant Garde, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+    font-size: 13px/0px;
 }
 */
 
 
 /*
 h1 {
-	font-size: 24px;
-	margin-top: 20px;
-	margin-bottom: 5px;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 */
 .headshot {
-	padding-top: 20px;
+  padding-top: 20px;
 }
+
 .item-header {
-	margin-top: 0;
-	padding: 11px 0 0 0;
-	color: #000;
-	font-size: 18px;
-	line-height: 22px;
+  margin-top: 0;
+  padding: 11px 0 0 0;
+  color: #000;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .subheader {
-	color: #999;
-	font-size: 16px;
-	font-family: Helvetica, Arial, sans-serif;
+  color: #999;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 p {
-	font: 13px/18px Helvetica, Arial, sans-serif;
-	font-size: 14px;
-	font-family: Helvetica, Arial, sans-serif;
+  font: 13px/18px Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .section-header {
-	margin-top: 20px;
-	margin-bottom: 5px;
-	color: #006633;
-	font-weight: normal;
-	/*font-family: Lucida, Lucida Grande, Lucida Sans, Lucida Sans Unicode, Century Gothic, Avant Garde, Helvetica, Arial, sans-serif;*/
-	font-family: Verdana,"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #063;
+  font-weight: normal;
+
+  /* font-family: Lucida, Lucida Grande, Lucida Sans, Lucida Sans Unicode, Century Gothic, Avant Garde, Helvetica, Arial, sans-serif; */
+  font-family: Verdana, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .page-title {
-	/*	font-size: 24px;*/
-	/*	margin-top: 20px;*/
-	/*	margin-bottom: 5px;*/
-	margin: 30px 0 0 0;
-	max-width: 650px;
-	font-weight: normal;
-	font-size: 36px;
-	line-height: normal;
+  /*	font-size: 24px; */
+
+  /*	margin-top: 20px; */
+
+  /*	margin-bottom: 5px; */
+  max-width: 650px;
+  margin: 30px 0 0 0;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: normal;
 }
 
-.contact_info {
-	margin-top: 20px;
+.contact-info {
+  margin-top: 20px;
 }
 
 .skills {
-	margin-top: 0;
-	padding: 11px 0 0 0;
-	color: #000;
-	/*font: 13px/0px;*/
-	font-weight: bold;
-	font-size: 16px;
-	font-family: Lucida, Lucida Grande, Lucida Sans, Lucida Sans Unicode, Century Gothic, Avant Garde, Helvetica, Arial, sans-serif;
-	line-height: 22px;
+  margin-top: 0;
+  padding: 11px 0 0 0;
+  color: #000;
+
+  /* font: 13px/0px; */
+
+  /* font-weight: bold; */
+  font-size: 16px;
+  font-family: Lucida, Lucida Grande, Lucida Sans, Lucida Sans Unicode, Century Gothic, Avant Garde, Helvetica, Arial, sans-serif;
+  line-height: 22px;
 }
 
-.contact_desc {
-	right: 65px;
-	color: #999;
-	font-style: italic;
-	font-size: 14px;
-	font-family: Helvetica, Arial, sans-serif;
-	/*	top: -12px;*/
-	/*
-	color: #999;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-	margin-bottom: 0;
-	padding-left: 5px;
-	font-style: italic;
-	position: relative;
+.contact-desc {
+  right: 65px;
+  color: #999;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
+
+  /*	top: -12px; */
+
+  /*
+  color: #999;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-left: 5px;
+  font-style: italic;
+  position: relative;
 */
 }
 
-.time_desc {
-	color: #999;
-	font-weight: normal;
-	/*
-	margin-bottom: 0;
-	padding-left: 5px;
+.time-desc {
+  /*
+  margin-bottom: 0;
+  padding-left: 5px;
 */
-	font-style: italic;
-	font-size: 14px;
-	font-family: Helvetica, Arial, sans-serif;
+  color: #999;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
 }
 
-.skills_desc {
-	margin-bottom: 0;
-	color: #999;
-	font-size: 14px;
-	font-family: Helvetica, Arial, sans-serif;
-	line-height: 16px;
+.skills-desc {
+  margin-bottom: 0;
+  color: #999;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 16px;
 }
 
 .description {
-	color: #ccc;
-	font-family: Helvetica, Arial, sans-serif;
+  color: #ccc;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 @media screen and (min-width: 680px) {
-	.wrapper {
-		padding-left: 11em;
-	}
-	.contact_desc {
-		position: relative;
-	}
-	.time_desc {
-		position: relative;
-	}
-	.tel + .contact_desc {
-		right: 149px;
-	}
-	.email + .contact_desc {
-		right: 172px;
-	}
-	.web + .contact_desc {
-		right: 144px;
-	}
-	.linkedin + .contact_desc {
-		right: 252px;
-	}
-	.resume + .contact_desc {
-		right: 289px;
-	}
-	.skype + .contact_desc {
-		right: 160px;
-	}
-	.github + .contact_desc {
-		right: 224px;
-	}
-	.plunker + .contact_desc {
-		right: 255px;
-	}
-	.behance + .contact_desc {
-		right: 287px;
-	}
-	/*#address {
-		left: -270px;
-	}*/
-	/*#web_dev {
-		left: -268px;
-	}*/
-	.fin_int {
-		right: 428px;
-	}
-	.web_ass {
-		right: 292px;
-	}
-	.office_ass {
-		right: 482px;
-	}
-	.deg_hci {
-		right: 500px;
-	}
-	.deg_bus_mis {
-		right: 372px;
-	}
-	.deg_web {
-		right: 423px;
-	}
-	.deg_bus {
-		right: 382px;
-	}
-	.deg_vid {
-		right: 430px;
-	}
-	.award_senator {
-		right: 317px;
-	}
-	.award_honor {
-		right: 370px;
-	}
-	.award_eli {
-		right: 370px;
-	}
+  .wrapper {
+    padding-left: 11em;
+  }
+
+  .contact-desc {
+    position: relative;
+  }
+
+  .time-desc {
+    position: relative;
+  }
+
+  .tel+.contact-desc {
+    right: 149px;
+  }
+
+  .email+.contact-desc {
+    right: 172px;
+  }
+
+  .web+.contact-desc {
+    right: 144px;
+  }
+
+  .linkedin+.contact-desc {
+    right: 252px;
+  }
+
+  .resume+.contact-desc {
+    right: 289px;
+  }
+
+  .skype+.contact-desc {
+    right: 160px;
+  }
+
+  .github+.contact-desc {
+    right: 224px;
+  }
+
+  .plunker+.contact-desc {
+    right: 255px;
+  }
+
+  .behance+.contact-desc {
+    right: 287px;
+  }
+
+  /* #address {left: -270px;} */
+
+  /* #web_dev {
+    left: -268px;
+  } */
+  .fin-int {
+    right: 428px;
+  }
+
+  .web-ass {
+    right: 292px;
+  }
+
+  .office-ass {
+    right: 482px;
+  }
+
+  .degree-hci {
+    right: 500px;
+  }
+
+  .degree-business-mis {
+    right: 372px;
+  }
+
+  .degree-web {
+    right: 423px;
+  }
+
+  .degree-business {
+    right: 382px;
+  }
+
+  .degree-video {
+    right: 440px;
+  }
+
+  .award-senator {
+    right: 317px;
+  }
+
+  .award-honor {
+    right: 370px;
+  }
+
+  .award-eli {
+    right: 370px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-	.headshot {
-		position: relative;
-		top: 90px;
-		float: right;
-		/*box-shadow: 3px 3px 7px #777;*/
-		margin-right: 59px;
-		-moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
-	}
-	.column-left {
-		float: left;
-		max-width: 520px;
-	}
-	.column-right {
-		float: right;
-		max-width: 260px;
-		width: 260px;
-	}
-	.careerSummary p {
-		max-width: 540px;
-	}
+  .headshot {
+    position: relative;
+    top: 90px;
+    float: right;
+
+    /* box-shadow: 3px 3px 7px #777; */
+    margin-right: 59px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: "FlipH";
+    filter: FlipH;
+  }
+
+  .column-left {
+    float: left;
+    max-width: 520px;
+  }
+
+  .column-right {
+    float: right;
+    width: 260px;
+    max-width: 260px;
+  }
+
+  .career-summary p {
+    max-width: 540px;
+  }
 }
