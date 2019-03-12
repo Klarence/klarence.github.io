@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-	<link href="/images/favicon.ico" rel="shortcut icon"/>
+	<link href="./images/favicon.ico" rel="shortcut icon"/>
 
-    <title>Good2Eat.org template</title>
+    <title>Good2Eat Filterable Menu Sample</title>
 
     <meta name="apple-mobile-web-app-title" content="Good2Eat">
     <meta name="application-name" content="Good2Eat">
     <meta name="msapplication-TileColor" content="#00a300">
     <meta name="theme-color" content="#eeeeee">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00a300">
+    <link rel="mask-icon" href="./images/safari-pinned-tab.svg" color="#00a300">
 
     <!-- Bootstrap -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!-- Fontawesome -->
-    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous">
 
     <!--Main CSS file-->
     <link href="./css/styles.css" rel="stylesheet">
@@ -37,7 +37,7 @@
 <body>
 
 
-    <header>
+    <header class="container">
         <span id="logo"></span>
       <h1 id="restaurant_name">Lotus + Cleaver</h1>
       <h2>
@@ -210,7 +210,12 @@
                 <!--<input type="radio" name="options" id="Dairy" autocomplete="off"> Dairy-->
                 <!--</label>-->
                 <label for="noDairy" class="btn btn-sm btn-outline-danger " data-filter=":not(.dairy)">
-                    <input type="radio" name="options" id="noDairy" autocomplete="off">No Dairy
+                    <input type="radio" name="options" id="noDairy" autocomplete="off">
+                    <span class="fa-stack fa">
+                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                        <i class="fas fa-cow fa-stack-1x"></i>
+                    </span>
+                    No Dairy
                 </label>
             </div>
             <!--</div>-->
@@ -229,7 +234,12 @@
                     <!--<input type="radio" name="options" id="Eggs" autocomplete="off"> Eggs-->
                     <!--</label>-->
                     <label for="noEggs" class="btn btn-sm btn-outline-danger" data-filter=":not(.eggs)">
-                        <input type="radio" name="options" id="noEggs" autocomplete="off">No Eggs
+                        <input type="radio" name="options" id="noEggs" autocomplete="off">
+                        <span class="fa-stack fa">
+                            <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                            <i class="fas fa-egg fa-stack-1x"></i>
+                        </span>
+                        No Eggs
                     </label>
                 </div>
             <!--</div>-->
@@ -246,7 +256,12 @@
                 <!--<input type="radio" name="options" id="Peanuts" autocomplete="off"> Peanuts-->
                 <!--</label>-->
                 <label for="noPeanuts" class="btn btn-sm btn-outline-danger" data-filter=":not(.peanuts)">
-                    <input type="radio" name="options" id="noPeanuts" autocomplete="off"> No Peanuts
+                    <input type="radio" name="options" id="noPeanuts" autocomplete="off">
+                    <span class="fa-stack fa">
+                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                        <i class="fas fa-peanut fa-stack-1x"></i>
+                    </span>
+                    No Peanuts
                 </label>
             </div>
             <!--<div type="button" class="btn btn-group js-radio-button-group" data-filter-group="allergy-eggs">-->
@@ -262,7 +277,12 @@
                 <!--<input type="radio" name="options" id="Fish" autocomplete="off"> Fish-->
                 <!--</label>-->
                 <label for="noFish" class="btn btn-sm btn-outline-danger" data-filter=":not(.fish)">
-                    <input type="radio" name="options" id="noFish" autocomplete="off"> No Fish
+                    <input type="radio" name="options" id="noFish" autocomplete="off"> 
+                    <span class="fa-stack fa">
+                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                        <i class="fas fa-fish fa-stack-1x"></i>
+                    </span>
+                    No Fish
                 </label>
             </div>
             <!--<div type="button" class="btn btn-group js-radio-button-group" data-filter-group="allergy-fish">-->
@@ -278,7 +298,12 @@
                 <!--<input type="radio" name="options" id="Shellfish" autocomplete="off"> Shellfish-->
                 <!--</label>-->
                 <label for="noShellfish" class="btn btn-sm btn-outline-danger" data-filter=":not(.shellfish)">
-                    <input type="radio" name="options" id="noShellfish" autocomplete="off"> No Shellfish
+                    <input type="radio" name="options" id="noShellfish" autocomplete="off"> 
+                    <span class="fa-stack fa">
+                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                        <i class="fas fa-spider fa-stack-1x"></i>
+                    </span>
+                    No Shellfish
                 </label>
             </div>
             <!--<div type="button" class="btn btn-group js-radio-button-group" data-filter-group="allergy-shellfish">-->
@@ -294,7 +319,12 @@
                 <!--<input type="radio" name="options" id="treeNuts" autocomplete="off"> Tree Nuts-->
                 <!--</label>-->
                 <label for="noTreeNuts" class="btn btn-sm btn-outline-danger" data-filter=":not(.treenuts)">
-                    <input type="radio" name="options" id="noTreeNuts" autocomplete="off"> No Tree Nuts
+                    <input type="radio" name="options" id="noTreeNuts" autocomplete="off">
+                    <span class="fa-stack fa">
+                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                        <i class="fas fa-acorn fa-stack-1x"></i>
+                    </span>
+                    No Tree Nuts
                 </label>
             </div>
             <!--<div type="button" class="btn btn-group js-radio-button-group" data-filter-group="allergy-tree_nuts">-->
@@ -310,7 +340,12 @@
                 <!--<input type="radio" name="options" id="wheat" autocomplete="off"> Wheat-->
                 <!--</label>-->
                 <label for="noWheat" class="btn btn-sm btn-outline-danger" data-filter=":not(.wheat)">
-                    <input type="radio" name="options" id="noWheat" autocomplete="off"> No Wheat
+                    <input type="radio" name="options" id="noWheat" autocomplete="off"> 
+                    <span class="fa-stack fa">
+                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                        <i class="fas fa-wheat fa-stack-1x"></i>
+                    </span>
+                    No Wheat
                 </label>
             </div>
             <!--<div type="button" class="btn btn-group js-radio-button-group" data-filter-group="allergy-wheat">-->
@@ -326,7 +361,12 @@
                 <!--<input type="radio" name="options" id="soy" autocomplete="off"> Soy-->
                 <!--</label>-->
                 <label for="noSoy" class="btn btn-sm btn-outline-danger" data-filter=":not(.soy)">
-                    <input type="radio" name="options" id="noSoy" autocomplete="off"> No Soy
+                    <input type="radio" name="options" id="noSoy" autocomplete="off">
+                    <span class="fa-stack fa">
+                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                        <i class="fas fa-soybean fa-stack-1x"></i>
+                    </span>
+                    No Soy
                 </label>
             </div>
             <!--<div type="button" class="btn btn-group js-radio-button-group" data-filter-group="allergy-soy">-->
@@ -344,7 +384,12 @@
                 <!--<input type="radio" name="options" id="gluten" autocomplete="off"> Gluten-->
                 <!--</label>-->
                 <label for="noGluten" class="btn btn-sm btn-outline-danger" data-filter=":not(.gluten)">
-                    <input type="radio" name="options" id="noGluten" autocomplete="off"> Gluten Free
+                    <input type="radio" name="options" id="noGluten" autocomplete="off"> 
+                    <span class="fa-stack fa">
+                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                        <i class="fas fa-bread-loaf fa-stack-1x"></i>
+                    </span>
+                    Gluten Free
                 </label>
             </div>
             <div class="btn-group btn-group-toggle" data-toggle="buttons" data-filter-group="sesame">
@@ -355,7 +400,12 @@
                 <!--<input type="radio" name="options" id="sesame" autocomplete="off"> Sesame-->
                 <!--</label>-->
                 <label for="noSesame" class="btn btn-sm btn-outline-danger" data-filter=":not(.sesame)">
-                    <input type="radio" name="options" id="noSesame" autocomplete="off"> No Sesame
+                    <input type="radio" name="options" id="noSesame" autocomplete="off">
+                    <span class="fa-stack fa">
+                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                        <i class="fas fa-sesame fa-stack-1x"></i>
+                    </span>
+                    No Sesame
                 </label>
             </div>
             <!--<div class="btn-group btn-group-toggle" data-toggle="buttons" data-filter-group="sulphites">-->
@@ -386,34 +436,54 @@
             <!--<button type="button" class="btn btn-light" data-filter=".wine">Wine List</button>-->
             <!--<button type="button" class="btn btn-light" data-filter=".kids">Kids</button>-->
             <!--</div>-->
-            <div class="btn-group btn-group-toggle" data-toggle="buttons" data-filter-group="meal">
-                <label for="all" class="btn btn-sm btn-light active" data-filter="*">
-                    <input type="radio" name="options" id="all" autocomplete="off" checked> All
+            <div class="btn-group btn-group-sm btn-group-toggle" data-toggle="buttons" data-filter-group="meal">
+                <label for="all" class="btn btn-light active" data-filter="*">
+                    <input type="radio" name="options" id="all" autocomplete="off" checked>
+                    All
                 </label>
-                <label for="starters" class="btn btn-sm btn-light" data-filter=".starters">
-                    <input type="radio" name="options" id="starters" autocomplete="off"> Starters
+                <label for="starters" class="btn btn-light" data-filter=".starters">
+                    <input type="radio" name="options" id="starters" autocomplete="off">
+                    <i class="fas fa-french-fries"></i>
+                    <span class="d-none d-md-block">Starters</span>
                 </label>
-                 <label for="breakfast" class="btn btn-sm btn-light" data-filter=".breakfast">
-                    <input type="radio" name="options" id="breakfast" autocomplete="off">Breakfast
+                 <label for="breakfast" class="btn btn-light" data-filter=".breakfast">
+                    <input type="radio" name="options" id="breakfast" autocomplete="off">
+                    <i class="fas fa-egg-fried"></i>
+                    <span class="d-none d-md-block">Breakfast</span>
                 </label>
-                <!-- <label for="brunch" class="btn btn-sm btn-light" data-filter=".brunch">
-                    <input type="radio" name="options" id="brunch" autocomplete="off">Brunch
+                <!-- <label for="brunch" class="btn btn-light" data-filter=".brunch">
+                    <input type="radio" name="options" id="brunch" autocomplete="off">
+                    <i class="fas fa-egg-fried"></i>
+                    <span class="d-none d-md-block">Brunch</span>
                 </label> -->
-                <label for="lunch" class="btn btn-sm btn-light" data-filter=".lunch">
-                    <input type="radio" name="options" id="lunch" autocomplete="off">Lunch
+                <label for="lunch" class="btn btn-light" data-filter=".lunch">
+                    <input type="radio" name="options" id="lunch" autocomplete="off">
+                    <i class="fas fa-sandwich"></i>
+                    <span class="d-none d-md-block">Lunch</span>
                 </label>
-                <label for="dinner" class="btn btn-sm btn-light" data-filter=".dinner">
-                    <input type="radio" name="options" id="dinner" autocomplete="off">Dinner
+                <label for="dinner" class="btn btn-light" data-filter=".dinner">
+                    <input type="radio" name="options" id="dinner" autocomplete="off">
+                    <i class="fas fa-utensils"></i>
+                    <span class="d-none d-md-block">Dinner</span>
                 </label>
-                <label for="drink" class="btn btn-sm btn-light" data-filter=".drink">
-                    <input type="radio" name="options" id="drink" autocomplete="off">Beverages
+                <label for="drink" class="btn btn-light" data-filter=".drink">
+                    <input type="radio" name="options" id="drink" autocomplete="off">
+                    <i class="fas fa-glass"></i>
+                    <span class="d-none d-md-block">Drinks</span>
                 </label>
-                <!-- <label for="wineList" class="btn btn-sm btn-light" data-filter=".wineList">
+                <label for="wine" class="btn btn-light" data-filter=".wine">
+                    <input type="radio" name="options" id="wine" autocomplete="off">
+                    <i class="fas fa-wine-glass-alt"></i>
+                    <span class="d-none d-md-block">Wine List</span>
+                </label>
+                <!--<label for="wineList" class="btn btn-light" data-filter=".wineList">
                     <input type="radio" name="options" id="wineList" autocomplete="off">Wine List
-                </label>
-                <label for="kids" class="btn btn-sm btn-light" data-filter=".kids">
-                    <input type="radio" name="options" id="kids" autocomplete="off">Kids
-                </label> -->
+                </label>-->
+                <label for="kids" class="btn btn-light" data-filter=".kids">
+                    <input type="radio" name="options" id="kids" autocomplete="off">
+                    <i class="fas fa-child"></i>
+                    <span class="d-none d-md-block">Kids</span>
+                </label> 
             </div>
         </div>
         <div class="filter-group sub-filter">
@@ -427,27 +497,63 @@
             <!--<button type="button" class="btn btn-light" data-filter=".pork">Pork</button>-->
             <!--<button type="button" class="btn btn-light" data-filter=".beef">Beef</button>-->
             <!--</div>-->
-            <div class="btn-group btn-group-toggle" data-toggle="buttons" data-filter-group="foodType">
-                <label for="allFoodTypes" class="btn btn-sm btn-light active" data-filter="*">
+            <div class="btn-group btn-group-sm btn-group-toggle" data-toggle="buttons" data-filter-group="foodType">
+                <label for="allFoodTypes" class="btn btn-light active" data-filter="*">
                     <input type="radio" name="options" id="allFoodTypes" autocomplete="off" checked> All
                 </label>
-                <label for="vegan" class="btn btn-sm btn-light" data-filter=".vegan">
-                    <input type="radio" name="options" id="vegan" autocomplete="off">Vegan
+                <label for="vegan" class="btn btn-light" data-filter=".vegan">
+                    <!-- <input type="radio" name="options" id="vegan" autocomplete="off">Vegan -->
+                    <input type="radio" name="options" id="vegan" autocomplete="off">
+                    <i class="fas fa-leaf-heart"></i>
+                    <span class="d-none d-md-block">Vegan</span>
+                    
                 </label>
-                <label for="vegetarian" class="btn btn-sm btn-light" data-filter=".vegetarian">
-                    <input type="radio" name="options" id="vegetarian" autocomplete="off">Vegetarian
+                <label for="vegetarian" class="btn btn-light" data-filter=".vegetarian">
+                    <!-- <input type="radio" name="options" id="vegetarian" autocomplete="off">Vegetarian -->
+                    <input type="radio" name="options" id="vegetarian" autocomplete="off">
+                    <i class="fas fa-leaf"></i>
+                    <span class="d-none d-md-block">Vegetarian</span>
+                    
                 </label>
-                <label for="seafood" class="btn btn-sm btn-light" data-filter=".seafood">
-                    <input type="radio" name="options" id="seafood" autocomplete="off">Seafood
+                <label for="seafood" class="btn btn-light" data-filter=".seafood">
+                    <!-- <input type="radio" name="options" id="seafood" autocomplete="off">Seafood -->
+                    <input type="radio" name="options" id="seafood" autocomplete="off">
+                    <i class="fas fa-fish"></i>
+                    <span class="d-none d-md-block">Seafood</span>
+                    
                 </label>
-                <label for="poultry" class="btn btn-sm btn-light" data-filter=".poultry">
-                    <input type="radio" name="options" id="poultry" autocomplete="off">Poultry
+                <label for="poultry" class="btn btn-light" data-filter=".poultry">
+                    <!-- <input type="radio" name="options" id="poultry" autocomplete="off">Poultry -->
+                    <input type="radio" name="options" id="poultry" autocomplete="off">
+                    <i class="fas fa-turkey"></i>
+                    <span class="d-none d-md-block">Poultry</span>
+                    
                 </label>
-                <label for="pork" class="btn btn-sm btn-light" data-filter=".pork">
-                    <input type="radio" name="options" id="pork" autocomplete="off">Pork
+                <label for="pork" class="btn btn-light" data-filter=".pork">
+                    <!-- <input type="radio" name="options" id="pork" autocomplete="off">Pork -->
+                    <input type="radio" name="options" id="pork" autocomplete="off">
+                    <i class="fas fa-pig"></i>
+                    <span class="d-none d-md-block">Pork</span>
+                    
                 </label>
-                <label for="beef" class="btn btn-sm btn-light" data-filter=".beef">
-                    <input type="radio" name="options" id="beef" autocomplete="off">Beef
+                <label for="beef" class="btn btn-light" data-filter=".beef">
+                    <!-- <input type="radio" name="options" id="beef" autocomplete="off">Beef -->
+                    <input type="radio" name="options" id="beef" autocomplete="off">
+                    <i class="fas fa-cow"></i>
+                    <span class="d-none d-md-block">Beef</span>
+                    
+                </label>
+                <label for="lamb" class="btn btn-light" data-filter=".lamb">
+                    <input type="radio" name="options" id="lamb" autocomplete="off">
+                    <i class="fas fa-sheep"></i>
+                    <span class="d-none d-md-block">Lamb</span>
+                    
+                </label>
+                <label for="mutton" class="btn btn-light" data-filter=".mutton">
+                    <input type="radio" name="options" id="mutton" autocomplete="off">
+                    <i class="fas fa-horse"></i>
+                    <span class="d-none d-md-block">Goat</span>
+                    
                 </label>
 
             </div>
@@ -463,43 +569,49 @@
             <!--<button type="button" class="btn btn-light" data-filter=".spicy">Spicy</button>-->
             <!--<button type="button" class="btn btn-light" data-filter=".savory">Savory (Umami)</button>-->
             <!--</div>-->
-            <div class="btn-group btn-group-toggle" data-toggle="buttons" data-filter-group="flavor">
-                <label for="allFlavors" class="btn btn-sm btn-light active" data-filter="*">
+            <div class="btn-group btn-group-xs btn-group-toggle" data-toggle="buttons" data-filter-group="flavor">
+                <label for="allFlavors" class="btn btn-light active" data-filter="*">
                     <input type="radio" name="options" id="allFlavors" autocomplete="off" checked> All
                 </label>
-                <label for="bitter" class="btn btn-sm btn-light" data-filter=".bitter">
-                    <input type="radio" name="options" id="bitter" autocomplete="off">Bitter
+                <label for="bitter" class="btn btn-light" data-filter=".bitter">
+                    <input type="radio" name="options" id="bitter" autocomplete="off">
+                    <i class="fas fa-gingerbread-man"></i>
+                    <span class="d-none d-md-block">Bitter</span>
+                    
                 </label>
-                <label for="sweet" class="btn btn-sm btn-light" data-filter=".sweet">
-                    <input type="radio" name="options" id="sweet" autocomplete="off">Sweet
+                <label for="sweet" class="btn btn-light" data-filter=".sweet">
+                    <input type="radio" name="options" id="sweet" autocomplete="off">
+                    <i class="fas fa-cookie"></i>
+                    <span class="d-none d-md-block">Sweet</span>
+                    
                 </label>
-                <label for="sour" class="btn btn-sm btn-light" data-filter=".sour">
-                    <input type="radio" name="options" id="sour" autocomplete="off">Sour
+                <label for="sour" class="btn btn-light" data-filter=".sour">
+                    <input type="radio" name="options" id="sour" autocomplete="off">
+                    <i class="fas fa-lemon"></i>
+                    <span class="d-none d-md-block">Sour</span>
+                    
                 </label>
-                <label for="salty" class="btn btn-sm btn-light" data-filter=".salty">
-                    <input type="radio" name="options" id="salty" autocomplete="off">Salty
+                <label for="salty" class="btn btn-light" data-filter=".salty">
+                    <input type="radio" name="options" id="salty" autocomplete="off">
+                    <i class="fas fa-sausage"></i>
+                    <span class="d-none d-md-block">Salty</span>
+                    
                 </label>
-                <label for="spicy" class="btn btn-sm btn-light" data-filter=".spicy">
-                    <input type="radio" name="options" id="spicy" autocomplete="off">Spicy
+                <label for="spicy" class="btn btn-light" data-filter=".spicy">
+                    <input type="radio" name="options" id="spicy" autocomplete="off">
+                    <i class="fas fa-pepper-hot"></i>
+                    <span class="d-none d-md-block">Spicy</span>
+                    
                 </label>
-                <label for="savory" class="btn btn-sm btn-light" data-filter=".savory">
-                    <input type="radio" name="options" id="savory" autocomplete="off">Savory (Umami)
+                <label for="savory" class="btn btn-light" data-filter=".savory">
+                    <input type="radio" name="options" id="savory" autocomplete="off">
+                    <i class="fas fa-soup"></i>
+                    <span class="d-none d-md-block">Savory(Umami)</span>
+                    
                 </label>
 
             </div>
         </div>
-        <!--<ul class="menu-filter-list list-inline margin-b-40 text-center">-->
-        <!--<input class="is-checked" data-filter="*">All</input>-->
-        <!--</ul>-->
-        <!--<ul class="menu-filter-list list-inline margin-b-40 text-center">-->
-        <!--<ul class="list-inline margin-b-40 text-center">-->
-        <!--<li class="is-checked" data-filter="*">All</li>-->
-        <!--<li data-filter=".start">start</li>-->
-        <!--<li data-filter=".breakfast">Breakfast</li>-->
-        <!--<li data-filter=".lunch">Lunch</li>-->
-        <!--<li data-filter=".dinner">Dinner</li>-->
-        <!--<li data-filter=".drinks">Drink</li>-->
-        <!--</ul>-->
     </section>
     <section class="row menu-items" style="position: relative; height: 642px;">
         <div class=" start breakfast col-md-4 margin-b-30 menu-item dairy spicy"
@@ -507,17 +619,18 @@
             <div class="menu-box clearfix ">
                 <div class="menu-content">
                     <h6><a href="">Chili-garlic Hawker Style Chicken Wings</a><span class="price">$9</span>
-                        <small class="additions">add <span id="addon">seared foie gras</span> <span id="addonCharge">+18</span></small>
+                        <div>
+                            <small class="additions">add <span id="addon">seared foie gras</span> <span id="addonCharge">+18</span></small>
+                        </div>
                     </h6>
                     <p>
                          <span class="icons">
-                             <i class="fas fa-knife-kitchen"></i>
+                             <i class="fas fa-chef-hat"></i>
                              <i>gf</i>
-                             <i class="fas fa-fire"></i>
-                             <i class="fas fa-fire"></i>
-                             <i class="fas fa-fire"></i>
-                             <i class="fas fa-fire"></i>
-
+                             <i class="fas fa-pepper-hot"></i>
+                             <i class="fas fa-pepper-hot"></i>
+                             <i class="fas fa-pepper-hot"></i>
+                             <i class="fas fa-pepper-hot"></i>
                              <!-- <i class="fas fa-heart"></i> -->
                              <!-- <i class="fas fa-star"></i> -->
                              <!-- <span class="fa-layers fa-fw">
@@ -530,7 +643,7 @@
                                  <span class="fa-layers-counter" style="background:Tomato">v</span>
                              </span> -->
                         </span>
-                        <span class="menu-description text-truncate">milk, chicken, garlic</span>
+                        <p class="menu-description text-truncate">milk, chicken, garlic</p>
                         <div class="star-ratings">
                             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="far fa-star"></i>
                         </div>
@@ -579,7 +692,7 @@
                 <div class="menu-content">
                     <h6><a href="">Numbing Sichuan Chicharron</a> <span class="price">$12</span></h6>
                     <div>
-                            <i class="fas fa-fire"></i>
+                            <i class="fas fa-pepper-hot"></i>
                             <i>gf</i>
                     </div>
                     <p></p>
@@ -642,11 +755,12 @@
             <div class="menu-box clearfix vegetarian">
                 <div class="menu-content">
                     <div>
-                        <i class="fas fa-leaf"></i>
-                        <span class="fa-layers fa-fw">
+                        <i class="fas fa-leaf-heart"></i>
+                        <!-- <i class="fas fa-leaf"></i> -->
+                        <!-- <span class="fa-layers fa-fw">
                             <i class="fas fa-leaf" style="color:green"></i>
                             <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-4 right-1" style="font-weight:900">v</span>
-                        </span>
+                        </span> -->
                         <i>gf</i>
                     </div>
 
@@ -707,11 +821,7 @@
             <div class="menu-box clearfix ">
                 <div class="menu-content">
                     <div>
-                      <i class="fas fa-leaf"></i>
-                      <span class="fa-layers fa-fw">
-                            <i class="fas fa-leaf" style="color:green"></i>
-                            <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-4 right-1" style="font-weight:900">v</span>
-                        </span>
+                      <i class="fas fa-leaf-heart"></i>
                       <i>gf</i>
                     </div>
 
@@ -726,18 +836,11 @@
              style="position: absolute; left: 0; top: 428px;">
             <div class="menu-box clearfix peanut">
                 <div class="menu-content">
+                    <h6><a href="">Singapore Slaw Salad</a> <span class="price">$10</span></h6>
                     <div>
-                      <i class="fas fa-leaf"></i>
-                      <span class="fa-layers fa-fw">
-                        <i class="fas fa-leaf" style="color:green"></i>
-                        <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-4 right-1" style="font-weight:900">v</span>
-                        </span>
+                      <i class="fas fa-leaf-heart"></i>
                       <i>gf</i>
-
                     </div>
-
-                    <h6><a href="">Singapore Slaw Salad
-                    </a> <span class="price">$10</span></h6>
                     <p>shredded veggies, basil, peanuts, crispy taro, plum dressing
                     </p>
                 </div>
@@ -748,11 +851,7 @@
             <div class="menu-box clearfix ">
                 <div class="menu-content">
                   <div>
-                    <i class="fas fa-leaf"></i>
-                    <span class="fa-layers fa-fw">
-                        <i class="fas fa-leaf" style="color:green"></i>
-                        <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-4 right-1" style="font-weight:900">v</span>
-                    </span>
+                    <i class="fas fa-leaf-heart"></i>
                     <i>gf</i>
                   </div>
                     <h6><a href="">Stir-Fried Market Greens
@@ -766,11 +865,7 @@
             <div class="menu-box clearfix ">
                 <div class="menu-content">
                     <div>
-                      <i class="fas fa-leaf"></i>
-                      <span class="fa-layers fa-fw">
-                            <i class="fas fa-leaf" style="color:green"></i>
-                            <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-4 right-1" style="font-weight:900">v</span>
-                        </span>
+                      <i class="fas fa-leaf-heart"></i>
                       <i>gf</i>
                     </div>
 
@@ -785,11 +880,7 @@
             <div class="menu-box clearfix ">
                 <div class="menu-content">
                     <div>
-                        <i class="fas fa-leaf"></i>
-                        <span class="fa-layers fa-fw">
-                                <i class="fas fa-leaf" style="color:green"></i>
-                                <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-4 right-1" style="font-weight:900">v</span>
-                            </span>
+                        <i class="fas fa-leaf-heart"></i>
                         <i>gf</i>
                         <!--<span class="fa-stack">-->
                         <!--&lt;!&ndash;<i class="fa fa-stack-1x">g</i>&ndash;&gt;-->
@@ -855,7 +946,7 @@
 <aside>
     <!-- Ad copy goes here -->
 </aside>
-<footer>
+<footer class="container">
     <!-- <small>Disclaimer: </small> -->
     <small><a href="#" rel="license" >Terms of Use</a></small>
     <!-- <address> Contact Info </address> -->
@@ -869,7 +960,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" type="text/javascript"></script>
 <!-- <script src="https://use.fontawesome.com/releases/v5.7.1/js/all.js"></script> -->
 <script defer src="https://pro.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-5atZgfYD4MHp6kAnxjw4yM3binN4Yh5XXKAIO6m2kIB9CqdRUladdvTdffLnTK3N" crossorigin="anonymous"></script>
-
+<!--FontAwesome Fallback-->
+		<div id="FontAwesome_fallback" style="display:none"></div>
+		<script async>(function($) {
+                var $span = $('<span class="fa" style="display:none"></span>');
+                $('#FontAwesome_fallback').append($span);
+                var f = $span.css('fontFamily');
+                if (f !== 'FontAwesome') {
+                    $('head').append('<link href="../../css/font-awesome/all.css" rel="stylesheet">');
+                }
+		    })(jQuery);
+	    </script>
 
 <script src="./js/scripts.js"></script>
 
