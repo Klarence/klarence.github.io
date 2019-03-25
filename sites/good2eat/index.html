@@ -190,7 +190,7 @@
         <!--</a>-->
         <!--</h3>-->
         <!--<div class="filter-group text-right collapse" id="collapseAllergens">-->
-        <div class="filter-group text-right">
+        <div class="filter-group text-right" id="allergenFilters">
             <h5 class="w-100" data-toggle="collapse" data-target="#collapseAllergens" aria-expanded="false" aria-controls="collapseAllergens">Allergens
                 <i class="fas fa-chevron-down"></i>
             </h5>
@@ -212,9 +212,9 @@
                 <!--</label>-->
                 <label for="noDairy" class="btn btn-sm btn-outline-danger " data-filter=":not(.dairy)">
                     <input type="radio" name="options" id="noDairy" autocomplete="off">
-                    <span class="fa-stack fa" aria-hidden="true">
-                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                    <span class="fa-stack fa-xs" aria-hidden="true">
                         <i class="fas fa-cow fa-stack-1x"></i>
+                        <i class="far fa-ban fa-stack-2x"></i>
                     </span>
                     No Dairy
                 </label>
@@ -236,9 +236,9 @@
                     <!--</label>-->
                     <label for="noEggs" class="btn btn-sm btn-outline-danger" data-filter=":not(.eggs)">
                         <input type="radio" name="options" id="noEggs" autocomplete="off">
-                        <span class="fa-stack fa" aria-hidden="true">
-                            <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                        <span class="fa-stack fa-xs" aria-hidden="true">
                             <i class="fas fa-egg fa-stack-1x"></i>
+                            <i class="far fa-ban fa-stack-2x"></i>
                         </span>
                         No Eggs
                     </label>
@@ -258,9 +258,9 @@
                 <!--</label>-->
                 <label for="noPeanuts" class="btn btn-sm btn-outline-danger" data-filter=":not(.peanuts)">
                     <input type="radio" name="options" id="noPeanuts" autocomplete="off">
-                    <span class="fa-stack fa" aria-hidden="true">
-                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
-                        <i class="fas fa-peanut fa-stack-1x"></i>
+                    <span class="fa-stack fa-xs" aria-hidden="true">
+                        <i class="peanut fa-stack-1x"></i>
+                        <i class="far fa-ban fa-stack-2x"></i>
                     </span>
                     No Peanuts
                 </label>
@@ -279,9 +279,9 @@
                 <!--</label>-->
                 <label for="noFish" class="btn btn-sm btn-outline-danger" data-filter=":not(.fish)">
                     <input type="radio" name="options" id="noFish" autocomplete="off"> 
-                    <span class="fa-stack fa" aria-hidden="true">
-                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                    <span class="fa-stack fa-xs" aria-hidden="true">
                         <i class="fas fa-fish fa-stack-1x"></i>
+                        <i class="far fa-ban fa-stack-2x"></i>
                     </span>
                     No Fish
                 </label>
@@ -300,9 +300,9 @@
                 <!--</label>-->
                 <label for="noShellfish" class="btn btn-sm btn-outline-danger" data-filter=":not(.shellfish)">
                     <input type="radio" name="options" id="noShellfish" autocomplete="off"> 
-                    <span class="fa-stack fa" aria-hidden="true">
-                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                    <span class="fa-stack fa-xs" aria-hidden="true">
                         <i class="fas fa-spider fa-stack-1x"></i>
+                        <i class="far fa-ban fa-stack-2x"></i>
                     </span>
                     No Shellfish
                 </label>
@@ -321,9 +321,9 @@
                 <!--</label>-->
                 <label for="noTreeNuts" class="btn btn-sm btn-outline-danger" data-filter=":not(.treenuts)">
                     <input type="radio" name="options" id="noTreeNuts" autocomplete="off">
-                    <span class="fa-stack fa" aria-hidden="true">
-                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                    <span class="fa-stack fa-xs" aria-hidden="true">
                         <i class="fas fa-acorn fa-stack-1x"></i>
+                        <i class="far fa-ban fa-stack-2x"></i>
                     </span>
                     No Tree Nuts
                 </label>
@@ -342,9 +342,9 @@
                 <!--</label>-->
                 <label for="noWheat" class="btn btn-sm btn-outline-danger" data-filter=":not(.wheat)">
                     <input type="radio" name="options" id="noWheat" autocomplete="off"> 
-                    <span class="fa-stack fa" aria-hidden="true">
-                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                    <span class="fa-stack fa-xs" aria-hidden="true">
                         <i class="fas fa-wheat fa-stack-1x"></i>
+                        <i class="far fa-ban fa-stack-2x"></i>
                     </span>
                     No Wheat
                 </label>
@@ -363,9 +363,9 @@
                 <!--</label>-->
                 <label for="noSoy" class="btn btn-sm btn-outline-danger" data-filter=":not(.soy)">
                     <input type="radio" name="options" id="noSoy" autocomplete="off">
-                    <span class="fa-stack fa" aria-hidden="true">
-                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
-                        <i class="fas fa-soybean fa-stack-1x"></i>
+                    <span class="fa-stack fa-xs" aria-hidden="true">
+                        <i class="soybean fa-stack-1x"></i>
+                        <i class="far fa-ban fa-stack-2x"></i>
                     </span>
                     No Soy
                 </label>
@@ -386,9 +386,9 @@
                 <!--</label>-->
                 <label for="noGluten" class="btn btn-sm btn-outline-danger" data-filter=":not(.gluten)">
                     <input type="radio" name="options" id="noGluten" autocomplete="off"> 
-                    <span class="fa-stack fa" aria-hidden="true">
-                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
+                    <span class="fa-stack fa-xs" aria-hidden="true">
                         <i class="fas fa-bread-loaf fa-stack-1x"></i>
+                        <i class="far fa-ban fa-stack-2x"></i>
                     </span>
                     Gluten Free
                 </label>
@@ -402,9 +402,9 @@
                 <!--</label>-->
                 <label for="noSesame" class="btn btn-sm btn-outline-danger" data-filter=":not(.sesame)">
                     <input type="radio" name="options" id="noSesame" autocomplete="off">
-                    <span class="fa-stack fa" aria-hidden="true">
-                        <i class="far fa-ban fa-2x fa-stack-2x"></i>
-                        <i class="fas fa-sesame fa-stack-1x"></i>
+                    <span class="fa-stack fa-xs" aria-hidden="true">
+                        <i class="sesame fa-stack-1x"></i>
+                        <i class="far fa-ban fa-stack-2x"></i>
                     </span>
                     No Sesame
                 </label>
@@ -626,7 +626,7 @@
                     </h6>
                     <p>
                          <span class="icons">
-                             <i class="fas fa-chef-hat"></i>
+                             <i class="chef-hat"></i>
                              <i>gf</i>
                              <i class="fas fa-pepper-hot"></i>
                              <i class="fas fa-pepper-hot"></i>
@@ -960,7 +960,9 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script><!--<script src="./index_files/isotope.pkgd.min.js" type="text/javascript"></script>-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" type="text/javascript"></script>
 <!--FontAwesome + Fallback-->
-<script defer src="https://pro.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-GBwm0s/0wYcqnK/JmrCoRqWYIWzFiGEucsfFqkB76Ouii5+d4R31vWHPQtfhv55b" crossorigin="anonymous"></script>
+<!-- TODO: Fix Fallback -->
+<script src="js/font-awesome/all.min.js"></script>
+<!-- <script defer src="https://pro.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-GBwm0s/0wYcqnK/JmrCoRqWYIWzFiGEucsfFqkB76Ouii5+d4R31vWHPQtfhv55b" crossorigin="anonymous"></script>
 
 <div id="FontAwesome_fallback" style="display:none"></div>
 <script async>
@@ -969,10 +971,10 @@
         $('#FontAwesome_fallback').append($span);
         var f = $span.css('fontFamily');
         if (f !== 'FontAwesome') {
-            $('head').append('<script defer src="https://pro.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-GBwm0s/0wYcqnK/JmrCoRqWYIWzFiGEucsfFqkB76Ouii5+d4R31vWHPQtfhv55b" crossorigin="anonymous"></script>');
+            $('head').append('<script defer src="js/font-awesome/all.min.js"></script>');
         }
     })(jQuery);
-</script>
+</script> -->
 
 <script src="./js/scripts.js"></script>
 

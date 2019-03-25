@@ -135,32 +135,41 @@ body {
 }
 
 
-i.fa-peanut {
+i.peanut {
   content: url(../images/peanut.svg);
   position: relative;
-  width: 16px;
-  margin: 5px auto;
+  width: 13px;
+  margin: 4px auto;
   filter: invert(39%) sepia(69%) saturate(4109%) hue-rotate(332deg) brightness(86%) contrast(100%);
+  vertical-align: middle;
 }
 
-i.fa-soybean {
+i.soybean {
   content: url(../images/soybean.png);
   position: relative;
-  width: 16px;
-  margin: 5px auto;
+  width: 12px;
+  margin: 4px auto;
   filter: invert(39%) sepia(69%) saturate(4109%) hue-rotate(332deg) brightness(86%) contrast(100%);
+  vertical-align: middle;
 }
 
-i.fa-sesame {
+i.sesame {
   content: url(../images/sesame.png);
   position: relative;
-  width: 16px;
-  margin: 5px auto;
+  /* width: 16px;
+  margin: 5px auto; */
+  width: 12px;
+  margin: 4px auto;
   filter: invert(39%) sepia(69%) saturate(4109%) hue-rotate(332deg) brightness(86%) contrast(100%);
+  vertical-align: middle;
 }
 
-i.fa-chef-hat {
-  content: url(../images/chef-hat.png);
+i.chef-hat {
+  content: url(../images/chef-hat.svg);
   position: relative;
   width: 16px;
+}
+
+#allergenFilters .fa-stack .fa-xs {
+  vertical-align: middle;
 }
