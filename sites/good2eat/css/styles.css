@@ -8,9 +8,9 @@ body {
 }
 
 .menu-content {
-  /* border-top: 1px dashed #999; */
-  padding-top: 0.5rem;
-  border-top: 1px solid #999;
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
 }
 
 .menu-content a {
@@ -30,7 +30,8 @@ body {
   display: block;
   display: -webkit-box;
   max-width: 100%;
-  height: 49px;
+  min-height: 80px;
+  height: auto;
   margin: 0 auto;
   padding-left: 6px;
   overflow: hidden;
@@ -116,8 +117,7 @@ body {
 }
 
 .star-ratings {
-  float: right;
-  color: #ffc107 !important;
+  color: #ffc107;
 }
 
 .additions {
@@ -164,11 +164,11 @@ i.sesame {
   vertical-align: middle;
 }
 
-i.chef-hat {
-  content: url(../images/chef-hat.svg);
-  position: relative;
-  width: 16px;
-}
+/*i.chef-hat {*/
+/*  content: url(../images/chef-hat.svg);*/
+/*  position: relative;*/
+/*  width: 16px;*/
+/*}*/
 
 #allergenFilters .fa-stack .fa-xs {
   vertical-align: middle;
