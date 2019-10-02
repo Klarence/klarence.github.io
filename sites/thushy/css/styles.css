@@ -87,7 +87,7 @@ section {
 .separator {
     margin-top: 100px;
     height: 56px;
-    background: url("../images/sep.png") no-repeat center center;
+    background: url("../images/seperator.png") no-repeat center center;
 }
 
 ::selection {
