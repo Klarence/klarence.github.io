@@ -439,8 +439,7 @@ a:hover, a:focus {
     width: 100%;
     background-size: cover;
     background: #000 center center;
-
-    background-size: 100vw;
+    /*background-size: 100vw;*/
 }
 
 .fill {
@@ -3083,4 +3082,8 @@ input[type=text]::-ms-clear {
 
 .dynamic-content {
     display: none;
+}
+
+.img-responsive.couple {
+    margin: 0 auto;
 }
