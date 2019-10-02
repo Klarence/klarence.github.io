@@ -2,13 +2,6 @@
 .DS_Store
 /elements.html
 *.xml
-.idea/workspace.xml
 /.vscode/
 /.idea/
 /node_modules/
-
-*.xml
-.idea/misc.xml
-.idea/workspace.xml
-.idea/workspace.xml
-*.xml
