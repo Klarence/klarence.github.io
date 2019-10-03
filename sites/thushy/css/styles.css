@@ -3067,7 +3067,7 @@ input[type=text]::-ms-clear {
 .navbar-brand.logo {
     font-family: 'Great Vibes', cursive;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 900;
     line-height: 50px;
     color: var(--secondary-color);
 }
