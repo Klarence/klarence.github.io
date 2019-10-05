@@ -1,6 +1,14 @@
 $( document ).ready(function() {
 
-	/*------------------------------ Page Scrolling ----------------------*/
+    // Give the parameter a variable name
+    var dynamicContent = getParameterByName('dc');
+// Check if the URL parameter is apples
+    if (dynamicContent === 'invited') {
+        $('#invitedLink').show();
+        $('#invitedContent').show();
+    }
+
+    /*------------------------------ Page Scrolling ----------------------*/
 
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
@@ -273,11 +281,4 @@ function getParameterByName(name, url) {
     if (!results) return null;
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
-}
-// Give the parameter a variable name
-var dynamicContent = getParameterByName('dc');
-// Check if the URL parameter is apples
-if (dynamicContent == 'invited') {
-    $('#invitedLink').show();
-    $('#invitedContent').show();
 }

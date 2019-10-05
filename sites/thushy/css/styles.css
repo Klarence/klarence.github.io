@@ -3080,6 +3080,7 @@ input[type=text]::-ms-clear {
     vertical-align: super;
 }
 
+#invitedLink.dynamic-content,
 .dynamic-content {
     display: none;
 }
