@@ -1357,13 +1357,12 @@ a:hover, a:focus {
 
 }
 
-.family-parallax {
-    height: 350px;
-    text-align: center;
-    background: url("../images/parallax-family-bg.jpg") no-repeat fixed 50% 50%;
-    background-size: cover;
-
-}
+/*.family-parallax {*/
+    /*height: 350px;*/
+    /*text-align: center;*/
+    /*background: url("../images/parallax-family-bg.jpg") no-repeat fixed 50% 50%;*/
+    /*background-size: cover;*/
+/*}*/
 
 .common-parallax {
     height: 450px;
@@ -1372,12 +1371,12 @@ a:hover, a:focus {
     background-size: cover;
 }
 
-.contact-parallax {
-    height: 350px;
-    text-align: center;
-    background: url("../images/parallax-contact-bg.jpg") 50% no-repeat fixed;
-    background-size: cover;
-}
+/*.contact-parallax {*/
+    /*height: 350px;*/
+    /*text-align: center;*/
+    /*background: url("../images/parallax-contact-bg.jpg") 50% no-repeat fixed;*/
+    /*background-size: cover;*/
+/*}*/
 
 video#bgvideo {
     position: fixed;
@@ -3083,8 +3082,60 @@ input[type=text]::-ms-clear {
 #invitedLink.dynamic-content,
 .dynamic-content {
     display: none;
+    -webkit-overflow-scrolling: touch;
 }
 
 .img-responsive.couple {
     margin: 0 auto;
 }
+
+* {
+    -webkit-overflow-scrolling: touch
+}
+#googleFormContainer {
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+#googleForm {
+    overflow:hidden;
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 679px) {
+    #googleFormContainer {
+        min-height: 864px;
+        -webkit-overflow-scrolling: touch
+    }
+    iframe.noScrolling{
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+    #googleForm {
+        min-height: 860px;
+        -webkit-overflow-scrolling: touch
+    }
+}
+@media only screen and (min-width: 680px) {
+    #googleFormContainer {
+        height: 100%;
+        /*min-height: 720px;*/
+        min-height: 700px;
+    }
+    #googleForm {
+        margin: 0 auto;
+        width: 680px;
+        max-width: 680px;
+        min-height: 700px;
+        height: 700px;
+    }
+    iframe.noScrolling{
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
