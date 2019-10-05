@@ -246,6 +246,9 @@
                         <!--<li class="page-scroll">-->
                             <!--<a href="#contactus">Contact</a>-->
                         <!--</li>-->
+                        <li id="invitedLink" class="page-scroll dynamic-content">
+                            <a href="#invitedContent">RSVP</a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -617,15 +620,15 @@
             <div class="padtop75 white"></div>
             <div class="col-lg-12 video-parallax">
                 <div class="overlay"></div>
-                    <video id="bgvideo" preload="auto" autoplay loop muted="muted">
-                       <!--<source src="video/wedding.webm" type="video/webm">-->
-                       <source src="video/wedding.mp4" type="video/mp4">
-                       <!--<source src="video/wedding.ogg" type="video/ogg">-->
-                    Your browser does not support the video element.
-                </video>
-                <div class="col-md-12 playvid">
-                        <a class="fa fa-play-circle popup-vimeo wow zoomInDown" data-wow-duration="1s" data-wow-delay="0.9s" href="https://vimeo.com/123"></a>
-                    <!--TODO: Add/remove video-->
+                    <!--<video id="bgvideo" preload="auto" autoplay loop muted="muted">-->
+                       <!--&lt;!&ndash;<source src="video/wedding.webm" type="video/webm">&ndash;&gt;-->
+                       <!--<source src="video/wedding.mp4" type="video/mp4">-->
+                       <!--&lt;!&ndash;<source src="video/wedding.ogg" type="video/ogg">&ndash;&gt;-->
+                    <!--Your browser does not support the video element.-->
+                <!--</video>-->
+                <!--<div class="col-md-12 playvid">-->
+                        <!--<a class="fa fa-play-circle popup-vimeo wow zoomInDown" data-wow-duration="1s" data-wow-delay="0.9s" href="https://vimeo.com/123"></a>-->
+                    <!--&lt;!&ndash;TODO: Add/remove video&ndash;&gt;-->
                 </div>
             </div>
         </div>
@@ -1196,26 +1199,44 @@
                                             <h4>Paris</h4>
                                         </div>
                                         <div class="common">
-                                            <div class="fas fa-book common-icon tooltips"
+                                            <div class="fas fa-book-heart common-icon tooltips"
                                                  data-toggle="tooltip"
                                                  data-placement="top"
                                                  title=""
                                                  data-original-title="Favorite Book"
                                             ></div>
-                                            <h4 title="Swedish for Balance">Lagom <br>
+                                            <h4 title="Swedish for Balance">Love Does <br>
                                             </h4>
                                         </div>
                                     </div>
                             <div class="owl-item">
                                 <div class="owl-item">
                                     <div class="common">
-                                        <div class="fas fa-trees common-icon tooltips"
+                                        <div class="fas fa-tv common-icon tooltips"
                                              data-toggle="tooltip"
                                              data-placement="top"
                                              title=""
                                              data-original-title="Favorite TV Show"
                                         ></div>
                                         <h4>Parks and Recreation</h4>
+                                    </div>
+                                    <div class="common">
+                                        <div class="fas fa-water common-icon tooltips"
+                                             data-toggle="tooltip"
+                                             data-placement="top"
+                                             title=""
+                                             data-original-title="Favorite Coastal View"
+                                        ></div>
+                                        <h4>Big Sur</h4>
+                                    </div>
+                                    <div class="common">
+                                        <div class="fas fa-mountains common-icon tooltips"
+                                             data-toggle="tooltip"
+                                             data-placement="top"
+                                             title=""
+                                             data-original-title="Favorite Mountains"
+                                        ></div>
+                                        <h4>Yosemite</h4>
                                     </div>
                                     <div class="common">
                                         <div class="fas fa-music common-icon tooltips"
@@ -1620,57 +1641,60 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="heading">
-                    <h2 class="wow fadeInUp underline padtop50"
-                        data-wow-delay="0.5s">You're Invited</h2>
-                    <p class="wow fadeInUp" data-wow-delay="0.5s">Please fill in the form and let us know.</p>
-                </div>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoMzRnhDVzqBiuoK50gFVhLK_65fmJ_Op-XK_D8NErp4gQhw/viewform?embedded=true" width="100%" height="1098" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <!--<div class="col-md-12">-->
+                <!--<div class="heading">-->
+                    <!--<h2 class="wow fadeInUp underline padtop50"-->
+                        <!--data-wow-delay="0.5s">You're Invited</h2>-->
+                    <!--<p class="wow fadeInUp" data-wow-delay="0.5s">Please fill in the form and let us know.</p>-->
+                <!--</div>-->
 
-                <div id="InviteFormDiv"></div>
+                <!--<div id="InviteFormDiv"></div>-->
 
-                <form class="form-horizontal"
-                      method="post"
-                      action="ajax/sendemail.php"
-                      name="ContactForm"
-                      id="contact"
-                >
-                    <div class="col-md-4">
-                      <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
-                    </div>
+                <!--<form class="form-horizontal"-->
+                      <!--method="post"-->
+                      <!--action="ajax/sendemail.php"-->
+                      <!--name="ContactForm"-->
+                      <!--id="contact"-->
+                <!--&gt;-->
+                    <!--<div class="col-md-4">-->
+                      <!--<input type="text" class="form-control" name="name" id="name" placeholder="Your Name">-->
+                    <!--</div>-->
 
-                    <div class="col-md-4">
-                        <input type="text"
-                               class="form-control"
-                               name="email"
-                               id="email"
-                               placeholder="Email"
-                        >
-                    </div>
+                    <!--<div class="col-md-4">-->
+                        <!--<input type="text"-->
+                               <!--class="form-control"-->
+                               <!--name="email"-->
+                               <!--id="email"-->
+                               <!--placeholder="Email"-->
+                        <!--&gt;-->
+                    <!--</div>-->
 
-                    <div class="col-md-4">
-                        <input type="text"
-                               class="form-control"
-                               name="phone"
-                               id="phone"
-                               placeholder="Phone"
-                        >
-                    </div>
+                    <!--<div class="col-md-4">-->
+                        <!--<input type="text"-->
+                               <!--class="form-control"-->
+                               <!--name="phone"-->
+                               <!--id="phone"-->
+                               <!--placeholder="Phone"-->
+                        <!--&gt;-->
+                    <!--</div>-->
 
-                    <div class="col-md-12">
-                        <textarea name="comments"
-                                  class="form-control"
-                                  rows="10"
-                        ></textarea>
-                    </div>
+                    <!--<div class="col-md-12">-->
+                        <!--<textarea name="comments"-->
+                                  <!--class="form-control"-->
+                                  <!--rows="10"-->
+                        <!--&gt;</textarea>-->
+                    <!--</div>-->
 
-                    <div class="col-md-12 btn-normal">
-                        <a href=""
-                           id="submit"
-                        ><span>Submit</span></a>
-                    </div>
-                </form>
+                    <!--<div class="col-md-12 btn-normal">-->
+                        <!--<a href=""-->
+                           <!--id="submit"-->
+                        <!--&gt;<span>Submit</span></a>-->
+                    <!--</div>-->
+                <!--</form>-->
 
-            </div>
+            <!--</div>-->
+        </div>
         </div>
     </div>
 </section>

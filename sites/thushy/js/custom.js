@@ -278,5 +278,6 @@ function getParameterByName(name, url) {
 var dynamicContent = getParameterByName('dc');
 // Check if the URL parameter is apples
 if (dynamicContent == 'invited') {
+    $('#invitedLink').show();
     $('#invitedContent').show();
 }
