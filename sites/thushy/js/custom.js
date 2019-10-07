@@ -80,7 +80,8 @@ $( document ).ready(function() {
 	/*------------------------------ Bootstrap Carousel ----------------------*/
 
 	$('#myCarousel').carousel({
-		interval: 18000, //changes the speed
+		// interval: 18000, //changes the speed
+		interval: 9000, //changes the speed
 		pause: "false"
 	})
 	//Bootstrap Carousel Progressbar
@@ -90,7 +91,7 @@ $( document ).ready(function() {
 	});
 	$("#progressbar > .ui-progressbar-value").animate({
 		width: "100%"
-	}, 18000);
+	}, 9000);
 
 	$('#myCarousel').bind('slid.bs.carousel', function (e) {
 			$("#progressbar > .ui-progressbar-value").finish();
@@ -99,20 +100,20 @@ $( document ).ready(function() {
 			}, 0);
 			$("#progressbar > .ui-progressbar-value").animate({
 			width: "100%"
-			}, 18000);
+			}, 9000);
 	});
 
 	/*------------------------------ Masonry Blog -----------------*/
 
-	var $container = $('#blogs');
-	// initialize
-	$container.masonry({
-	  itemSelector: '.blog'
-	});
-	// initialize Masonry after all images have loaded
-	$container.imagesLoaded( function() {
-	  $container.masonry();
-	});
+	// var $container = $('#blogs');
+	// // initialize
+	// $container.masonry({
+	//   itemSelector: '.blog'
+	// });
+	// // initialize Masonry after all images have loaded
+	// $container.imagesLoaded( function() {
+	//   $container.masonry();
+	// });
 
 	/*------------------------------ OWL Carousel -----------------*/
 
@@ -186,42 +187,42 @@ $( document ).ready(function() {
 
 	/*------------------------------ Twitter Feeds -----------------*/
 
-    $(".footer-tweet").tweet({
-		join_text: false,
-		username: "envato", // Username
-		modpath: "./js/twitter/",
-		avatar_size: false,
-		count: 3,
-		template: "{text} <br> {time}",
-		loading_text: "loading twitter feed...",
-		seconds_ago_text: "%d seconds ago",
-		a_minutes_ago_text: "a minute ago",
-		minutes_ago_text: "%d minutes ago",
-		a_hours_ago_text: "an hour ago",
-		hours_ago_text: "%d hours ago",
-		a_day_ago_text: "a day ago",
-		days_ago_text: "%d days ago",
-		view_text: "view tweet on twitter"
-	});
-
-	$(".footer-tweet ul").owlCarousel({singleItem : true,});
+    // $(".footer-tweet").tweet({
+	// 	join_text: false,
+	// 	username: "envato", // Username
+	// 	modpath: "./js/twitter/",
+	// 	avatar_size: false,
+	// 	count: 3,
+	// 	template: "{text} <br> {time}",
+	// 	loading_text: "loading twitter feed...",
+	// 	seconds_ago_text: "%d seconds ago",
+	// 	a_minutes_ago_text: "a minute ago",
+	// 	minutes_ago_text: "%d minutes ago",
+	// 	a_hours_ago_text: "an hour ago",
+	// 	hours_ago_text: "%d hours ago",
+	// 	a_day_ago_text: "a day ago",
+	// 	days_ago_text: "%d days ago",
+	// 	view_text: "view tweet on twitter"
+	// });
+    //
+	// $(".footer-tweet ul").owlCarousel({singleItem : true,});
 
 	/*------------------------------ Ajax Contact Form -----------------*/
 
-	$("#submit").click(function(){
-		var data = $("#contact").serialize();
-		$.ajax({
-			type	: "POST",
-			url 	: "ajax/sendemail.php",
-			data 	: data,
-			success : function(q)
-				{
-				$("#ContactFormDiv").html(q);
-				}
-			});
-		return false;
-	});
-	return false;
+	// $("#submit").click(function(){
+	// 	var data = $("#contact").serialize();
+	// 	$.ajax({
+	// 		type	: "POST",
+	// 		url 	: "ajax/sendemail.php",
+	// 		data 	: data,
+	// 		success : function(q)
+	// 			{
+	// 			$("#ContactFormDiv").html(q);
+	// 			}
+	// 		});
+	// 	return false;
+	// });
+	// return false;
 
 });
 
