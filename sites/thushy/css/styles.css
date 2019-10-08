@@ -854,6 +854,7 @@ a:hover, a:focus {
 .timeline-title {
   margin-top: 0;
   color: var(--primary-color);
+    font-size: 18px;
 }
 
 .timeline-body > p, .timeline-body > ul {
@@ -976,9 +977,10 @@ a:hover, a:focus {
   color: var(--primary-color);
 }
 
-.counting h5 {
+.counting-title {
   text-transform: uppercase;
   color: vAR(--SUBTITLE-COLOR);
+    font-size: 14px;
 }
 
 /* 9. Big Moments Section */
@@ -1005,6 +1007,9 @@ a:hover, a:focus {
   padding: 0;
 }
 
+.bigmoments h3 {
+    font-size: 18px;
+}
 /* 9.2 Special Events */
 
 .event {
@@ -1088,6 +1093,10 @@ a:hover, a:focus {
   background-color: var(--primary-color);
   z-index: 2;
   border-radius: 50%;
+}
+
+#specialEvents h3 {
+    font-size: 18px;
 }
 
 /* 10.2 Common Favorites */
@@ -3159,3 +3168,9 @@ input[type=text]::-ms-clear {
   }
 }
 
+.menu-expand {
+
+}
+.accessible-content {
+    visibility: collapse;
+}

@@ -78,7 +78,7 @@
 
     <!--  Fonts -->
     <!--<link rel="stylesheet"-->
-          <!--href="css/font.css"-->
+    <!--href="css/font.css"-->
     <!--&gt;-->
 
     <!-- Animate -->
@@ -106,8 +106,16 @@
           integrity="sha256-fDncdclXlALqR3HOO34OGHxek91q8ApmD3gGldM+Rng="
           crossorigin="anonymous"
     />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" integrity="sha256-2DoaRRHfHWna6mpfGImxAx/cu0vFGpqEkcf/YXf+yk4=" crossorigin="anonymous" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.min.css" integrity="sha256-dXyOKu96u6fTl8EzuQyIRkxBEIzVLPQT8c16NSCl4Sc=" crossorigin="anonymous" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"
+          integrity="sha256-2DoaRRHfHWna6mpfGImxAx/cu0vFGpqEkcf/YXf+yk4="
+          crossorigin="anonymous"
+    />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.min.css"
+          integrity="sha256-dXyOKu96u6fTl8EzuQyIRkxBEIzVLPQT8c16NSCl4Sc="
+          crossorigin="anonymous"
+    />
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>-->
 
     <!-- Custom Style -->
@@ -121,10 +129,13 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-  <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+<body id="page-top"
+      data-spy="scroll"
+      data-target=".navbar-custom"
+>
 <!-- Preloader -->
-    <div id="preloader">
-        <div class="spinner">
+<div id="preloader">
+    <div class="spinner">
         <div class="rect1"></div>
         <div class="rect2"></div>
         <div class="rect3"></div>
@@ -139,22 +150,35 @@
 >
     <!-- Indicators -->
     <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel"
+            data-slide-to="0"
+            class="active"
+        ></li>
+        <li data-target="#myCarousel"
+            data-slide-to="1"
+        ></li>
+        <li data-target="#myCarousel"
+            data-slide-to="2"
+        ></li>
     </ol>
-    		<div id="progressbar"></div>
+    <div id="progressbar"></div>
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
-        <div class="messages">
-                        <h1 class="slideInDown wow animated" data-wow-delay="0.5s">Klarence <span class="heart pulsing fa fa-heart"></span> Thushy</h1>
-                        <div id="time"></div>
-                        <h4 class="fadeIn wow animated" data-wow-delay="1.2s">In love and counting</h4>
-                        <div class="btn-special slideInUp wow animated page-scroll" data-wow-delay="0.7s">
+        <header class="messages">
+            <h1 class="slideInDown wow animated"
+                data-wow-delay="0.5s"
+            >Klarence <span class="heart pulsing fa fa-heart"></span> Thushy</h1>
+            <div id="time"></div>
+            <h2 class="fadeIn wow animated"
+                data-wow-delay="1.2s"
+            >In love and counting</h2>
+            <div class="btn-special slideInUp wow animated page-scroll"
+                 data-wow-delay="0.7s"
+            >
                 <a href="#about"><span>Discover More</span></a>
             </div>
-        </div>
-                <div class="item active">
+        </header>
+        <div class="item active">
             <div class="carousel-img"
                  style="background-image:url(images/carousel/thushy_and_klarence_13.jpg);"
             ></div>
@@ -174,290 +198,362 @@
     <div id="geo"
          class="geo"
     >
-               <div id="output" class="geo">
+        <div id="output"
+             class="geo"
+        >
         </div>
     </div>
 </div>
 
 <div id="about"></div>
 <!--Navbar-->
-    <div class="topbar-nav">
-        <nav class="navbar navbar-default navbar-custom"
-             role="navigation"
-        >
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button"
-                            class="navbar-toggle"
-                            data-toggle="collapse"
-                            data-target=".navbar-main-collapse"
-                    >
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand logo"
-                       href="#page-top"
-                    >
-                        <!--<img src="images/logo.png"-->
-                             <!--alt="K+T"-->
-                        <!--&gt;-->
-                        K + T
-                    </a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                    <ul class="nav navbar-nav">
-                        <!-- Hidden li included to remove active class from Klarence & Thushy link when scrolled up past about section -->
-                        <li class="hidden">
-                            <a href="#page-top"></a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#about">Klarence & Thushy</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#family">Our Family</a>
-                        </li>
-                        <li class="page-scroll dropdown">
-                            <a class="dropdown-toggle"
-                               data-toggle="dropdown"
-                               href="#moments"
-                            >Big Moments</a>
-                            <!--<ul class="dropdown-menu wow swing" role="menu">-->
-                                <!--<li><a href="wedding.html">Wedding Event</a>-->
-                                <!--</li>-->
-                                <!--<li><a href="#">Birthday</a></li>-->
-                                <!--<li><a href="#">Graduation</a></li>-->
-                            <!--</ul>-->
-                        </li>
-                        <li class="page-scroll">
-                            <a href="#favourites">Favorite List</a>
-                        </li>
-                        <!--<li class="page-scroll dropdown">-->
-                            <!--<a class="dropdown-toggle"-->
-                               <!--data-toggle="dropdown"-->
-                               <!--href="#blog"-->
-                            <!--&gt;Our Blog</a>-->
-                            <!--<ul class="dropdown-menu wow swing" role="menu">-->
-                                <!--<li><a href="category.html">Category Page</a>-->
-                                <!--</li>-->
-                                <!--<li><a href="post.html">Single Post</a></li>-->
-                                <!--<li><a href="404.html">404 Error Page</a></li>-->
-                            <!--</ul>-->
+<section class="topbar-nav">
+    <div class="navbar navbar-default navbar-custom">
+        <div class="container">
+            <header class="navbar-header page-scroll">
+                <button type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-main-collapse"
+                >
+                    <span class="menu-expand accessible-content">More</span>
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand logo"
+                   href="#page-top"
+                >
+                    <!--<img src="images/logo.png"-->
+                    <!--alt="K+T"-->
+                    <!--&gt;-->
+                    K + T
+                </a>
+            </header>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <nav class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from Klarence & Thushy link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">Klarence & Thushy</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#family">Our Family</a>
+                    </li>
+                    <li class="page-scroll dropdown">
+                        <a class="dropdown-toggle"
+                           data-toggle="dropdown"
+                           href="#moments"
+                        >Big Moments</a>
+                        <!--<ul class="dropdown-menu wow swing" role="menu">-->
+                        <!--<li><a href="wedding.html">Wedding Event</a>-->
                         <!--</li>-->
-                        <!--<li class="page-scroll">-->
-                            <!--<a href="#contactus">Contact</a>-->
-                        <!--</li>-->
-                        <li id="invitedLink" class="page-scroll dynamic-content">
-                            <a href="#invitedContent">RSVP</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-
-            </div>
-        </nav>
-    </div>
-
-<!--Klarence & THUSHY Section-->
-<section id="aboutthem"
-         class="white"
->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="heading">
-                        <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Welcome Everyone</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.7s">
-                        	Welcome to Klarence's & Thushy's website where we
-                            proudly tell and record our love story with all its ups and downs with all great moments and happy events.
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="col-md-6">
-                        <ul class="ch-grid man wow flipInX" data-wow-delay="0.5s">
-                        <li>
-                            <div class="ch-item ch-img-1">
-                                <div class="ch-info">
-                                    <h3>I'm Klarence</h3>
-                                    <p>That's Clarence with a "K". I love Design
-                                       and Technology. I am constantly dreaming how we can use
-                                       these advancements to build a better
-                                       world.</p>
-                                    <!--<span>Photo Credit: Ashok</span>-->
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="and">&amp;</div>
-                <div class="col-md-6">
-                        <ul class="ch-grid woman wow flipInX" data-wow-delay="0.5s">
-                        <li>
-                            <div class="ch-item ch-img-2">
-                                <div class="ch-info">
-                                    <h3>I'm Thushy</h3>
-                                    <p>Tushy like your butt but with an "h".
-                                       She has a deep love for humanity and
-                                       is always lending a voice or helping
-                                       hand for those in need.
-                                       .</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Loveline-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="heading">
-                        <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Our Loveline</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.7s">
-                        	<strong>Love Moments</strong> are special and they deserve to be recorded and to be always remembered! Our Loveline is just a short list of some of our many important and happy moments.
-                    </p>
-                </div>
-                <ul class="timeline">
-                    <li>
-                            <div class="timeline-badge wow fadeInUp"
-                                 data-wow-delay="0.5s"><i
-                                    class="far fa-smile"></i></div>
-                            <div class="timeline-panel wow fadeInLeft" data-wow-delay="0.7s">
-                            <div class="timeline-heading">
-                                <h4 class="timeline-title">The Day We Met</h4>
-                                    <p><small class="text-muted"><i
-                                            class="glyphicon glyphicon-time"></i> 20
-                                                                          May 2016 - By Klarence</small></p>
-                            </div>
-                            <div class="timeline-body">
-                                <p> I remember the day we met. She introduced  herself as "Thushy like your butt". I really liked how she didn't take things so seriously. I'll never forget how her smile lit up the room. If I close my eyes I can still remember her smile from that weekend.
-                                </p>
-                            </div>
-                        </div>
+                        <!--<li><a href="#">Birthday</a></li>-->
+                        <!--<li><a href="#">Graduation</a></li>-->
+                        <!--</ul>-->
                     </li>
-
-                    <li class="timeline-inverted negative50">
-                        <div class="timeline-badge time wow fadeInUp"
-                             data-wow-delay="0.5s"><i
-                                class="fas fa-male"></i></div>
-                        <div class="timeline-panel wow fadeInRight" data-wow-delay="0.7s">
-                            <div class="timeline-heading">
-                                <h4 class="timeline-title">My Mr. Wonderful</h4>
-                                <p><small class="text-muted"><i
-                                        class="glyphicon glyphicon-time"></i> 1 Oct 2019 - By Thushy</small></p>
-                            </div>
-                            <div class="timeline-body">
-                                <p>Klarence is the definition of a perfect gentleman. Although he took my breath away
-                                   with his handsomeness, I fell harder for his kindness. He is the most patient
-                                   person I've ever met. When I am upset, Klarence's calmness can be irritating at
-                                   first but his kindness always wears me down.
-                                </p>
-                            </div>
-                        </div>
+                    <li class="page-scroll">
+                        <a href="#favourites">Favorite List</a>
                     </li>
-
-                    <li class="negative75">
-                        <div class="timeline-badge wow fadeInUp"
-                             data-wow-delay="0.5s"><i
-                                class="fas fa-female"></i></div>
-                        <div class="timeline-panel wow fadeInLeft" data-wow-delay="0.7s">
-                            <div class="timeline-heading">
-                                <h4 class="timeline-title">A women I never
-                                                           could have
-                                                           dreamed of!</h4>
-                                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 Oct 2019 - By
-                                                                                                      Klarence</small></p>
-                            </div>
-                            <div class="timeline-body">
-                                <p>Thushy is very different than my dream girl growing up. She is so much more. I am lucky that we started our relationship without expectations. It allowed me to discover all of her great qualities that I love but I didn't even know to look for!
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="timeline-inverted negative100">
-                        <div class="timeline-badge time wow fadeInUp"
-                             data-wow-delay="0.5s"><i
-                                class="fab fa-instagram"></i></div>
-                        <div class="timeline-panel wow fadeInRight" data-wow-delay="0.7s">
-                            <div class="timeline-heading">
-                                <h4 class="timeline-title">Got Engaged'ish</h4>
-                                <p><small class="text-muted"><i
-                                        class="glyphicon glyphicon-time"></i> Early 2019 - By Thushy</small></p>
-                            </div>
-                            <div class="timeline-body">
-                                <p>Our engagement wasn't the "I want you to love me in the way that I can show on
-                                   Instagram." We knew we both wanted to get married. But our timing and priorities were different. We had a practical conversation of wanting to be together and expectations for our future. We involved our parents to help choose a date.
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="negative75">
-                        <div class="timeline-badge wow fadeInUp" data-wow-delay="0.5s"><i class="fas fa-rings-wedding"></i></div>
-                        <div class="timeline-panel wow fadeInLeft" data-wow-delay="0.7s">
-                            <div class="timeline-heading">
-                                <h4 class="timeline-title">Got Married</h4>
-                                <p><small class="text-muted"><i
-                                        class="glyphicon glyphicon-time"></i> 9 April 2020 - By Klarence</small></p>
-                            </div>
-                            <div class="timeline-body">
-                                <p>We have a date!
-                                </p>
-                            </div>
-                        </div>
+                    <!--<li class="page-scroll dropdown">-->
+                    <!--<a class="dropdown-toggle"-->
+                    <!--data-toggle="dropdown"-->
+                    <!--href="#blog"-->
+                    <!--&gt;Our Blog</a>-->
+                    <!--<ul class="dropdown-menu wow swing" role="menu">-->
+                    <!--<li><a href="category.html">Category Page</a>-->
+                    <!--</li>-->
+                    <!--<li><a href="post.html">Single Post</a></li>-->
+                    <!--<li><a href="404.html">404 Error Page</a></li>-->
+                    <!--</ul>-->
+                    <!--</li>-->
+                    <!--<li class="page-scroll">-->
+                    <!--<a href="#contactus">Contact</a>-->
+                    <!--</li>-->
+                    <li id="invitedLink"
+                        class="page-scroll dynamic-content"
+                    >
+                        <a href="#invitedContent">RSVP</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
+            <!-- /.navbar-collapse -->
+
         </div>
     </div>
-    <div class="separator"></div>
 </section>
-
-<!--Family Section-->
-<section id="family"
-         class="white"
->
-    <div class="container">
-        <div class="row">
-            <!--Our Family-->
-            <div class="col-md-12">
-                <div class="heading">
-                    <h2 class="wow fadeInUp underline padtop50 animated"
-                        data-wow-delay="0.5s"
-                    >Family Members</h2>
-                        <!--style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;"-->
-                       <!--style="visibility:visibility visible; animation-delay: 0.7s; animation-name: fadeInUp;"-->
-                    <!--&gt;-->
-                    <!--<p class="wow fadeInUp animated" data-wow-delay="0.7s">-->
-                       <!--Contrary to popular belief, Lorem Ipsum is not simply-->
-                     <!--random text. It has roots in a piece of classical Latin-->
-                     <!--literature from 45 BC, making it over 2000 years old.</p>-->
+<main>
+    <!--Klarence & THUSHY Section-->
+    <section id="aboutthem"
+             class="white"
+    >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <header class="heading">
+                        <h2 class="wow fadeInUp underline padtop50"
+                            data-wow-delay="0.5s"
+                        >Welcome Everyone</h2>
+                        <p class="wow fadeInUp"
+                           data-wow-delay="0.7s"
+                        >
+                            Welcome to Klarence's & Thushy's website where we
+                            proudly tell and record our love story with all its ups and downs with all great moments and
+                            happy events.
+                        </p>
+                    </header>
                 </div>
-                <div class="col-md-4 man-family">
-                    	<h3>Klarence's Family</h3>
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <ul class="ch-grid man wow flipInX"
+                            data-wow-delay="0.5s"
+                        >
+                            <li>
+                                <div class="ch-item ch-img-1">
+                                    <div class="ch-info">
+                                        <h3>I'm Klarence</h3>
+                                        <p>That's Clarence with a "K". I love Design
+                                           and Technology. I am constantly dreaming how we can use
+                                           these advancements to build a better
+                                           world.</p>
+                                        <!--<span>Photo Credit: Ashok</span>-->
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="and">&amp;</div>
+                    <div class="col-md-6">
+                        <ul class="ch-grid woman wow flipInX"
+                            data-wow-delay="0.5s"
+                        >
+                            <li>
+                                <div class="ch-item ch-img-2">
+                                    <div class="ch-info">
+                                        <h3>I'm Thushy</h3>
+                                        <p>Tushy like your butt but with an "h".
+                                           She has a deep love for humanity and
+                                           is always lending a voice or helping
+                                           hand for those in need.
+                                           .</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Loveline-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <header class="heading">
+                        <h2 class="wow fadeInUp underline padtop50"
+                            data-wow-delay="0.5s"
+                        >Our Loveline</h2>
+                        <p class="wow fadeInUp"
+                           data-wow-delay="0.7s"
+                        >
+                            <strong>Love Moments</strong> are special and they deserve to be recorded and to be always
+                                                          remembered! Our Loveline is just a short list of some of our
+                                                          many important and happy moments.
+                        </p>
+                    </header>
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-badge wow fadeInUp"
+                                 data-wow-delay="0.5s"
+                            ><i
+                                    class="far fa-smile"
+                            ></i></div>
+                            <div class="timeline-panel wow fadeInLeft"
+                                 data-wow-delay="0.7s"
+                            >
+                                <header class="timeline-heading">
+                                    <h3 class="timeline-title">The Day We Met</h3>
+                                    <p>
+                                        <small class="text-muted"><i
+                                                class="glyphicon glyphicon-time"
+                                        ></i> 20
+                                              May 2016 - By Klarence
+                                        </small>
+                                    </p>
+                                </header>
+                                <div class="timeline-body">
+                                    <p> I remember the day we met. She introduced herself as "Thushy like your butt". I
+                                        really liked how she didn't take things so seriously. I'll never forget how her
+                                        smile lit up the room. If I close my eyes I can still remember her smile from
+                                        that weekend.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-inverted negative50">
+                            <div class="timeline-badge time wow fadeInUp"
+                                 data-wow-delay="0.5s"
+                            ><i
+                                    class="fas fa-male"
+                            ></i></div>
+                            <div class="timeline-panel wow fadeInRight"
+                                 data-wow-delay="0.7s"
+                            >
+                                <header class="timeline-heading">
+                                    <h3 class="timeline-title">My Mr. Wonderful</h3>
+                                    <p>
+                                        <small class="text-muted"><i
+                                                class="glyphicon glyphicon-time"
+                                        ></i> 1 Oct 2019 - By Thushy
+                                        </small>
+                                    </p>
+                                </header>
+                                <div class="timeline-body">
+                                    <p>Klarence is the definition of a perfect gentleman. Although he took my breath
+                                       away
+                                       with his handsomeness, I fell harder for his kindness. He is the most patient
+                                       person I've ever met. When I am upset, Klarence's calmness can be irritating at
+                                       first but his kindness always wears me down.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="negative75">
+                            <div class="timeline-badge wow fadeInUp"
+                                 data-wow-delay="0.5s"
+                            ><i
+                                    class="fas fa-female"
+                            ></i></div>
+                            <div class="timeline-panel wow fadeInLeft"
+                                 data-wow-delay="0.7s"
+                            >
+                                <header class="timeline-heading">
+                                    <h3 class="timeline-title">A women I never
+                                                               could have
+                                                               dreamed of!</h3>
+                                    <p>
+                                        <small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 Oct 2019 -
+                                                                                                           By
+                                                                                                           Klarence
+                                        </small>
+                                    </p>
+                                </header>
+                                <div class="timeline-body">
+                                    <p>Thushy is very different than my dream girl growing up. She is so much more. I am
+                                       lucky that we started our relationship without expectations. It allowed me to
+                                       discover all of her great qualities that I love but I didn't even know to look
+                                       for!
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-inverted negative100">
+                            <div class="timeline-badge time wow fadeInUp"
+                                 data-wow-delay="0.5s"
+                            ><i
+                                    class="fab fa-instagram"
+                            ></i></div>
+                            <div class="timeline-panel wow fadeInRight"
+                                 data-wow-delay="0.7s"
+                            >
+                                <header class="timeline-heading">
+                                    <h3 class="timeline-title">Got Engaged'ish</h3>
+                                    <p>
+                                        <small class="text-muted"><i
+                                                class="glyphicon glyphicon-time"
+                                        ></i> Early 2019 - By Thushy
+                                        </small>
+                                    </p>
+                                </header>
+                                <div class="timeline-body">
+                                    <p>Our engagement wasn't the "I want you to love me in the way that I can show on
+                                       Instagram." We knew we both wanted to get married. But our timing and priorities
+                                       were different. We had a practical conversation of wanting to be together and
+                                       expectations for our future. We involved our parents to help choose a date.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="negative75">
+                            <div class="timeline-badge wow fadeInUp"
+                                 data-wow-delay="0.5s"
+                            ><i class="fas fa-rings-wedding"></i></div>
+                            <div class="timeline-panel wow fadeInLeft"
+                                 data-wow-delay="0.7s"
+                            >
+                                <header class="timeline-heading">
+                                    <h3 class="timeline-title">Got Married</h3>
+                                    <p>
+                                        <small class="text-muted"><i
+                                                class="glyphicon glyphicon-time"
+                                        ></i> 9 April 2020 - By Klarence
+                                        </small>
+                                    </p>
+                                </header>
+                                <div class="timeline-body">
+                                    <p>We have a date!
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+    </section>
+
+    <!--Family Section-->
+    <section id="family"
+             class="white"
+    >
+        <div class="container">
+            <div class="row">
+                <!--Our Family-->
+                <div class="col-md-12">
+                    <header class="heading">
+                        <h2 class="wow fadeInUp underline padtop50 animated"
+                            data-wow-delay="0.5s"
+                        >Family Members</h2>
+                        <!--style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;"-->
+                        <!--style="visibility:visibility visible; animation-delay: 0.7s; animation-name: fadeInUp;"-->
+                        <!--&gt;-->
+                        <!--<p class="wow fadeInUp animated" data-wow-delay="0.7s">-->
+                        <!--Contrary to popular belief, Lorem Ipsum is not simply-->
+                        <!--random text. It has roots in a piece of classical Latin-->
+                        <!--literature from 45 BC, making it over 2000 years old.</p>-->
+                    </header>
+                    <div class="col-md-4 man-family">
+                        <h3>Klarence's Family</h3>
                         <p>From Taiwan and Sweden settled in New York City,
                            NY</p>
-                    	<div id="owl-man-family" class="owl-carousel wow fadeInUp" data-wow-delay="0.7s">
+                        <div id="owl-man-family"
+                             class="owl-carousel wow fadeInUp"
+                             data-wow-delay="0.7s"
+                        >
                             <div class="owl-item">
                                 <div class="family-member">
                                     <img class="img-responsive"
                                          src="https://res.cloudinary.com/thushy/image/upload/v1570422433/wedding/images/family/taras_k7yw0o.jpg"
-                                         alt="Taras OuYang - Father" />
+                                         alt="Taras OuYang - Father"
+                                    />
                                     <h4>Taras OuYang</h4>
                                     <h5>Father</h5>
                                 </div>
                             </div>
 
-                           	<div class="owl-item">
+                            <div class="owl-item">
                                 <div class="family-member">
                                     <img class="img-responsive"
                                          src="https://res.cloudinary.com/thushy/image/upload/v1570422437/wedding/images/family/user-circle_rh5kkn.svg"
-                                         alt="Berit Rundqvist - Mother" />
+                                         alt="Berit Rundqvist - Mother"
+                                    />
                                     <!--<div class="img-responsive">-->
-                                        <!--<span class="fas fa-user-circle" style="width: 100%; height: auto;"></span>-->
+                                    <!--<span class="fas fa-user-circle" style="width: 100%; height: auto;"></span>-->
                                     <!--</div>-->
                                     <h4>Berit Rundqvist</h4>
                                     <h5>Mother</h5>
@@ -468,7 +564,8 @@
                                 <div class="family-member">
                                     <img class="img-responsive"
                                          src="https://res.cloudinary.com/thushy/image/upload/v1570422434/wedding/images/family/sarah_profile-square_lo0a4t.jpg"
-                                         alt="Sarah Rundqvist - Older Sister" />
+                                         alt="Sarah Rundqvist - Older Sister"
+                                    />
                                     <h4>Sarah Rundqvist</h4>
                                     <h5>Big Sister</h5>
                                 </div>
@@ -478,7 +575,8 @@
                                 <div class="family-member">
                                     <img class="img-responsive"
                                          src="https://res.cloudinary.com/thushy/image/upload/v1570422436/wedding/images/family/adele_fvuwj8.jpg"
-                                         alt="Adele Yang - Younger Sister" />
+                                         alt="Adele Yang - Younger Sister"
+                                    />
                                     <h4>Adèle Yang</h4>
                                     <h5>Little Sister</h5>
                                 </div>
@@ -488,85 +586,107 @@
                                 <div class="family-member">
                                     <img class="img-responsive"
                                          src="https://res.cloudinary.com/thushy/image/upload/v1570422436/wedding/images/family/cherise_fsducs.jpg"
-                                         alt="Cherise OuYang - Youngest Sister" />
+                                         alt="Cherise OuYang - Youngest Sister"
+                                    />
                                     <h4>Cherise OuYang</h4>
                                     <h5>Baby Sister</h5>
                                 </div>
                             </div>
-                    	</div>
-                </div>
-                <div class="col-md-4">
-                    	<img class="img-responsive couple" src="https://res.cloudinary.com/thushy/image/upload/v1570422469/wedding/images/couple/nepenthe_view_s6dkb0.jpg"
-                             alt="Klarence and Thushy at Nepenthe Restaurant in Big Sur" />
-                </div>
-                <div class="col-md-4 woman-family">
-                    	<h3>Thushy's Family</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-responsive couple"
+                             src="https://res.cloudinary.com/thushy/image/upload/v1570422469/wedding/images/couple/nepenthe_view_s6dkb0.jpg"
+                             alt="Klarence and Thushy at Nepenthe Restaurant in Big Sur"
+                        />
+                    </div>
+                    <div class="col-md-4 woman-family">
+                        <h3>Thushy's Family</h3>
                         <p>From Sri Lanka, Settled in Nashville, Tennessee</p>
-                    	<div id="owl-woman-family" class="owl-carousel wow fadeInUp" data-wow-delay="0.7s">
+                        <div id="owl-woman-family"
+                             class="owl-carousel wow fadeInUp"
+                             data-wow-delay="0.7s"
+                        >
                             <div class="owl-item">
-                                        <div class="family-member">
+                                <div class="family-member">
                                     <img class="img-responsive"
                                          src="images/family/appa.jpg"
-                                         alt="Raja Muthusamy - Appa" />
-                                            <h4>Muruges "Raja" Muthusamy</h4>
-                                            <h5>Father (Appa)</h5>
-                                        </div>
-                                    </div>
-
-                            <div class="owl-item">
-                                        <div class="family-member">
-                                    <img class="img-responsive"
-                                         src="images/family/amma.jpg"
-                                         alt="Viji Muruges - Amma" />
-                                            <h4>Vimaleswari "Viji" Muruges</h4>
-                                            <h5>Mother (Amma)</h5>
-                                        </div>
-                                    </div>
-
-                            <div class="owl-item">
-                                        <div class="family-member">
-                                    <img class="img-responsive"
-                                         src="images/family/thanu.jpg"
-                                         alt="Thanu Muruges - Annaah" />
-                                            <h4>Thanujiyan "Thanu" Muruges</h4>
-                                            <h5>Big Brother (Annaah)</h5>
-                                        </div>
-                            </div>
-
-                            <div class="owl-item">
-                                        <div class="family-member">
-                                    <img class="img-responsive"
-                                         src="https://res.cloudinary.com/thushy/image/upload/v1570422439/wedding/images/family/rosy_ixvjju.jpg"
-                                         alt="Rosy Key - Younger Sister" />
-                                            <h4>Jalanthy "Rosy" Key</h4>
-                                            <h5>Little Sister (Rosy)</h5>
-                                        </div>
-                                    </div>
-                            <div class="owl-item">
-                                        <div class="family-member">
-                                    <img class="img-responsive"
-                                         src="images/family/mathu.jpg"
-                                         alt="Mathu Muruges - Youngest Brother" />
-                                            <h4>Mathuranthakan "Mathu" Muruges</h4>
-                                            <h5>Little Brother (BABY)</h5>
-                                        </div>
-                                    </div>
+                                         alt="Raja Muthusamy - Appa"
+                                    />
+                                    <h4>Muruges "Raja" Muthusamy</h4>
+                                    <h5>Father (Appa)</h5>
                                 </div>
                             </div>
-                <!--Fun Facts-->
-                <div id="startcounting"
-                     class="row count"
-                >
-                    <div class="col-md-12">
-                            <div class="heading wow fadeInUp" data-wow-delay="0.5s">
-                                <h2 class="wow fadeIn underline padtop50">Fun Facts</h2>
-                                <p class="wow fadeInUp" data-wow-delay="0.7s">And Counting</p>
+
+                            <div class="owl-item">
+                                <div class="family-member">
+                                    <img class="img-responsive"
+                                         src="images/family/amma.jpg"
+                                         alt="Viji Muruges - Amma"
+                                    />
+                                    <h4>Vimaleswari "Viji" Muruges</h4>
+                                    <h5>Mother (Amma)</h5>
+                                </div>
+                            </div>
+
+                            <div class="owl-item">
+                                <div class="family-member">
+                                    <img class="img-responsive"
+                                         src="images/family/thanu.jpg"
+                                         alt="Thanu Muruges - Annaah"
+                                    />
+                                    <h4>Thanujiyan "Thanu" Muruges</h4>
+                                    <h5>Big Brother (Annaah)</h5>
+                                </div>
+                            </div>
+
+                            <div class="owl-item">
+                                <div class="family-member">
+                                    <img class="img-responsive"
+                                         src="https://res.cloudinary.com/thushy/image/upload/v1570422439/wedding/images/family/rosy_ixvjju.jpg"
+                                         alt="Rosy Key - Younger Sister"
+                                    />
+                                    <h4>Jalanthy "Rosy" Key</h4>
+                                    <h5>Little Sister (Rosy)</h5>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="family-member">
+                                    <img class="img-responsive"
+                                         src="images/family/mathu.jpg"
+                                         alt="Mathu Muruges - Youngest Brother"
+                                    />
+                                    <h4>Mathuranthakan "Mathu" Muruges</h4>
+                                    <h5>Little Brother (BABY)</h5>
+                                </div>
+                            </div>
                         </div>
-                            <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.7s">
-                            	<div class="fun-facts ico"><span
-                                        class="fas fa-rings-wedding"></span></div>
-                                <span class="counts" data-from="0"
-                                      data-to="6" data-speed="5000" data-refresh-interval="50">0</span>
+                    </div>
+                    <!--Fun Facts-->
+                    <div id="startcounting"
+                         class="row count"
+                    >
+                        <div class="col-md-12">
+                            <header class="heading wow fadeInUp"
+                                    data-wow-delay="0.5s"
+                            >
+                                <h2 class="wow fadeIn underline padtop50">Fun Facts</h2>
+                                <p class="wow fadeInUp"
+                                   data-wow-delay="0.7s"
+                                >And Counting</p>
+                            </header>
+                            <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY"
+                                 data-wow-delay="0.7s"
+                            >
+                                <div class="fun-facts ico"><span
+                                        class="fas fa-rings-wedding"
+                                ></span></div>
+                                <span class="counts"
+                                      data-from="0"
+                                      data-to="6"
+                                      data-speed="5000"
+                                      data-refresh-interval="50"
+                                >0</span>
                                 <!--<span>1 - Jalal and Yan</span>-->
                                 <!--<span>2 - Yen and Jenny</span>-->
                                 <!--<span>3 - Geetha and Jason</span>-->
@@ -575,646 +695,768 @@
                                 <!--<span>6 - Amanda and Chase</span>-->
                                 <!--<span>7 - Shan and Kenny</span>-->
                                 <!--<span>8 - Katherine and Austin</span>-->
-                            <h5>Weddings Attended</h5>
-                        </div>
-                            <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.7s">
+                                <h3 class="counting-title">Weddings Attended</h3>
+                            </div>
+                            <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY"
+                                 data-wow-delay="0.7s"
+                            >
                                 <div class="fun-facts ico"><span
-                                        class="fas fa-road"></span></div>
-                                <span class="counts" data-from="0"
-                                      data-to="3000" data-speed="5000"
-                                      data-refresh-interval="50">0</span>
-                            <h5>Miles Apart When We Met</h5>
-                        </div>
-                            <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.7s">
+                                        class="fas fa-road"
+                                ></span></div>
+                                <span class="counts"
+                                      data-from="0"
+                                      data-to="3000"
+                                      data-speed="5000"
+                                      data-refresh-interval="50"
+                                >0</span>
+                                <h3 class="counting-title">Miles Apart When We Met</h3>
+                            </div>
+                            <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY"
+                                 data-wow-delay="0.7s"
+                            >
                                 <div class="fun-facts ico"><span
-                                        class="fas fa-plane"></span></div>
-                                <span class="counts" data-from="0"
-                                      data-to="10" data-speed="5000"
-                                      data-refresh-interval="50">0</span>
-                            <h5>Flights Together</h5>
-                        </div>
+                                        class="fas fa-plane"
+                                ></span></div>
+                                <span class="counts"
+                                      data-from="0"
+                                      data-to="10"
+                                      data-speed="5000"
+                                      data-refresh-interval="50"
+                                >0</span>
+                                <h3 class="counting-title">Flights Together</h3>
+                            </div>
                             <!--<div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.7s">-->
-                                <!--<div class="fun-facts ico"><span-->
-                                        <!--class="fas fa-wine-bottle"></span></div>-->
-                                <!--<span class="counts" data-from="0"-->
-                                      <!--data-to="10" data-speed="5000" data-refresh-interval="50">0</span>-->
+                            <!--<div class="fun-facts ico"><span-->
+                            <!--class="fas fa-wine-bottle"></span></div>-->
+                            <!--<span class="counts" data-from="0"-->
+                            <!--data-to="10" data-speed="5000" data-refresh-interval="50">0</span>-->
                             <!--<h5>Winery visits</h5>-->
-                        <!--</div>-->
-                        <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.7s">
+                            <!--</div>-->
+                            <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY"
+                                 data-wow-delay="0.7s"
+                            >
                                 <div class="fun-facts ico"><span
-                                        class="far fa-island-tropical"></span></div>
-                                <span class="counts" data-from="0"
-                                      data-to="10" data-speed="5000" data-refresh-interval="50">0</span>
-                            <h5>Islands Visited</h5>
+                                        class="far fa-island-tropical"
+                                ></span></div>
+                                <span class="counts"
+                                      data-from="0"
+                                      data-to="10"
+                                      data-speed="5000"
+                                      data-refresh-interval="50"
+                                >0</span>
+                                <h3 class="counting-title">Islands Visited</h3>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!--Big Moments-->
-<section id="moments">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="padtop75 white"></div>
-            <!--<div class="col-lg-12 video-parallax">-->
+    <!--Big Moments-->
+    <section id="moments">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="padtop75 white"></div>
+                <!--<div class="col-lg-12 video-parallax">-->
                 <!--<div class="overlay"></div>-->
-                    <!--<video id="bgvideo" preload="auto" autoplay loop muted="muted">-->
-                       <!--&lt;!&ndash;<source src="video/wedding.webm" type="video/webm">&ndash;&gt;-->
-                       <!--<source src="video/wedding.mp4" type="video/mp4">-->
-                       <!--&lt;!&ndash;<source src="video/wedding.ogg" type="video/ogg">&ndash;&gt;-->
-                    <!--Your browser does not support the video element.-->
+                <!--<video id="bgvideo" preload="auto" autoplay loop muted="muted">-->
+                <!--&lt;!&ndash;<source src="video/wedding.webm" type="video/webm">&ndash;&gt;-->
+                <!--<source src="video/wedding.mp4" type="video/mp4">-->
+                <!--&lt;!&ndash;<source src="video/wedding.ogg" type="video/ogg">&ndash;&gt;-->
+                <!--Your browser does not support the video element.-->
                 <!--</video>-->
                 <!--<div class="col-md-12 playvid">-->
-                        <!--<a class="fa fa-play-circle popup-vimeo wow zoomInDown" data-wow-duration="1s" data-wow-delay="0.9s" href="https://vimeo.com/123"></a>-->
-                    <!--&lt;!&ndash;TODO: Add/remove video&ndash;&gt;-->
+                <!--<a class="fa fa-play-circle popup-vimeo wow zoomInDown" data-wow-duration="1s" data-wow-delay="0.9s" href="https://vimeo.com/123"></a>-->
+                <!--&lt;!&ndash;TODO: Add/remove video&ndash;&gt;-->
                 <!--</div>-->
-            <!--</div>-->
+                <!--</div>-->
+            </div>
         </div>
-    </div>
 
-    <div class="container-fluid white">
-        <!--Moments to remember-->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="heading">
-                            <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Moments to Remember</h2>
+        <section class="container-fluid white">
+            <!--Moments to remember-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <header class="heading">
+                            <h2 class="wow fadeInUp underline padtop50"
+                                data-wow-delay="0.5s"
+                            >Moments to Remember</h2>
                             <!--<p class="wow fadeInUp" data-wow-delay="0.7s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>-->
+                        </header>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="bigmoments">
-            	<div id="owl-moments" class="owl-carousel">
-                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img src="https://res.cloudinary.com/thushy/image/upload/v1570422502/wedding/images/couple/hawaii_beach_geh4sa.jpg"
-                                                 class="img-responsive"
-                                                 alt="Hawaii Beach"
-                                            >
-                                            <a href="https://res.cloudinary.com/thushy/image/upload/v1570422502/wedding/images/couple/hawaii_beach_geh4sa.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Hawaii Beach</h4>
-                                                <span>by Thushy</span>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img
-                                                    src="https://res.cloudinary.com/thushy/image/upload/v1570422489/wedding/images/couple/bahamas_beach_sailboat_kdbwzs.jpg"
-                                                 class="img-responsive"
-                                                 alt="Bahamas Beach with a Sailboat"
-                                            >
-                                            <a
-                                                    href="https://res.cloudinary.com/thushy/image/upload/v1570422489/wedding/images/couple/bahamas_beach_sailboat_kdbwzs.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Bahamas</h4>
-                                                <span>by Klarence</span>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                            </div>
+            <div class="bigmoments">
+                <div id="owl-moments"
+                     class="owl-carousel"
+                >
+                    <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570422502/wedding/images/couple/hawaii_beach_geh4sa.jpg"
+                                         class="img-responsive"
+                                         alt="Hawaii Beach"
+                                    >
+                                    <a href="https://res.cloudinary.com/thushy/image/upload/v1570422502/wedding/images/couple/hawaii_beach_geh4sa.jpg"
+                                       class="popup-image"
+                                       data-effect="mfp-zoom-in"
+                                       aria-label="Expand image of Hawaii Beach"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Hawaii Beach</h3>
+                                        <span>by Thushy</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img
+                                            src="https://res.cloudinary.com/thushy/image/upload/v1570422489/wedding/images/couple/bahamas_beach_sailboat_kdbwzs.jpg"
+                                            class="img-responsive"
+                                            alt="Bahamas Beach with a Sailboat"
+                                    >
+                                    <a
+                                            href="https://res.cloudinary.com/thushy/image/upload/v1570422489/wedding/images/couple/bahamas_beach_sailboat_kdbwzs.jpg"
+                                            class="popup-image"
+                                            data-effect="mfp-zoom-in"
+                                            aria-label="Expand image of Bahamas Beach with a Sailboat"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Bahamas</h3>
+                                        <span>by Klarence</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
 
-                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img src="https://res.cloudinary.com/thushy/image/upload/v1570422491/wedding/images/couple/big_sur-coastal_view_k5so5b.jpg"
-                                                 class="img-responsive"
-                                                 alt="Big Sur Coastal View"
-                                            >
-                                            <a href="https://res.cloudinary.com/thushy/image/upload/v1570422491/wedding/images/couple/big_sur-coastal_view_k5so5b.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Big Sur</h4>
-                                                <!--<span>by Klarence</span>-->
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img src="https://res.cloudinary.com/thushy/image/upload/v1570422490/wedding/images/couple/outside_bar_hmxcp0.jpg"
-                                                 class="img-responsive"
-                                                 alt="Outside Bar in Austin, Texas "
-                                            >
-                                            <a href="https://res.cloudinary.com/thushy/image/upload/v1570422490/wedding/images/couple/outside_bar_hmxcp0.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Outside Bar in Austin</h4>
-                                                <span>by Klarence</span>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                            </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570422491/wedding/images/couple/big_sur-coastal_view_k5so5b.jpg"
+                                         class="img-responsive"
+                                         alt="Big Sur Coastal View"
+                                    >
+                                    <a href="https://res.cloudinary.com/thushy/image/upload/v1570422491/wedding/images/couple/big_sur-coastal_view_k5so5b.jpg"
+                                       class="popup-image"
+                                       data-effect="mfp-zoom-in"
+                                       aria-label="Expand image of Big Sur Coastal View"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Big Sur</h3>
+                                        <!--<span>by Klarence</span>-->
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570422490/wedding/images/couple/outside_bar_hmxcp0.jpg"
+                                         class="img-responsive"
+                                         alt="Klarence and Thushy hanging in an Outdoor Bar in Austin, Texas"
+                                    >
+                                    <a href="https://res.cloudinary.com/thushy/image/upload/v1570422490/wedding/images/couple/outside_bar_hmxcp0.jpg"
+                                       class="popup-image"
+                                       data-effect="mfp-zoom-in"
+                                       aria-label="Expand image of Klarence and Thushy hanging in an Outdoor Bar in Austin, Texas"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Outside Bar in Austin</h3>
+                                        <span>by Klarence</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
 
-                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img src="https://res.cloudinary.com/thushy/image/upload/v1570422491/wedding/images/couple/woodstock_heart_o9zmjl.jpg"
-                                                 class="img-responsive"
-                                                 alt="Heart Sculpture in Woodstock, NY"
-                                            >
-                                            <a href="https://res.cloudinary.com/thushy/image/upload/v1570422491/wedding/images/couple/woodstock_heart_o9zmjl.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Heart Sculpture in Woodstock, NY</h4>
-                                                <span>by Elliott</span>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img src="https://res.cloudinary.com/thushy/image/upload/v1570422519/wedding/images/couple/couple_daou_vineyards_fdewa4.jpg"
-                                                 class="img-responsive"
-                                                 alt="Daou Vineyards"
-                                            >
-                                            <a href="https://res.cloudinary.com/thushy/image/upload/v1570422519/wedding/images/couple/couple_daou_vineyards_fdewa4.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Daou Vineyards</h4>
-                                                <span>by Mathu</span>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                            </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570422491/wedding/images/couple/woodstock_heart_o9zmjl.jpg"
+                                         class="img-responsive"
+                                         alt="Klarence and Thushy posing in the Heart Sculpture in Woodstock, NY"
+                                    >
+                                    <a href="https://res.cloudinary.com/thushy/image/upload/v1570422491/wedding/images/couple/woodstock_heart_o9zmjl.jpg"
+                                       class="popup-image"
+                                       data-effect="mfp-zoom-in"
+                                       aria-label="Expand image of Klarence and Thushy posing in the Heart Sculpture in Woodstock, NY"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Heart Sculpture in Woodstock, NY</h3>
+                                        <span>by Elliott</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570422519/wedding/images/couple/couple_daou_vineyards_fdewa4.jpg"
+                                         class="img-responsive"
+                                         alt="Klarence and Thushy hugging at Daou Vineyards"
+                                    >
+                                    <a href="https://res.cloudinary.com/thushy/image/upload/v1570422519/wedding/images/couple/couple_daou_vineyards_fdewa4.jpg"
+                                       class="popup-image"
+                                       data-effect="mfp-zoom-in"
+                                       aria-label="Expand image of Klarence and Thushy hugging at Daou Vineyards"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Daou Vineyards</h3>
+                                        <span>by Mathu</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
 
-                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img src="https://res.cloudinary.com/thushy/image/upload/v1570422494/wedding/images/couple/Grand_Canyon_Skywalk_sitting_brso37.jpg"
-                                                 class="img-responsive"
-                                                 alt="Grand Canyon Skywalk"
-                                            >
-                                            <a href="https://res.cloudinary.com/thushy/image/upload/v1570422494/wedding/images/couple/Grand_Canyon_Skywalk_sitting_brso37.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Grand Canyon Skywalk</h4>
-                                                <!--<span>by Photographer</span>-->
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img src="https://res.cloudinary.com/thushy/image/upload/v1570422518/wedding/images/couple/hiking_mount_av9qp2.jpg"
-                                                 class="img-responsive"
-                                                 alt="Hiking Mount Manadnock - New Hampshire"
-                                            >
-                                            <a href="https://res.cloudinary.com/thushy/image/upload/v1570422518/wedding/images/couple/hiking_mount_av9qp2.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Hiking Mount Manadnock in NH</h4>
-                                                <span>by Klarence</span>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                            </div>
-                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img src="https://res.cloudinary.com/thushy/image/upload/v1570422513/wedding/images/couple/indian_wedding_outfits_j5igmo.jpg"
-                                                 class="img-responsive"
-                                                 alt="Geetha and Jason's Wedding"
-                                            >
-                                            <a href="https://res.cloudinary.com/thushy/image/upload/v1570422513/wedding/images/couple/indian_wedding_outfits_j5igmo.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Geetha and Jason's Wedding</h4>
-                                                <span>by Klarence</span>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img src="https://res.cloudinary.com/thushy/image/upload/v1570422481/wedding/images/couple/chins_byfbez.jpg"
-                                                 class="img-responsive"
-                                                 alt="Checking out our chins"
-                                            >
-                                            <a href="https://res.cloudinary.com/thushy/image/upload/v1570422481/wedding/images/couple/chins_byfbez.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Chins</h4>
-                                                <span>by Thushy</span>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                            </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570422494/wedding/images/couple/Grand_Canyon_Skywalk_sitting_brso37.jpg"
+                                         class="img-responsive"
+                                         alt="Klarence & Thushy sitting on the Grand Canyon Skywalk"
+                                    >
+                                    <a href="https://res.cloudinary.com/thushy/image/upload/v1570422494/wedding/images/couple/Grand_Canyon_Skywalk_sitting_brso37.jpg"
+                                       class="popup-image"
+                                       data-effect="mfp-zoom-in"
+                                       aria-label="Expand image of Klarence & Thushy sitting on the Grand Canyon Skywalk"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Grand Canyon Skywalk</h3>
+                                        <!--<span>by Photographer</span>-->
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570422518/wedding/images/couple/hiking_mount_av9qp2.jpg"
+                                         class="img-responsive"
+                                         alt="Klarence and Thushy Hiking Mount Manadnock in New Hampshire"
+                                    >
+                                    <a href="https://res.cloudinary.com/thushy/image/upload/v1570422518/wedding/images/couple/hiking_mount_av9qp2.jpg"
+                                       class="popup-image"
+                                       data-effect="mfp-zoom-in"
+                                       aria-label="Expand image of Klarence and Thushy Hiking Mount Manadnock in New Hampshire"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Hiking Mount Manadnock in NH</h3>
+                                        <span>by Klarence</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570422513/wedding/images/couple/indian_wedding_outfits_j5igmo.jpg"
+                                         class="img-responsive"
+                                         alt="Klarence and Thushy dressed in traditional Indian dress for Geetha and Jason's Wedding"
+                                    >
+                                    <a href="https://res.cloudinary.com/thushy/image/upload/v1570422513/wedding/images/couple/indian_wedding_outfits_j5igmo.jpg"
+                                       class="popup-image"
+                                       data-effect="mfp-zoom-in"
+                                       aria-label="Expand image of Klarence and Thushy dressed in traditional Indian dress for Geetha and Jason's Wedding"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Geetha and Jason's Wedding</h3>
+                                        <span>by Klarence</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570422481/wedding/images/couple/chins_byfbez.jpg"
+                                         class="img-responsive"
+                                         alt="Klarence and THushy checking out our chins"
+                                    >
+                                    <a href="https://res.cloudinary.com/thushy/image/upload/v1570422481/wedding/images/couple/chins_byfbez.jpg"
+                                       class="popup-image"
+                                       data-effect="mfp-zoom-in"
+                                       aria-label="Expand image of Klarence and THushy checking out our chins"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Chins</h3>
+                                        <span>by Thushy</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
 
-                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img src="https://res.cloudinary.com/thushy/image/upload/v1570422526/wedding/images/couple/windy_coast_tmhxjk.jpg"
-                                                 class="img-responsive"
-                                                 alt="Maui Coast, HI"
-                                            >
-                                            <a href="https://res.cloudinary.com/thushy/image/upload/v1570422526/wedding/images/couple/windy_coast_tmhxjk.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Maui Coast</h4>
-                                                <span>by Klarence</span>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img src="https://res.cloudinary.com/thushy/image/upload/v1570422497/wedding/images/couple/boston_square_kcs4tm.jpg"
-                                                 class="img-responsive"
-                                                 alt="Quincy Market in Boston"
-                                            >
-                                            <a href="https://res.cloudinary.com/thushy/image/upload/v1570422497/wedding/images/couple/boston_square_kcs4tm.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Quincy Market - Boston </h4>
-                                                <span>by Klarence</span>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                            </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570422526/wedding/images/couple/windy_coast_tmhxjk.jpg"
+                                         class="img-responsive"
+                                         alt="Klarence and Thushy Selfie by Maui Coast"
+                                    >
+                                    <a href="https://res.cloudinary.com/thushy/image/upload/v1570422526/wedding/images/couple/windy_coast_tmhxjk.jpg"
+                                       class="popup-image"
+                                       data-effect="mfp-zoom-in"
+                                       aria-label="Expand image of Klarence and Thushy Selfie by Maui Coast"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Maui Coast</h3>
+                                        <span>by Klarence</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570422497/wedding/images/couple/boston_square_kcs4tm.jpg"
+                                         class="img-responsive"
+                                         alt="Klarence and Thushy Selfie in Quincy Market in Boston"
+                                    >
+                                    <a href="https://res.cloudinary.com/thushy/image/upload/v1570422497/wedding/images/couple/boston_square_kcs4tm.jpg"
+                                       class="popup-image"
+                                       data-effect="mfp-zoom-in"
+                                       aria-label="Expand image of Klarence and Thushy Selfie in Quincy Market in Boston"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Quincy Market - Boston </h3>
+                                        <span>by Klarence</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
 
-                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img src="https://res.cloudinary.com/thushy/image/upload/v1570423094/wedding/images/paris/thushy_and_klarence_1_zf64gf.jpg"
-                                                 class="img-responsive"
-                                                 alt="Café in Paris"
-                                            >
-                                            <a href="https://res.cloudinary.com/thushy/image/upload/v1570423094/wedding/images/paris/thushy_and_klarence_1_zf64gf.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Cafe in Paris</h4>
-                                                <span>by Stephanie</span>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img src="https://res.cloudinary.com/thushy/image/upload/v1570422450/wedding/images/paris/thushy_and_klarence_15_a9hvcf.jpg"
-                                                 class="img-responsive"
-                                                 alt="Embrace by Eiffel Tower"
-                                            >
-                                            <a href="https://res.cloudinary.com/thushy/image/upload/v1570422450/wedding/images/paris/thushy_and_klarence_15_a9hvcf.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Embrace by Eiffel Tower</h4>
-                                                <span>by Stephanie</span>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                            </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570423094/wedding/images/paris/thushy_and_klarence_1_zf64gf.jpg"
+                                         class="img-responsive"
+                                         alt="Klarence and Thushy Drinking Coffee at a Café in Paris"
+                                    >
+                                    <a href="https://res.cloudinary.com/thushy/image/upload/v1570423094/wedding/images/paris/thushy_and_klarence_1_zf64gf.jpg"
+                                       class="popup-image"
+                                       data-effect="mfp-zoom-in"
+                                       aria-label="Expand image of Klarence and Thushy Drinking Coffee at a Café in Paris"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Cafe in Paris</h3>
+                                        <span>by Stephanie</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570422450/wedding/images/paris/thushy_and_klarence_15_a9hvcf.jpg"
+                                         class="img-responsive"
+                                         alt="Klarence and Thushy Embrace by Eiffel Tower"
+                                    >
+                                    <a href="https://res.cloudinary.com/thushy/image/upload/v1570422450/wedding/images/paris/thushy_and_klarence_15_a9hvcf.jpg"
+                                       class="popup-image"
+                                       data-effect="mfp-zoom-in"
+                                       aria-label="Expand image of Klarence and Thushy Embrace by Eiffel Tower"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Embrace by Eiffel Tower</h3>
+                                        <span>by Stephanie</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
 
-                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img src="https://res.cloudinary.com/thushy/image/upload/v1570423057/wedding/images/paris/thushy_and_klarence_19_qbdbaa.jpg"
-                                                 class="img-responsive"
-                                                 alt="Hand in hand by Eiffel Tower"
-                                            >
-                                            <a href="https://res.cloudinary.com/thushy/image/upload/v1570423057/wedding/images/paris/thushy_and_klarence_19_qbdbaa.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Hand in hand by Eiffel Tower</h4>
-                                                <span>by Stephanie</span>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                                <ul class="grid cs-style-3">
-                                    <li>
-                                        <figure>
-                                            <img src="https://res.cloudinary.com/thushy/image/upload/v1570423009/wedding/images/paris/thushy_and_klarence_5_cjaui1.jpg"
-                                                 class="img-responsive"
-                                                 alt="Kiss under the Bridge in Paris, France"
-                                            >
-                                            <a href="https://res.cloudinary.com/thushy/image/upload/v1570423009/wedding/images/paris/thushy_and_klarence_5_cjaui1.jpg"
-                                               class="popup-image"
-                                               data-effect="mfp-zoom-in"
-                                            ><span class="fa fa-photo fa-2x"></span></a>
-                                            <figcaption>
-                                                <h4>Kiss under the Bridge Paris</h4>
-                                                <span>by Stephanie</span>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                            </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570423057/wedding/images/paris/thushy_and_klarence_19_qbdbaa.jpg"
+                                         class="img-responsive"
+                                         alt="Klarence and Thushy Hand in hand by Eiffel Tower"
+                                    >
+                                    <a href="https://res.cloudinary.com/thushy/image/upload/v1570423057/wedding/images/paris/thushy_and_klarence_19_qbdbaa.jpg"
+                                       class="popup-image"
+                                       data-effect="mfp-zoom-in"
+                                       aria-label="Expand image of Klarence and Thushy Hand in hand by Eiffel Tower"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Hand in hand by Eiffel Tower</h3>
+                                        <span>by Stephanie</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570423009/wedding/images/paris/thushy_and_klarence_5_cjaui1.jpg"
+                                         class="img-responsive"
+                                         alt="Klarence and Thushy kiss under the Bridge in Paris, France"
+                                    >
+                                    <a href="https://res.cloudinary.com/thushy/image/upload/v1570423009/wedding/images/paris/thushy_and_klarence_5_cjaui1.jpg"
+                                       class="popup-image"
+                                       data-effect="mfp-zoom-in"
+                                       aria-label="Expand image of Klarence and Thushy kiss under the Bridge in Paris, France"
+                                    ><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h3>Kiss under the Bridge Paris</h3>
+                                        <span>by Stephanie</span>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!--Special Events-->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="heading">
-                            <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Special Events</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.7s">
+            <!--Special Events-->
+            <section id="specialEvents"
+                     class="container"
+            >
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="heading">
+                            <h2 class="wow fadeInUp underline padtop50"
+                                data-wow-delay="0.5s"
+                            >Special Events</h2>
+                            <p class="wow fadeInUp"
+                               data-wow-delay="0.7s"
+                            >
                                 A few of our treasured memories.
                             </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-4">
-                    	<div class="event wow flipInX" data-wow-delay="0.5s">
-                        <i class="fas fa-building"></i>
-                        <h4 class="text-uppercase">Bought a Condo in
-                                                   Boston</h4>
-                        <p>Originally Thushy tried to get Klarence to move
-                           to Boston. But it wasn't in the cards. It's looks
-                           like we only move West. Next stop San Francisco,
-                           or maybe... Hawaii?
-                        </p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    	<div class="event alternative wow flipInX" data-wow-delay="0.5s">
-                        <i class="fas fa-plane"></i>
-                        <h4 class="text-uppercase">First Vacation</h4>
-                        <p>We had several trip together because we were in a long distance relationship. We knew we
-                           enjoyed travelling together. We went on our first vacation within three-months of meeting
-                        each other. We went to Puerto Rico with a few of Thushy's friends. </p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="event wow flipInX"
+                             data-wow-delay="0.5s"
+                        >
+                            <i class="fas fa-building"></i>
+                            <h3 class="text-uppercase">Bought a Condo in
+                                                       Boston</h3>
+                            <p>Originally Thushy tried to get Klarence to move
+                               to Boston. But it wasn't in the cards. It's looks
+                               like we only move West. Next stop San Francisco,
+                               or maybe... Hawaii?
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-md-4">
-                    	<div class="event wow flipInX" data-wow-delay="0.5s">
-                        <i class="fas fa-person-carry"></i>
-                        <h4 class="text-uppercase">Thushy moved to San Jose</h4>
-                        <p>A long distance relationship was really hard on
-                           Thushy. She needed to know if we were only enjoying the relationship because we were in
-                           vacay mode when we met with each other. It was a tough decision, but one that we were both
-                           happy with.
-                        </p>
+                    <div class="col-md-4">
+                        <div class="event alternative wow flipInX"
+                             data-wow-delay="0.5s"
+                        >
+                            <i class="fas fa-plane"></i>
+                            <h3 class="text-uppercase">First Vacation</h3>
+                            <p>We had several trip together because we were in a long distance relationship. We knew we
+                               enjoyed travelling together. We went on our first vacation within three-months of meeting
+                               each other. We went to Puerto Rico with a few of Thushy's friends. </p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-md-4">
-                    	<div class="event alternative wow flipInX" data-wow-delay="0.5s">
-                        <i class="fas fa-laptop-code"></i>
-                        <h4 class="text-uppercase">Klarence Got His Dream Job</h4>
-                        <p>Shortly after Thushy moved, things weren't
-                           working out at Klarence's job. During our trip to
-                           France a recruiter reached out to him. Now he
-                           works building out the Design System for Castlight
-                           Health.
-                        </p>
+                    <div class="col-md-4">
+                        <div class="event wow flipInX"
+                             data-wow-delay="0.5s"
+                        >
+                            <i class="fas fa-person-carry"></i>
+                            <h3 class="text-uppercase">Thushy moved to San Jose</h3>
+                            <p>A long distance relationship was really hard on
+                               Thushy. She needed to know if we were only enjoying the relationship because we were in
+                               vacay mode when we met with each other. It was a tough decision, but one that we were
+                               both
+                               happy with.
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-md-4">
-                    	<div class="event wow flipInX" data-wow-delay="0.5s">
-                        <i class="fas fa-suitcase"></i>
-                        <h4 class="text-uppercase">Thushy Got Her Dream Job</h4>
-                        <p>Thushy's old CEO was getting ready to start a new
-                           project and offered her a unique opportunity that she couldn't have event dreamt of in
-                           that point in her career.  Her main responsibility is building a social space for
-                           entrepreneurs.</p>
+                    <div class="col-md-4">
+                        <div class="event alternative wow flipInX"
+                             data-wow-delay="0.5s"
+                        >
+                            <i class="fas fa-laptop-code"></i>
+                            <h3 class="text-uppercase">Klarence Got His Dream Job</h3>
+                            <p>Shortly after Thushy moved, things weren't
+                               working out at Klarence's job. During our trip to
+                               France a recruiter reached out to him. Now he
+                               works building out the Design System for Castlight
+                               Health.
+                            </p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-md-4">
-                    	<div class="event alternative wow flipInX" data-wow-delay="0.5s">
-                        <i class="fas fa-handshake"></i>
-                        <h4 class="text-uppercase">Meeting Each Others' Family</h4>
-                        <p>Thushy met Klarence's entire family during Christmas of 2016. She has become one of the
-                           family members and has enjoyed several family trips.  </p>
+                    <div class="col-md-4">
+                        <div class="event wow flipInX"
+                             data-wow-delay="0.5s"
+                        >
+                            <i class="fas fa-suitcase"></i>
+                            <h3 class="text-uppercase">Thushy Got Her Dream Job</h3>
+                            <p>Thushy's old CEO was getting ready to start a new
+                               project and offered her a unique opportunity that she couldn't have event dreamt of in
+                               that point in her career. Her main responsibility is building a social space for
+                               entrepreneurs.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="event alternative wow flipInX"
+                             data-wow-delay="0.5s"
+                        >
+                            <i class="fas fa-handshake"></i>
+                            <h3 class="text-uppercase">Meeting Each Others' Family</h3>
+                            <p>Thushy met Klarence's entire family during Christmas of 2016. She has become one of the
+                               family members and has enjoyed several family trips. </p>
                             Klarence met Thushy's little brother aka Baby first in New York City during the summer of
-                            2017. Klarence met the rest of the family including a few  extended family members during
+                            2017. Klarence met the rest of the family including a few extended family members during
                             Rosy's wedding the summer of 2018.
+                        </div>
                     </div>
+
                 </div>
+            </section>
+            <div class="separator"></div>
 
-            </div>
-        </div>
-        <div class="separator"></div>
+        </section>
+    </section>
 
-    </div>
-</section>
-
-<!--Favourites List-->
-<section id="favourites"
-         class="white"
->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="heading">
-                        <h2 class="wow fadeIn underline padtop50" data-wow-delay="0.5s">Our Favorites</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.7s">
+    <!--Favourites List-->
+    <section id="favourites"
+             class="white"
+    >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2 class="wow fadeIn underline padtop50"
+                            data-wow-delay="0.5s"
+                        >Our Favorites</h2>
+                        <p class="wow fadeInUp"
+                           data-wow-delay="0.7s"
+                        >
                             They say opposites attract. We have a lot in common as well.
                         </p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-12 favlist">
-                <img src="https://res.cloudinary.com/thushy/image/upload/v1570422477/wedding/images/couple/klarence_and_thushy-grand_canyon_skywalk_ctmzgf.jpg"
-                     alt="couple"
-                >
-                <div class="favlist-title">
-                    <div class="favlist-name">Klarence</div>
-                    <div class="favlist-name">Thushy</div>
-                </div>
+                <div class="col-md-12 favlist">
+                    <img src="https://res.cloudinary.com/thushy/image/upload/v1570422477/wedding/images/couple/klarence_and_thushy-grand_canyon_skywalk_ctmzgf.jpg"
+                         alt="couple"
+                    >
+                    <div class="favlist-title">
+                        <div class="favlist-name">Klarence</div>
+                        <div class="favlist-name">Thushy</div>
+                    </div>
 
-                <ul class="timeline">
-                    <li>
-
-                            <div class="timeline-badge tooltips wow fadeIn" data-wow-delay="0.5s" data-toggle="tooltip" data-placement="top"
-                                 title="Favorite Meal"><i
-                                    class="fas fa-utensils"></i></div>
-                            <div class="timeline-left wow fadeInLeft" data-wow-delay="0.7s">
-                            <h4 class="timeline-title">Noodles</h4>
-                            <p>Lo Mein or Ramen noodles</p>
-                        </div>
-                            <div class="timeline-right wow fadeInRight" data-wow-delay="0.7s">
-                            <h4 class="timeline-title">Rice</h4>
-                            <p>White rice or Coconut Rice.</p>
-                        </div>
-
-
-                    </li>
-
-                    <li>
-
-                            <div class="timeline-badge tooltips wow fadeIn" data-wow-delay="0.5s" data-toggle="tooltip" data-placement="top" title="Favorite Movie"><i class="fas fa-film"></i></div>
-                            <div class="timeline-left wow fadeInLeft" data-wow-delay="0.7s">
-                            <h4 class="timeline-title">V for Vendetta</h4>
-                            <p>A comic book movie about V a freedom fighter
-                               who ignites a revolution in a dystopian United
-                               Kingdom. A beautiful allegory filled with
-                               political criticism, government conspiracies,
-                               and an unlikely love story.
-                            </p>
-                        </div>
-                            <div class="timeline-right wow fadeInRight" data-wow-delay="0.7s">
-                            <h4 class="timeline-title">Shutter Island</h4>
-                            <p>Mystery, Leo! </p>
-                        </div>
-
-
-                    </li>
-
-                    <li>
-
-                            <div class="timeline-badge tooltips wow fadeIn" data-wow-delay="0.5s" data-toggle="tooltip" data-placement="top" title="Favorite Book"><i class="fas fa-book-heart"></i></div>
-                            <div class="timeline-left wow fadeInLeft" data-wow-delay="0.7s">
-                            <h4 class="timeline-title">The Glass Castle</h4>
-                            <p>Jeannette Walls. A memoir of an unconventional upbringing of a dysfunctional family
-                               and their adventures. The title refers to her father’s long held intention of building
-                               his dream house, a glass castle.
-                            </p>
-                        </div>
-                            <div class="timeline-right wow fadeInRight" data-wow-delay="0.7s">
-                            <h4 class="timeline-title">The Street Lawyer</h4>
-                            <p>John Grisham </p>
-                        </div>
-
-                    </li>
-
-                    <li>
-                            <div class="timeline-badge tooltips wow fadeIn" data-wow-delay="0.5s" data-toggle="tooltip" data-placement="top"
-                                 title="Favorite Color"><i
-                                    class="fas fa-palette"></i></div>
-                            <div class="timeline-left wow fadeInLeft" data-wow-delay="0.7s">
-                            <h4 class="timeline-title">Green</h4>
-                            <p>Dark Forest Green</p>
-                        </div>
-                            <div class="timeline-right wow fadeInRight" data-wow-delay="0.7s">
-                            <h4 class="timeline-title">Red</h4>
-                            <p>All Shades and she also loves Green</p>
-                        </div>
-                    </li>
-
-                    <li>
-                            <div class="timeline-badge tooltips wow fadeIn" data-wow-delay="0.5s" data-toggle="tooltip" data-placement="top" title="Favorite Pet"><i class="fas fa-dog"></i></div>
-                            <div class="timeline-left wow fadeInLeft" data-wow-delay="0.7s">
-                            <h4 class="timeline-title">Dogs</h4>
-                            <p>Man's loyal best friend </p>
-                        </div>
-                            <div class="timeline-right wow fadeInRight" data-wow-delay="0.7s">
-                            <h4 class="timeline-title">Fish</h4>
-                            <p>Beta fish are very low maintenance though she has not had the best luck. RIP Ash #1
-                               and Ash #2
-                            </p>
-                        </div>
-
-
-                    </li>
-                    <li>
+                    <ul class="timeline">
+                        <li>
 
                             <div class="timeline-badge tooltips wow fadeIn"
-                                 data-wow-delay="0.5s" data-toggle="tooltip"
+                                 data-wow-delay="0.5s"
+                                 data-toggle="tooltip"
                                  data-placement="top"
-                                 title="Cause Supported"><i
-                                    class="fas fa-fist-raised"></i></div>
-                            <div class="timeline-left wow fadeInLeft" data-wow-delay="0.7s">
-                            <h4 class="timeline-title">Net Neutrality</h4>
-                            <p>Freedom of voice.  </p>
-                        </div>
-                            <div class="timeline-right wow fadeInRight" data-wow-delay="0.7s">
-                            <h4 class="timeline-title">Equality</h4>
-                            <p>Gender, Race, and Class </p>
-                        </div>
-                    </li>
-                </ul>
+                                 title="Favorite Meal"
+                            ><i
+                                    class="fas fa-utensils"
+                            ></i></div>
+                            <div class="timeline-left wow fadeInLeft"
+                                 data-wow-delay="0.7s"
+                            >
+                                <h3 class="timeline-title">Noodles</h3>
+                                <p>Lo Mein or Ramen noodles</p>
+                            </div>
+                            <div class="timeline-right wow fadeInRight"
+                                 data-wow-delay="0.7s"
+                            >
+                                <h3 class="timeline-title">Rice</h3>
+                                <p>White rice or Coconut Rice.</p>
+                            </div>
+
+
+                        </li>
+
+                        <li>
+
+                            <div class="timeline-badge tooltips wow fadeIn"
+                                 data-wow-delay="0.5s"
+                                 data-toggle="tooltip"
+                                 data-placement="top"
+                                 title="Favorite Movie"
+                            ><i class="fas fa-film"></i></div>
+                            <div class="timeline-left wow fadeInLeft"
+                                 data-wow-delay="0.7s"
+                            >
+                                <h3 class="timeline-title">V for Vendetta</h3>
+                                <p>A comic book movie about V a freedom fighter
+                                   who ignites a revolution in a dystopian United
+                                   Kingdom. A beautiful allegory filled with
+                                   political criticism, government conspiracies,
+                                   and an unlikely love story.
+                                </p>
+                            </div>
+                            <div class="timeline-right wow fadeInRight"
+                                 data-wow-delay="0.7s"
+                            >
+                                <h3 class="timeline-title">Shutter Island</h3>
+                                <p>Mystery, Leo! </p>
+                            </div>
+
+
+                        </li>
+
+                        <li>
+
+                            <div class="timeline-badge tooltips wow fadeIn"
+                                 data-wow-delay="0.5s"
+                                 data-toggle="tooltip"
+                                 data-placement="top"
+                                 title="Favorite Book"
+                            ><i class="fas fa-book-heart"></i></div>
+                            <div class="timeline-left wow fadeInLeft"
+                                 data-wow-delay="0.7s"
+                            >
+                                <h3 class="timeline-title">The Glass Castle</h3>
+                                <p>Jeannette Walls. A memoir of an unconventional upbringing of a dysfunctional family
+                                   and their adventures. The title refers to her father’s long held intention of
+                                   building
+                                   his dream house, a glass castle.
+                                </p>
+                            </div>
+                            <div class="timeline-right wow fadeInRight"
+                                 data-wow-delay="0.7s"
+                            >
+                                <h3 class="timeline-title">The Street Lawyer</h3>
+                                <p>John Grisham </p>
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <div class="timeline-badge tooltips wow fadeIn"
+                                 data-wow-delay="0.5s"
+                                 data-toggle="tooltip"
+                                 data-placement="top"
+                                 title="Favorite Color"
+                            ><i
+                                    class="fas fa-palette"
+                            ></i></div>
+                            <div class="timeline-left wow fadeInLeft"
+                                 data-wow-delay="0.7s"
+                            >
+                                <h3 class="timeline-title">Green</h3>
+                                <p>Dark Forest Green</p>
+                            </div>
+                            <div class="timeline-right wow fadeInRight"
+                                 data-wow-delay="0.7s"
+                            >
+                                <h3 class="timeline-title">Red</h3>
+                                <p>All Shades and she also loves Green</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="timeline-badge tooltips wow fadeIn"
+                                 data-wow-delay="0.5s"
+                                 data-toggle="tooltip"
+                                 data-placement="top"
+                                 title="Favorite Pet"
+                            ><i class="fas fa-dog"></i></div>
+                            <div class="timeline-left wow fadeInLeft"
+                                 data-wow-delay="0.7s"
+                            >
+                                <h3 class="timeline-title">Dogs</h3>
+                                <p>Man's loyal best friend </p>
+                            </div>
+                            <div class="timeline-right wow fadeInRight"
+                                 data-wow-delay="0.7s"
+                            >
+                                <h3 class="timeline-title">Fish</h3>
+                                <p>Beta fish are very low maintenance though she has not had the best luck. RIP Ash #1
+                                   and Ash #2
+                                </p>
+                            </div>
+
+
+                        </li>
+                        <li>
+
+                            <div class="timeline-badge tooltips wow fadeIn"
+                                 data-wow-delay="0.5s"
+                                 data-toggle="tooltip"
+                                 data-placement="top"
+                                 title="Cause Supported"
+                            ><i
+                                    class="fas fa-fist-raised"
+                            ></i></div>
+                            <div class="timeline-left wow fadeInLeft"
+                                 data-wow-delay="0.7s"
+                            >
+                                <h3 class="timeline-title">Net Neutrality</h3>
+                                <p>Freedom of voice. </p>
+                            </div>
+                            <div class="timeline-right wow fadeInRight"
+                                 data-wow-delay="0.7s"
+                            >
+                                <h3 class="timeline-title">Equality</h3>
+                                <p>Gender, Race, and Class </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
 
             </div>
-
         </div>
-    </div>
-    <!--common Favorites Parallax-->
-    <div class="container-fluid commonfav">
-        <div class="row">
+        <!--common Favorites Parallax-->
+        <div class="container-fluid commonfav">
+            <div class="row">
                 <div class="col-lg-12 parallax-section common-parallax">
-                <div class="overlay"></div>
-                <div class="col-md-12">
-                        <h2 class="underline2 wow fadeIn" data-wow-delay="0.5s">Common Favorites</h2>
-                        <div id="owl-common" class="owl-carousel wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="overlay"></div>
+                    <div class="col-md-12">
+                        <header>
+                            <h2 class="underline2 wow fadeIn"
+                                data-wow-delay="0.5s"
+                            >Common Favorites</h2>
+                        </header>
+                        <div id="owl-common"
+                             class="owl-carousel wow fadeInUp"
+                             data-wow-delay="0.7s"
+                        >
                             <div class="owl-item">
-                                        <div class="common">
-                                            <div class="fas fa-map-marker-smile common-icon tooltips"
-                                                 data-toggle="tooltip"
-                                                 data-placement="top"
-                                                 title="Favorite Place"
-                                                 data-original-title="Favorite Place"
-                                            ></div>
-                                            <h4>Paris</h4>
-                                        </div>
-                                        <div class="common">
-                                            <div class="fas fa-book-heart common-icon tooltips"
-                                                 data-toggle="tooltip"
-                                                 data-placement="top"
-                                                 title="Favorite Book"
-                                                 data-original-title="Favorite Book"
-                                            ></div>
-                                            <h4>Love Does <br>
-                                            </h4>
-                                        </div>
-                                    </div>
+                                <div class="common">
+                                    <div class="fas fa-map-marker-smile common-icon tooltips"
+                                         data-toggle="tooltip"
+                                         data-placement="top"
+                                         title="Favorite Place"
+                                         data-original-title="Favorite Place"
+                                    ></div>
+                                    <h3>Paris</h3>
+                                </div>
+                                <div class="common">
+                                    <div class="fas fa-book-heart common-icon tooltips"
+                                         data-toggle="tooltip"
+                                         data-placement="top"
+                                         title="Favorite Book"
+                                         data-original-title="Favorite Book"
+                                    ></div>
+                                    <h3>Love Does <br>
+                                    </h3>
+                                </div>
+                            </div>
                             <div class="owl-item">
                                 <div class="owl-item">
                                     <div class="common">
@@ -1224,7 +1466,7 @@
                                              title="Favorite TV Show"
                                              data-original-title="Favorite TV Show"
                                         ></div>
-                                        <h4>Parks and Recreation</h4>
+                                        <h3>Parks and Recreation</h3>
                                     </div>
 
                                     <div class="common">
@@ -1234,7 +1476,7 @@
                                              title="Favorite Song"
                                              data-original-title="Favorite Song"
                                         ></div>
-                                        <h4>New York - Frank Sinatra</h4>
+                                        <h3>New York - Frank Sinatra</h3>
                                     </div>
 
                                 </div>
@@ -1248,7 +1490,7 @@
                                              title="Favorite Podcast"
                                              data-original-title="Favorite Podcast"
                                         ></div>
-                                        <h4>EntreLeadership</h4>
+                                        <h3>EntreLeadership</h3>
                                     </div>
                                     <div class="common">
                                         <div class="fas fa-bags-shopping common-icon tooltips"
@@ -1257,7 +1499,7 @@
                                              title="Favourite Brand"
                                              data-original-title="Favourite Brand"
                                         ></div>
-                                        <h4>Patagonia</h4>
+                                        <h3>Patagonia</h3>
                                     </div>
                                 </div>
                             </div>
@@ -1270,7 +1512,7 @@
                                              title="Favorite Coastal View"
                                              data-original-title="Favorite Coastal View"
                                         ></div>
-                                        <h4>Big Sur</h4>
+                                        <h3>Big Sur</h3>
                                     </div>
                                     <div class="common">
                                         <div class="fas fa-mountains common-icon tooltips"
@@ -1279,7 +1521,7 @@
                                              title="Favorite Mountains"
                                              data-original-title="Favorite Mountains"
                                         ></div>
-                                        <h4>Yosemite</h4>
+                                        <h3>Yosemite</h3>
                                     </div>
                                 </div>
                             </div>
@@ -1292,7 +1534,7 @@
                                              title="Favorite Seasons"
                                              data-original-title="Favorite Seasons"
                                         ></div>
-                                        <h4>Spring/Fall</h4>
+                                        <h3>Spring/Fall</h3>
                                     </div>
                                     <div class="common">
                                         <div class="fas fa-pie common-icon tooltips"
@@ -1301,411 +1543,420 @@
                                              title="Favorite Dessert"
                                              data-original-title="Favorite Dessert"
                                         ></div>
-                                        <h4>Pie</h4>
+                                        <h3>Pie</h3>
                                     </div>
                                 </div>
                             </div>
                             <div class="owl-item">
-                                    <div class="owl-item">
-                                        <div class="common">
-                                            <div class="fas fa-microphone-stand common-icon tooltips"
-                                                 data-toggle="tooltip"
-                                                 data-placement="top"
-                                                 title="Favorite Singer"
-                                                 data-original-title="Favorite Singer"
-                                            ></div>
-                                            <h4>Rihanna</h4>
-                                        </div>
-                                        <div class="common">
-                                            <div class="fas fa-spa common-icon tooltips"
-                                                 data-toggle="tooltip"
-                                                 data-placement="top"
-                                                 title="Favorite Indulgence"
-                                                 data-original-title="Favorite Indulgence"
-                                            ></div>
-                                            <h4>Couple's Massage</h4>
-                                        </div>
+                                <div class="owl-item">
+                                    <div class="common">
+                                        <div class="fas fa-microphone-stand common-icon tooltips"
+                                             data-toggle="tooltip"
+                                             data-placement="top"
+                                             title="Favorite Singer"
+                                             data-original-title="Favorite Singer"
+                                        ></div>
+                                        <h3>Rihanna</h3>
                                     </div>
-                                </div>
-                        </div>
-                </div>
-
-
-                        <div class="owl-controls clickable">
-                            <div class="owl-pagination">
-                                <div class="owl-page"><span class=""></span>
-                                </div>
-                                <div class="owl-page active">
-                                    <span class=""></span></div>
-                                <div class="owl-page"><span class=""></span>
+                                    <div class="common">
+                                        <div class="fas fa-spa common-icon tooltips"
+                                             data-toggle="tooltip"
+                                             data-placement="top"
+                                             title="Favorite Indulgence"
+                                             data-original-title="Favorite Indulgence"
+                                        ></div>
+                                        <h3>Couple's Massage</h3>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+
+                    <div class="owl-controls clickable">
+                        <div class="owl-pagination">
+                            <div class="owl-page"><span class=""></span>
+                            </div>
+                            <div class="owl-page active">
+                                <span class=""></span></div>
+                            <div class="owl-page"><span class=""></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--</div>-->
+        <!--</div>-->
+
+    </section>
+
+    <!--Blog Section-->
+    <!--<section id="blog"-->
+    <!--class="white"-->
+    <!--&gt;-->
+    <!--<div class="container">-->
+    <!--<div class="row">-->
+    <!--<div class="col-md-12">-->
+    <!--<div class="heading">-->
+    <!--<h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Our Blog</h2>-->
+    <!--<p class="wow fadeInUp" data-wow-delay="0.5s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>-->
+    <!--</div>-->
+    <!--<div class="fa fa-times blog-close-content"></div>-->
+    <!--<div id="blog-ajax-content"></div>-->
+    <!--<div id="blogs" class="wow fadeInUp" data-wow-delay="0.5s">-->
+    <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
+    <!--<a href="#blog1"-->
+    <!--class="blog-more"-->
+    <!--&gt;-->
+    <!--<figure>-->
+    <!--<img src="images/blog/1.jpg"-->
+    <!--class="img-responsive"-->
+    <!--alt="blog"-->
+    <!--&gt;-->
+    <!--</figure>-->
+    <!--</a>-->
+    <!--<div class="date">25 Jan</div>-->
+    <!--<div class="year">2014</div>-->
+    <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
+    <!--<p>Attribution not required but appreciated, you can-->
+    <!--share our website with your friends to offer you more-->
+    <!--quality photos.</p>-->
+    <!--<div class="stats">By : <a href="#">Thushy</a> |-->
+    <!--<a href="#">0 Comments</a></div>-->
+    <!--</div>-->
+
+    <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
+    <!--<a href="#blog2"-->
+    <!--class="blog-more"-->
+    <!--&gt;-->
+    <!--<figure>-->
+    <!--<img src="images/blog/2.jpg"-->
+    <!--class="img-responsive"-->
+    <!--alt="blog"-->
+    <!--&gt;-->
+    <!--</figure>-->
+    <!--</a>-->
+    <!--<div class="date">18 Feb</div>-->
+    <!--<div class="year">2014</div>-->
+    <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
+    <!--<p>Attribution not required but appreciated, you can-->
+    <!--share our website with your friends to offer you more-->
+    <!--quality photos.</p>-->
+    <!--<div class="stats">By : <a href="#">Thushy</a> |-->
+    <!--<a href="#">0 Comments</a></div>-->
+    <!--</div>-->
+
+    <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
+    <!--<a href="#blog3"-->
+    <!--class="blog-more"-->
+    <!--&gt;-->
+    <!--<figure>-->
+    <!--<img src="images/blog/3.jpg"-->
+    <!--class="img-responsive"-->
+    <!--alt="blog"-->
+    <!--&gt;-->
+    <!--</figure>-->
+    <!--</a>-->
+    <!--<div class="date">11 Dec</div>-->
+    <!--<div class="year">2014</div>-->
+    <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
+    <!--<p>Attribution not required but appreciated, you can-->
+    <!--share our website with your friends to offer you more-->
+    <!--quality photos.</p>-->
+    <!--<div class="stats">By : <a href="#">Thushy</a> |-->
+    <!--<a href="#">0 Comments</a></div>-->
+    <!--</div>-->
+
+    <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
+    <!--<a href="#blog4"-->
+    <!--class="blog-more"-->
+    <!--&gt;-->
+    <!--<figure>-->
+    <!--<img src="images/blog/4.jpg"-->
+    <!--class="img-responsive"-->
+    <!--alt="blog"-->
+    <!--&gt;-->
+    <!--</figure>-->
+    <!--</a>-->
+    <!--<div class="date">1 Feb</div>-->
+    <!--<div class="year">2013</div>-->
+    <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
+    <!--<p>Attribution not required but appreciated, you can-->
+    <!--share our website with your friends to offer you more-->
+    <!--quality photos.</p>-->
+    <!--<div class="stats">By : <a href="#">Thushy</a> |-->
+    <!--<a href="#">0 Comments</a></div>-->
+    <!--</div>-->
+
+    <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
+    <!--<a href="#blog5"-->
+    <!--class="blog-more"-->
+    <!--&gt;-->
+    <!--<figure>-->
+    <!--<img src="images/blog/5.jpg"-->
+    <!--class="img-responsive"-->
+    <!--alt="blog"-->
+    <!--&gt;-->
+    <!--</figure>-->
+    <!--</a>-->
+    <!--<div class="date">18 Sep</div>-->
+    <!--<div class="year">2013</div>-->
+    <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
+    <!--<p>Attribution not required but appreciated, you can-->
+    <!--share our website with your friends to offer you more-->
+    <!--quality photos.</p>-->
+    <!--<div class="stats">By : <a href="#">Thushy</a> |-->
+    <!--<a href="#">0 Comments</a></div>-->
+    <!--</div>-->
+
+    <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
+    <!--<a href="#blog6"-->
+    <!--class="blog-more"-->
+    <!--&gt;-->
+    <!--<figure>-->
+    <!--<img src="images/blog/6.jpg"-->
+    <!--class="img-responsive"-->
+    <!--alt="blog"-->
+    <!--&gt;-->
+    <!--</figure>-->
+    <!--</a>-->
+    <!--<div class="date">28 Jan</div>-->
+    <!--<div class="year">2013</div>-->
+    <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
+    <!--<p>Attribution not required but appreciated, you can-->
+    <!--share our website with your friends to offer you more-->
+    <!--quality photos.</p>-->
+    <!--<div class="stats">By : <a href="#">Thushy</a> |-->
+    <!--<a href="#">0 Comments</a></div>-->
+    <!--</div>-->
+
+    <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
+    <!--<a href="#blog7"-->
+    <!--class="blog-more"-->
+    <!--&gt;-->
+    <!--<figure>-->
+    <!--<img src="images/blog/7.jpg"-->
+    <!--class="img-responsive"-->
+    <!--alt="blog"-->
+    <!--&gt;-->
+    <!--</figure>-->
+    <!--</a>-->
+    <!--<div class="date">15 Jan</div>-->
+    <!--<div class="year">2013</div>-->
+    <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
+    <!--<p>Attribution not required but appreciated, you can-->
+    <!--share our website with your friends to offer you more-->
+    <!--quality photos.</p>-->
+    <!--<div class="stats">By : <a href="#">Thushy</a> |-->
+    <!--<a href="#">0 Comments</a></div>-->
+    <!--</div>-->
+
+    <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
+    <!--<a href="#blog8"-->
+    <!--class="blog-more"-->
+    <!--&gt;-->
+    <!--<figure>-->
+    <!--<img src="images/blog/8.jpg"-->
+    <!--class="img-responsive"-->
+    <!--alt="blog"-->
+    <!--&gt;-->
+    <!--</figure>-->
+    <!--</a>-->
+    <!--<div class="date">16 Apr</div>-->
+    <!--<div class="year">2013</div>-->
+    <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
+    <!--<p>Attribution not required but appreciated, you can-->
+    <!--share our website with your friends to offer you more-->
+    <!--quality photos.</p>-->
+    <!--<div class="stats">By : <a href="#">Thushy</a> |-->
+    <!--<a href="#">0 Comments</a></div>-->
+    <!--</div>-->
+
+    <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
+    <!--<a href="#blog9"-->
+    <!--class="blog-more"-->
+    <!--&gt;-->
+    <!--<figure>-->
+    <!--<img src="images/blog/9.jpg"-->
+    <!--class="img-responsive"-->
+    <!--alt="blog"-->
+    <!--&gt;-->
+    <!--</figure>-->
+    <!--</a>-->
+    <!--<div class="date">24 Aug</div>-->
+    <!--<div class="year">2013</div>-->
+    <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
+    <!--<p>Attribution not required but appreciated, you can-->
+    <!--share our website with your friends to offer you more-->
+    <!--quality photos.</p>-->
+    <!--<div class="stats">By : <a href="#">Thushy</a> |-->
+    <!--<a href="#">0 Comments</a></div>-->
+    <!--</div>-->
+
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="separator"></div>-->
+    <!--</section>-->
+
+    <!--Contact Section-->
+    <!--<section id="contactus"-->
+    <!--class="white contact"-->
+    <!--&gt;-->
+    <!--&lt;!&ndash;Contact Form&ndash;&gt;-->
+    <!--<div class="container">-->
+    <!--<div class="row">-->
+    <!--<div class="col-md-12">-->
+    <!--<div class="heading">-->
+    <!--<h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Get in Touch</h2>-->
+    <!--<p class="wow fadeInUp" data-wow-delay="0.5s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>-->
+    <!--</div>-->
+
+    <!--<div id="ContactFormDiv"></div>-->
+
+    <!--<form class="form-horizontal"-->
+    <!--method="post"-->
+    <!--action="ajax/sendemail.php"-->
+    <!--name="ContactForm"-->
+    <!--id="contact"-->
+    <!--&gt;-->
+    <!--<div class="col-md-4">-->
+    <!--<input type="text" class="form-control" name="name" id="name" placeholder="Your Name">-->
+    <!--</div>-->
+
+    <!--<div class="col-md-4">-->
+    <!--<input type="text"-->
+    <!--class="form-control"-->
+    <!--name="email"-->
+    <!--id="email"-->
+    <!--placeholder="Email"-->
+    <!--&gt;-->
+    <!--</div>-->
+
+    <!--<div class="col-md-4">-->
+    <!--<input type="text"-->
+    <!--class="form-control"-->
+    <!--name="phone"-->
+    <!--id="phone"-->
+    <!--placeholder="Phone"-->
+    <!--&gt;-->
+    <!--</div>-->
+
+    <!--<div class="col-md-12">-->
+    <!--<textarea name="comments"-->
+    <!--class="form-control"-->
+    <!--rows="10"-->
+    <!--&gt;</textarea>-->
+    <!--</div>-->
+
+    <!--<div class="col-md-12 btn-normal">-->
+    <!--<a href=""-->
+    <!--id="submit"-->
+    <!--&gt;<span>Submit</span></a>-->
+    <!--</div>-->
+    <!--</form>-->
+
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</section>-->
+
+    <!--Invited Section-->
+    <!--http://klarence.net/sites/thushy/index.html?dc=invited-->
+    <section id="invitedContent"
+             class="white contact dynamic-content"
+    >
+        <!--Contact Form-->
+        <div class="container">
+            <div class="row">
+                <h2 class="wow fadeInUp underline padtop50"
+                    data-wow-delay="0.5s"
+                >Save the Date</h2>
+                <div class="wow fadeInUp col-md-12"
+                     id="googleFormContainer"
+                >
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoMzRnhDVzqBiuoK50gFVhLK_65fmJ_Op-XK_D8NErp4gQhw/viewform?embedded=true"
+                            width="100%"
+                            height="100%"
+                            frameborder="0"
+                            marginheight="0"
+                            marginwidth="0"
+                            class="noScrolling"
+                            id="googleForm"
+                    ></iframe>
+                    <!--<div class="col-md-12">-->
+                    <!--<div class="heading">-->
+                    <!--<h2 class="wow fadeInUp underline padtop50"-->
+                    <!--data-wow-delay="0.5s">You're Invited</h2>-->
+                    <!--<p class="wow fadeInUp" data-wow-delay="0.5s">Please fill in the form and let us know.</p>-->
+                    <!--</div>-->
+
+                    <!--<div id="InviteFormDiv"></div>-->
+
+                    <!--<form class="form-horizontal"-->
+                    <!--method="post"-->
+                    <!--action="ajax/sendemail.php"-->
+                    <!--name="ContactForm"-->
+                    <!--id="contact"-->
+                    <!--&gt;-->
+                    <!--<div class="col-md-4">-->
+                    <!--<input type="text" class="form-control" name="name" id="name" placeholder="Your Name">-->
+                    <!--</div>-->
+
+                    <!--<div class="col-md-4">-->
+                    <!--<input type="text"-->
+                    <!--class="form-control"-->
+                    <!--name="email"-->
+                    <!--id="email"-->
+                    <!--placeholder="Email"-->
+                    <!--&gt;-->
+                    <!--</div>-->
+
+                    <!--<div class="col-md-4">-->
+                    <!--<input type="text"-->
+                    <!--class="form-control"-->
+                    <!--name="phone"-->
+                    <!--id="phone"-->
+                    <!--placeholder="Phone"-->
+                    <!--&gt;-->
+                    <!--</div>-->
+
+                    <!--<div class="col-md-12">-->
+                    <!--<textarea name="comments"-->
+                    <!--class="form-control"-->
+                    <!--rows="10"-->
+                    <!--&gt;</textarea>-->
+                    <!--</div>-->
+
+                    <!--<div class="col-md-12 btn-normal">-->
+                    <!--<a href=""-->
+                    <!--id="submit"-->
+                    <!--&gt;<span>Submit</span></a>-->
+                    <!--</div>-->
+                    <!--</form>-->
+
+                    <!--</div>-->
                 </div>
             </div>
         </div>
-    </div>
-
-</section>
-
-<!--Blog Section-->
-<!--<section id="blog"-->
-         <!--class="white"-->
-<!--&gt;-->
-    <!--<div class="container">-->
-        <!--<div class="row">-->
-            <!--<div class="col-md-12">-->
-                <!--<div class="heading">-->
-                        <!--<h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Our Blog</h2>-->
-                        <!--<p class="wow fadeInUp" data-wow-delay="0.5s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>-->
-                <!--</div>-->
-                <!--<div class="fa fa-times blog-close-content"></div>-->
-                <!--<div id="blog-ajax-content"></div>-->
-                    <!--<div id="blogs" class="wow fadeInUp" data-wow-delay="0.5s">-->
-                      <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
-                        <!--<a href="#blog1"-->
-                           <!--class="blog-more"-->
-                        <!--&gt;-->
-                            <!--<figure>-->
-                                <!--<img src="images/blog/1.jpg"-->
-                                     <!--class="img-responsive"-->
-                                     <!--alt="blog"-->
-                                <!--&gt;-->
-                            <!--</figure>-->
-                        <!--</a>-->
-                        <!--<div class="date">25 Jan</div>-->
-                        <!--<div class="year">2014</div>-->
-                        <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
-                        <!--<p>Attribution not required but appreciated, you can-->
-                           <!--share our website with your friends to offer you more-->
-                           <!--quality photos.</p>-->
-                        <!--<div class="stats">By : <a href="#">Thushy</a> |-->
-                            <!--<a href="#">0 Comments</a></div>-->
-                    <!--</div>-->
-
-                      <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
-                        <!--<a href="#blog2"-->
-                           <!--class="blog-more"-->
-                        <!--&gt;-->
-                            <!--<figure>-->
-                                <!--<img src="images/blog/2.jpg"-->
-                                     <!--class="img-responsive"-->
-                                     <!--alt="blog"-->
-                                <!--&gt;-->
-                            <!--</figure>-->
-                        <!--</a>-->
-                        <!--<div class="date">18 Feb</div>-->
-                        <!--<div class="year">2014</div>-->
-                        <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
-                        <!--<p>Attribution not required but appreciated, you can-->
-                           <!--share our website with your friends to offer you more-->
-                           <!--quality photos.</p>-->
-                        <!--<div class="stats">By : <a href="#">Thushy</a> |-->
-                            <!--<a href="#">0 Comments</a></div>-->
-                    <!--</div>-->
-
-                      <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
-                        <!--<a href="#blog3"-->
-                           <!--class="blog-more"-->
-                        <!--&gt;-->
-                            <!--<figure>-->
-                                <!--<img src="images/blog/3.jpg"-->
-                                     <!--class="img-responsive"-->
-                                     <!--alt="blog"-->
-                                <!--&gt;-->
-                            <!--</figure>-->
-                        <!--</a>-->
-                        <!--<div class="date">11 Dec</div>-->
-                        <!--<div class="year">2014</div>-->
-                        <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
-                        <!--<p>Attribution not required but appreciated, you can-->
-                           <!--share our website with your friends to offer you more-->
-                           <!--quality photos.</p>-->
-                        <!--<div class="stats">By : <a href="#">Thushy</a> |-->
-                            <!--<a href="#">0 Comments</a></div>-->
-                    <!--</div>-->
-
-                      <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
-                        <!--<a href="#blog4"-->
-                           <!--class="blog-more"-->
-                        <!--&gt;-->
-                            <!--<figure>-->
-                                <!--<img src="images/blog/4.jpg"-->
-                                     <!--class="img-responsive"-->
-                                     <!--alt="blog"-->
-                                <!--&gt;-->
-                            <!--</figure>-->
-                        <!--</a>-->
-                        <!--<div class="date">1 Feb</div>-->
-                        <!--<div class="year">2013</div>-->
-                        <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
-                        <!--<p>Attribution not required but appreciated, you can-->
-                           <!--share our website with your friends to offer you more-->
-                           <!--quality photos.</p>-->
-                        <!--<div class="stats">By : <a href="#">Thushy</a> |-->
-                            <!--<a href="#">0 Comments</a></div>-->
-                    <!--</div>-->
-
-                      <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
-                        <!--<a href="#blog5"-->
-                           <!--class="blog-more"-->
-                        <!--&gt;-->
-                            <!--<figure>-->
-                                <!--<img src="images/blog/5.jpg"-->
-                                     <!--class="img-responsive"-->
-                                     <!--alt="blog"-->
-                                <!--&gt;-->
-                            <!--</figure>-->
-                        <!--</a>-->
-                        <!--<div class="date">18 Sep</div>-->
-                        <!--<div class="year">2013</div>-->
-                        <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
-                        <!--<p>Attribution not required but appreciated, you can-->
-                           <!--share our website with your friends to offer you more-->
-                           <!--quality photos.</p>-->
-                        <!--<div class="stats">By : <a href="#">Thushy</a> |-->
-                            <!--<a href="#">0 Comments</a></div>-->
-                    <!--</div>-->
-
-                      <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
-                        <!--<a href="#blog6"-->
-                           <!--class="blog-more"-->
-                        <!--&gt;-->
-                            <!--<figure>-->
-                                <!--<img src="images/blog/6.jpg"-->
-                                     <!--class="img-responsive"-->
-                                     <!--alt="blog"-->
-                                <!--&gt;-->
-                            <!--</figure>-->
-                        <!--</a>-->
-                        <!--<div class="date">28 Jan</div>-->
-                        <!--<div class="year">2013</div>-->
-                        <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
-                        <!--<p>Attribution not required but appreciated, you can-->
-                           <!--share our website with your friends to offer you more-->
-                           <!--quality photos.</p>-->
-                        <!--<div class="stats">By : <a href="#">Thushy</a> |-->
-                            <!--<a href="#">0 Comments</a></div>-->
-                    <!--</div>-->
-
-                      <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
-                        <!--<a href="#blog7"-->
-                           <!--class="blog-more"-->
-                        <!--&gt;-->
-                            <!--<figure>-->
-                                <!--<img src="images/blog/7.jpg"-->
-                                     <!--class="img-responsive"-->
-                                     <!--alt="blog"-->
-                                <!--&gt;-->
-                            <!--</figure>-->
-                        <!--</a>-->
-                        <!--<div class="date">15 Jan</div>-->
-                        <!--<div class="year">2013</div>-->
-                        <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
-                        <!--<p>Attribution not required but appreciated, you can-->
-                           <!--share our website with your friends to offer you more-->
-                           <!--quality photos.</p>-->
-                        <!--<div class="stats">By : <a href="#">Thushy</a> |-->
-                            <!--<a href="#">0 Comments</a></div>-->
-                    <!--</div>-->
-
-                      <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
-                        <!--<a href="#blog8"-->
-                           <!--class="blog-more"-->
-                        <!--&gt;-->
-                            <!--<figure>-->
-                                <!--<img src="images/blog/8.jpg"-->
-                                     <!--class="img-responsive"-->
-                                     <!--alt="blog"-->
-                                <!--&gt;-->
-                            <!--</figure>-->
-                        <!--</a>-->
-                        <!--<div class="date">16 Apr</div>-->
-                        <!--<div class="year">2013</div>-->
-                        <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
-                        <!--<p>Attribution not required but appreciated, you can-->
-                           <!--share our website with your friends to offer you more-->
-                           <!--quality photos.</p>-->
-                        <!--<div class="stats">By : <a href="#">Thushy</a> |-->
-                            <!--<a href="#">0 Comments</a></div>-->
-                    <!--</div>-->
-
-                      <!--<div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">-->
-                        <!--<a href="#blog9"-->
-                           <!--class="blog-more"-->
-                        <!--&gt;-->
-                            <!--<figure>-->
-                                <!--<img src="images/blog/9.jpg"-->
-                                     <!--class="img-responsive"-->
-                                     <!--alt="blog"-->
-                                <!--&gt;-->
-                            <!--</figure>-->
-                        <!--</a>-->
-                        <!--<div class="date">24 Aug</div>-->
-                        <!--<div class="year">2013</div>-->
-                        <!--<h4><a href="#">Tourist Taking Photos</a></h4>-->
-                        <!--<p>Attribution not required but appreciated, you can-->
-                           <!--share our website with your friends to offer you more-->
-                           <!--quality photos.</p>-->
-                        <!--<div class="stats">By : <a href="#">Thushy</a> |-->
-                            <!--<a href="#">0 Comments</a></div>-->
-                    <!--</div>-->
-
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-    <!--<div class="separator"></div>-->
-<!--</section>-->
-
-<!--Contact Section-->
-<!--<section id="contactus"-->
-         <!--class="white contact"-->
-<!--&gt;-->
-    <!--&lt;!&ndash;Contact Form&ndash;&gt;-->
-    <!--<div class="container">-->
-        <!--<div class="row">-->
-            <!--<div class="col-md-12">-->
-                <!--<div class="heading">-->
-                    <!--<h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Get in Touch</h2>-->
-                    <!--<p class="wow fadeInUp" data-wow-delay="0.5s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>-->
-                <!--</div>-->
-
-                <!--<div id="ContactFormDiv"></div>-->
-
-                <!--<form class="form-horizontal"-->
-                      <!--method="post"-->
-                      <!--action="ajax/sendemail.php"-->
-                      <!--name="ContactForm"-->
-                      <!--id="contact"-->
-                <!--&gt;-->
-                    <!--<div class="col-md-4">-->
-                      <!--<input type="text" class="form-control" name="name" id="name" placeholder="Your Name">-->
-                    <!--</div>-->
-
-                    <!--<div class="col-md-4">-->
-                        <!--<input type="text"-->
-                               <!--class="form-control"-->
-                               <!--name="email"-->
-                               <!--id="email"-->
-                               <!--placeholder="Email"-->
-                        <!--&gt;-->
-                    <!--</div>-->
-
-                    <!--<div class="col-md-4">-->
-                        <!--<input type="text"-->
-                               <!--class="form-control"-->
-                               <!--name="phone"-->
-                               <!--id="phone"-->
-                               <!--placeholder="Phone"-->
-                        <!--&gt;-->
-                    <!--</div>-->
-
-                    <!--<div class="col-md-12">-->
-                        <!--<textarea name="comments"-->
-                                  <!--class="form-control"-->
-                                  <!--rows="10"-->
-                        <!--&gt;</textarea>-->
-                    <!--</div>-->
-
-                    <!--<div class="col-md-12 btn-normal">-->
-                        <!--<a href=""-->
-                           <!--id="submit"-->
-                        <!--&gt;<span>Submit</span></a>-->
-                    <!--</div>-->
-                <!--</form>-->
-
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</section>-->
-
-<!--Invited Section-->
-<!--http://klarence.net/sites/thushy/index.html?dc=invited-->
-<section id="invitedContent"
-         class="white contact dynamic-content"
->
-    <!--Contact Form-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12" id="googleFormContainer">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfoMzRnhDVzqBiuoK50gFVhLK_65fmJ_Op-XK_D8NErp4gQhw/viewform?embedded=true"
-                        width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0"
-                        class="noScrolling"
-                        id="googleForm">Loading
-                                                                                                          …</iframe>
-            <!--<div class="col-md-12">-->
-                <!--<div class="heading">-->
-                    <!--<h2 class="wow fadeInUp underline padtop50"-->
-                        <!--data-wow-delay="0.5s">You're Invited</h2>-->
-                    <!--<p class="wow fadeInUp" data-wow-delay="0.5s">Please fill in the form and let us know.</p>-->
-                <!--</div>-->
-
-                <!--<div id="InviteFormDiv"></div>-->
-
-                <!--<form class="form-horizontal"-->
-                      <!--method="post"-->
-                      <!--action="ajax/sendemail.php"-->
-                      <!--name="ContactForm"-->
-                      <!--id="contact"-->
-                <!--&gt;-->
-                    <!--<div class="col-md-4">-->
-                      <!--<input type="text" class="form-control" name="name" id="name" placeholder="Your Name">-->
-                    <!--</div>-->
-
-                    <!--<div class="col-md-4">-->
-                        <!--<input type="text"-->
-                               <!--class="form-control"-->
-                               <!--name="email"-->
-                               <!--id="email"-->
-                               <!--placeholder="Email"-->
-                        <!--&gt;-->
-                    <!--</div>-->
-
-                    <!--<div class="col-md-4">-->
-                        <!--<input type="text"-->
-                               <!--class="form-control"-->
-                               <!--name="phone"-->
-                               <!--id="phone"-->
-                               <!--placeholder="Phone"-->
-                        <!--&gt;-->
-                    <!--</div>-->
-
-                    <!--<div class="col-md-12">-->
-                        <!--<textarea name="comments"-->
-                                  <!--class="form-control"-->
-                                  <!--rows="10"-->
-                        <!--&gt;</textarea>-->
-                    <!--</div>-->
-
-                    <!--<div class="col-md-12 btn-normal">-->
-                        <!--<a href=""-->
-                           <!--id="submit"-->
-                        <!--&gt;<span>Submit</span></a>-->
-                    <!--</div>-->
-                <!--</form>-->
-
-            <!--</div>-->
-        </div>
-        </div>
-    </div>
-</section>
+    </section>
+</main>
 
 <!--Footer Section-->
-<section class="footer">
+<footer class="footer">
     <!--Footer One-->
     <div class="container-fluid color pattern">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 footer1">
                     <!--<div class="wow fadeInUp" data-wow-delay="0.5s">-->
-                        <!--<p class="text-center">-->
-                            <!--<span class="fa fa-twitter fa-5x"></span></p>-->
-                        <!--<div class="footer-tweet">-->
-                        <!--</div>-->
-                    </div>
+                    <!--<p class="text-center">-->
+                    <!--<span class="fa fa-twitter fa-5x"></span></p>-->
+                    <!--<div class="footer-tweet">-->
+                    <!--</div>-->
                 </div>
             </div>
         </div>
@@ -1718,106 +1969,164 @@
                     <!--<img src="images/logo-grey.png" alt="logo"> -->
                     <p>
                         <!--<small class="copyright">M</small> -->
-                        Klarence <i class="fas fa-rings-wedding" title="Marries"></i> Thushy 2020 - Made With
-                        <i class="fas fa-heart" title="Love"></i> For Thushy</p>
+                        Klarence <i class="fas fa-rings-wedding"
+                                    title="Marries"
+                    ></i> Thushy 2020 - Made With
+                        <i class="fas fa-heart"
+                           title="Love"
+                        ></i> For Thushy</p>
                     <!--<div class="social-icons">-->
-                        <!--<ul>-->
-                            <!--<li class="instagram">-->
-                                <!--<a href="https://www.instagram.com"-->
-                                   <!--target="_blank"-->
-                                <!--&gt;Instagram</a>-->
-                            <!--</li>-->
-                            <!--<li class="twitter">-->
-                                <!--<a href="https://www.twitter.com"-->
-                                   <!--target="_blank"-->
-                                <!--&gt;Twitter</a>-->
-                            <!--</li>-->
+                    <!--<ul>-->
+                    <!--<li class="instagram">-->
+                    <!--<a href="https://www.instagram.com"-->
+                    <!--target="_blank"-->
+                    <!--&gt;Instagram</a>-->
+                    <!--</li>-->
+                    <!--<li class="twitter">-->
+                    <!--<a href="https://www.twitter.com"-->
+                    <!--target="_blank"-->
+                    <!--&gt;Twitter</a>-->
+                    <!--</li>-->
 
-                            <!--<li class="facebook">-->
-                                <!--<a href="https://www.facebook.com"-->
-                                   <!--target="_blank"-->
-                                <!--&gt;Facebook</a>-->
-                            <!--</li>-->
+                    <!--<li class="facebook">-->
+                    <!--<a href="https://www.facebook.com"-->
+                    <!--target="_blank"-->
+                    <!--&gt;Facebook</a>-->
+                    <!--</li>-->
 
-                            <!--<li class="youtube">-->
-                                <!--<a href="https://www.youtube.com"-->
-                                   <!--target="_blank"-->
-                                <!--&gt;YouTube</a>-->
-                            <!--</li>-->
+                    <!--<li class="youtube">-->
+                    <!--<a href="https://www.youtube.com"-->
+                    <!--target="_blank"-->
+                    <!--&gt;YouTube</a>-->
+                    <!--</li>-->
 
-                            <!--&lt;!&ndash;<li class="googleplus">&ndash;&gt;-->
-                                <!--&lt;!&ndash;<a href="https://www.plus.google.com"&ndash;&gt;-->
-                                   <!--&lt;!&ndash;target="_blank"&ndash;&gt;-->
-                                <!--&lt;!&ndash;&gt;Google +r</a>&ndash;&gt;-->
-                            <!--&lt;!&ndash;</li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li class="googleplus">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<a href="https://www.plus.google.com"&ndash;&gt;-->
+                    <!--&lt;!&ndash;target="_blank"&ndash;&gt;-->
+                    <!--&lt;!&ndash;&gt;Google +r</a>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</li>&ndash;&gt;-->
 
-                            <!--&lt;!&ndash;<li class="pinterest">&ndash;&gt;-->
-                                <!--&lt;!&ndash;<a href="https://www.pinterest.com/"&ndash;&gt;-->
-                                   <!--&lt;!&ndash;target="_blank"&ndash;&gt;-->
-                                <!--&lt;!&ndash;&gt;Pinterest</a>&ndash;&gt;-->
-                            <!--&lt;!&ndash;</li>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<li class="pinterest">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<a href="https://www.pinterest.com/"&ndash;&gt;-->
+                    <!--&lt;!&ndash;target="_blank"&ndash;&gt;-->
+                    <!--&lt;!&ndash;&gt;Pinterest</a>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</li>&ndash;&gt;-->
 
-                            <!--&lt;!&ndash;<li class="linkedin">&ndash;&gt;-->
-                                <!--&lt;!&ndash;<a href="https://www.linkedin.com"&ndash;&gt;-->
-                                   <!--&lt;!&ndash;target="_blank"&ndash;&gt;-->
-                                <!--&lt;!&ndash;&gt;Linkedin</a>&ndash;&gt;-->
-                            <!--&lt;!&ndash;</li>&ndash;&gt;-->
-                        <!--</ul>-->
+                    <!--&lt;!&ndash;<li class="linkedin">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<a href="https://www.linkedin.com"&ndash;&gt;-->
+                    <!--&lt;!&ndash;target="_blank"&ndash;&gt;-->
+                    <!--&lt;!&ndash;&gt;Linkedin</a>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</li>&ndash;&gt;-->
+                    <!--</ul>-->
                     <!--</div>-->
                 </div>
             </div>
         </div>
     </div>
-</section>
+</footer>
 
 <!-- JS Plugins -->
 <!--<script async=""-->
-        <!--src="https://www.google-analytics.com/analytics.js"-->
+<!--src="https://www.google-analytics.com/analytics.js"-->
 <!--&gt;</script>-->
 <!--<script src="js/modernizr.custom.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+        integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4="
+        crossorigin="anonymous"
+></script>
 <!--<script src="js/jquery.min.js"></script>-->
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js" integrity="sha256-rsPUGdUPBXgalvIj4YKJrrUlmLXbOb6Cp7cdxn1qeUc=" crossorigin="anonymous"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"
+></script>
 <!--<script src="js/jquery-ui.min.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha256-KM512VNnjElC30ehFwehXjx1YCHPiQkOPmqnrWtpccM=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-KM512VNnjElC30ehFwehXjx1YCHPiQkOPmqnrWtpccM="
+        crossorigin="anonymous"
+></script>
 <!--<script src="js/bootstrap.min.js"></script> V3.2 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4="
+        crossorigin="anonymous"
+></script>
 <!--<script src="js/jquery.easing.min.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
+        integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k="
+        crossorigin="anonymous"
+></script>
 <!--<script src="js/jquery.sticky.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js" integrity="sha256-9p9wUORIjnIRp9PAyZGxql6KgJRNiH04y+8V4JjUhn0=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js"
+        integrity="sha256-9p9wUORIjnIRp9PAyZGxql6KgJRNiH04y+8V4JjUhn0="
+        crossorigin="anonymous"
+></script>
 <!--<script src="js/jquery.parallax.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax-min.js" integrity="sha256-+r9MHvpJMAqVrQNi6Qu29BYePHsoPhwt/FGxeaNkY7I=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax-min.js"
+        integrity="sha256-+r9MHvpJMAqVrQNi6Qu29BYePHsoPhwt/FGxeaNkY7I="
+        crossorigin="anonymous"
+></script>
 <!--<script src="js/masonry.pkgd.min.js"></script> v3.5-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
+        integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
+        crossorigin="anonymous"
+></script>
 <!--<script src="js/annyang.min.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js" integrity="sha256-W1T9rWyzF9JJniwjbKBl9lEftlyxrWsiT12zDfC2IhM=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"
+        integrity="sha256-W1T9rWyzF9JJniwjbKBl9lEftlyxrWsiT12zDfC2IhM="
+        crossorigin="anonymous"
+></script>
 <!--<script src="js/wow.min.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U="
+        crossorigin="anonymous"
+></script>
 <script src="js/waypoints.min.js"></script>
 <!--<script src="js/smoothscrolling.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+        integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco="
+        crossorigin="anonymous"
+></script>
 <script src="js/custom.js"></script>
 <!--<script src="js/fss.js"></script>-->
 <!--<script src="js/geo.js"></script>-->
 <!--<script src="js/jquery.countTo.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.min.js" integrity="sha256-ABaSwG2hLCOs+8EKSe3XsIukUcbV1nraP4uzVL+cuS4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.min.js"
+        integrity="sha256-ABaSwG2hLCOs+8EKSe3XsIukUcbV1nraP4uzVL+cuS4="
+        crossorigin="anonymous"
+></script>
 
 <!--<script src="js/jquery.mixitup.min.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js" integrity="sha256-FnUP2HEr+LnsA4l1YflN3prVZISLwKs2FB7X9/fdPBE=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"
+        integrity="sha256-FnUP2HEr+LnsA4l1YflN3prVZISLwKs2FB7X9/fdPBE="
+        crossorigin="anonymous"
+></script>
 
 <!--<script src="js/imagesloaded.pkgd.min.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"
+        integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q="
+        crossorigin="anonymous"
+></script>
 <!--<script src="js/owl.carousel.min.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha256-4OK8Th0+5QJMThqlimytmqQvxjqMic4YATocjyuUh1w=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+        integrity="sha256-4OK8Th0+5QJMThqlimytmqQvxjqMic4YATocjyuUh1w="
+        crossorigin="anonymous"
+></script>
 <!--<script src="js/jquery.magnific-popup.min.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha256-P93G0oq6PBPWTP1IR8Mz/0jHHUpaWL0aBJTKauisG7Q=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+        integrity="sha256-P93G0oq6PBPWTP1IR8Mz/0jHHUpaWL0aBJTKauisG7Q="
+        crossorigin="anonymous"
+></script>
 <script src="js/slide-fade-content.js"></script>
 <!--<script src="js/twitter/jquery.tweet.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tweet/2.2.0/jquery.tweet.min.js" integrity="sha256-E1cg132QbHyJg5P9YYdsSQI4E7AllBqm3sVX3scZFp8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tweet/2.2.0/jquery.tweet.min.js"
+        integrity="sha256-E1cg132QbHyJg5P9YYdsSQI4E7AllBqm3sVX3scZFp8="
+        crossorigin="anonymous"
+></script>
 <!--<script src="js/prefixfree.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js" integrity="sha256-GaKOLXTn7uJXFuWp57ukQZGuKK2gWZWlEH16hc6jBU8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"
+        integrity="sha256-GaKOLXTn7uJXFuWp57ukQZGuKK2gWZWlEH16hc6jBU8="
+        crossorigin="anonymous"
+></script>
 <script src="js/countup.js"></script>
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.4/countUp.min.js" integrity="sha256-xjpjb+xHwzwfkLAJ0vlYMNNJIIPATkKc2oaRSDRxSWc=" crossorigin="anonymous"></script>-->
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.4/countUp.withPolyfill.min.js" integrity="sha256-pcpJQWnbwdbROXMsJ5KNyesig5IwDvA8Y6c9fS3UWIc=" crossorigin="anonymous"></script>-->
