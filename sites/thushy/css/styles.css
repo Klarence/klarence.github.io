@@ -1369,13 +1369,12 @@ a:hover, a:focus {
   text-align: center;
 }
 
-.favourites-parallax {
-  height: 350px;
-  text-align: center;
-  background: url("../images/parallax-favourites-bg.jpg") no-repeat fixed 50% 50%;
-  background-size: cover;
-
-}
+/*.favourites-parallax {*/
+  /*height: 350px;*/
+  /*text-align: center;*/
+  /*background: url("../images/parallax-favourites-bg.jpg") no-repeat fixed 50% 50%;*/
+  /*background-size: cover;*/
+/*}*/
 
 /*.family-parallax {*/
 /*height: 350px;*/
@@ -2652,102 +2651,102 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   color: var(--primary-color) !important;
 }
 
-.wedding {
-  background: url("../images/wedding-1.jpg") no-repeat top center;
-  background-size: cover;
-  text-align: center;
-  padding: 170px 0 0 0;
-  height: 100%;
-}
+/*.wedding {*/
+  /*background: url("../images/wedding-1.jpg") no-repeat top center;*/
+  /*background-size: cover;*/
+  /*text-align: center;*/
+  /*padding: 170px 0 0 0;*/
+  /*height: 100%;*/
+/*}*/
 
-.wedding h2 {
-  font-size: 6em;
-  font-family: 'Great Vibes', cursive;
-  position: relative;
-  z-index: 2;
-}
+/*.wedding h2 {*/
+  /*font-size: 6em;*/
+  /*font-family: 'Great Vibes', cursive;*/
+  /*position: relative;*/
+  /*z-index: 2;*/
+/*}*/
 
-.wedding .time {
-  color: #FFF;
-}
+/*.wedding .time {*/
+  /*color: #FFF;*/
+/*}*/
 
-.wedding h4, .wedding div {
-  position: relative;
-  z-index: 2;
-}
+/*.wedding h4, .wedding div {*/
+  /*position: relative;*/
+  /*z-index: 2;*/
+/*}*/
 
-.bestfriends {
-  width: 250px;
-  margin: 1%;
-  -moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  display: inline-block;
-}
+/*.bestfriends {*/
+  /*width: 250px;*/
+  /*margin: 1%;*/
+  /*-moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);*/
+  /*-webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);*/
+  /*box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);*/
+  /*text-align: center;*/
+  /*display: inline-block;*/
+/*}*/
 
-.bestfriends h4 {
-  background: #FFF;
-  margin: 0;
-  color: var(--primary-color);
-  padding: 20px 20px 0;
-}
+/*.bestfriends h4 {*/
+  /*background: #FFF;*/
+  /*margin: 0;*/
+  /*color: var(--primary-color);*/
+  /*padding: 20px 20px 0;*/
+/*}*/
 
-.bestfriends h5 {
-  color: vAR(--SUBTITLE-COLOR);
-}
+/*.bestfriends h5 {*/
+  /*color: vAR(--SUBTITLE-COLOR);*/
+/*}*/
 
-.bestfriends .social-icons {
-  display: inline-block;
-}
+/*.bestfriends .social-icons {*/
+  /*display: inline-block;*/
+/*}*/
 
-.venue {
-  -moz-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  padding-bottom: 30px;
-  margin-bottom: 20px;
-}
+/*.venue {*/
+  /*-moz-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);*/
+  /*-webkit-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);*/
+  /*box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);*/
+  /*text-align: center;*/
+  /*padding-bottom: 30px;*/
+  /*margin-bottom: 20px;*/
+/*}*/
 
-.venue h4 {
-  color: var(--primary-color);
-  text-transform: uppercase;
-}
+/*.venue h4 {*/
+  /*color: var(--primary-color);*/
+  /*text-transform: uppercase;*/
+/*}*/
 
-.day-details {
-  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 17px 20px;
-  margin-bottom: 21px;
-}
+/*.day-details {*/
+  /*-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+  /*-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+  /*padding: 17px 20px;*/
+  /*margin-bottom: 21px;*/
+/*}*/
 
-.day-details h4 {
-  color: var(--primary-color);
-  text-transform: uppercase;
-}
+/*.day-details h4 {*/
+  /*color: var(--primary-color);*/
+  /*text-transform: uppercase;*/
+/*}*/
 
-.day-details:hover {
-  background: var(--primary-color);
-}
+/*.day-details:hover {*/
+  /*background: var(--primary-color);*/
+/*}*/
 
-.day-details:hover h4, .day-details:hover p, .day-details:hover a {
-  color: #fff;
-}
+/*.day-details:hover h4, .day-details:hover p, .day-details:hover a {*/
+  /*color: #fff;*/
+/*}*/
 
-#map {
-  height: 450px;
-  margin: 70px 15px 40px;
-}
+/*#map {*/
+  /*height: 450px;*/
+  /*margin: 70px 15px 40px;*/
+/*}*/
 
-#map h3 {
-  color: var(--primary-color);
-}
+/*#map h3 {*/
+  /*color: var(--primary-color);*/
+/*}*/
 
-#owl-gifts .owl-pagination {
-  margin-top: 50px;
-}
+/*#owl-gifts .owl-pagination {*/
+  /*margin-top: 50px;*/
+/*}*/
 
 /* 20.RSVP Form */
 

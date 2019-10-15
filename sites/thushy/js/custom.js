@@ -1,4 +1,33 @@
+// function loadCss(filename) {
+//     var l = document.createElement('link');
+//     l.rel = 'stylesheet';
+//     l.href = filename
+//     var h = document.getElementsByTagName('head')[0];
+//     h.parentNode.insertBefore(l, h);
+// }
+//
+// function lazyCss() {
+//     loadCss('css/lazy.css');
+// }
+
+
+function ReLoadImages(){
+    $('img[data-lazysrc]').each( function(){
+            //* set the img src from data-src
+            $( this ).attr( 'src', $( this ).attr( 'data-lazysrc' ) );
+        }
+    );
+}
+
+document.addEventListener('readystatechange', event => {
+    if (event.target.readyState === "interactive") {  //or at "complete" if you want it to execute in the most last state of window.
+        ReLoadImages();
+    }
+});
+
 $( document ).ready(function() {
+
+    // lazyCss();
 
     // Give the parameter a variable name
     var dynamicContent = getParameterByName('dc');
