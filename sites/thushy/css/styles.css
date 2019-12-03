@@ -3173,3 +3173,7 @@ input[type=text]::-ms-clear {
 .accessible-content {
     visibility: collapse;
 }
+
+.more-to-come {
+  text-align: center;
+}

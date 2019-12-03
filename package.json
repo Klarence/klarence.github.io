@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Portfolio Site",
   "main": "index.html",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "latest",
     "babel-preset-env": "latest",
@@ -21,6 +20,7 @@
     "pump": "latest",
     "stylelint": "^9.10.1",
     "stylelint-config-rational-order": "0.0.4",
+    "stylelint-config-recommended": "^3.0.0",
     "stylelint-config-standard": "^18.2.0"
   },
   "scripts": {
@@ -37,7 +37,8 @@
     "design",
     "web",
     "development",
-    "resume"
+    "resume",
+    "wedding"
   ],
   "author": "Klarence OuYang",
   "license": "ISC",
