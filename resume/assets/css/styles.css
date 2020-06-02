@@ -18,6 +18,10 @@ address li {
   line-height: 18px;
 }
 
+address li a {
+  font-style: normal;
+}
+
 .wrapper {
   max-width: 820px;
   margin: 0 auto;
@@ -240,7 +244,7 @@ p {
   }
 
   .email+.contact-desc {
-    right: 172px;
+    right: 205px;
   }
 
   .web+.contact-desc {
