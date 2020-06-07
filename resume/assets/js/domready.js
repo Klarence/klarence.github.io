@@ -34,7 +34,7 @@
 	            readyList = [];
 	        }
 		}
-	};
+	}
 
 	// From Simon Willison. A safe way to fire onload w/o screwing up everyone else.
 	function addLoadEvent(func) {
@@ -49,7 +49,7 @@
 	      func();
 	    }
 	  }
-	};
+	}
 
 	// does the heavy work of working through the browsers idiosyncracies (let's call them that) to hook onload.
 	function bindReady() {
@@ -124,7 +124,7 @@
 
 		// A fallback to window.onload, that will always work
 	    addLoadEvent(domReady);
-	};
+	}
 
 	// This is the public function that people can use to hook up ready.
 	DomReady.ready = function(fn, args) {

@@ -1,3 +1,16 @@
+html {
+  font-size: 6.25%; /* Sets a relative unit value allows for browser font size to affect web page */
+}
+
+body {
+  font-weight: 500;
+  font-size: 16rem; /* Sets default font size to equal 16px */
+  font-family: Verdena, Helvetica, Arial, sans-serif;
+  line-height: 1.2; /* line-height set with rem scales incorrectly in Safari */
+  text-align: left;
+  background: #f8f8f8;
+}
+
 header,
 section,
 footer,
@@ -8,22 +21,36 @@ figure {
   display: block;
 }
 
+header {
+  font-family: Lucida, Lucida Grande, Lucida Sans, Lucida Sans Unicode, Century Gothic, Avant Garde, Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4;
+}
+
 aside {
   max-width: 260px;
 }
 
+abbr {
+  text-underline-offset: 1px;
+}
+
+p {
+  font-size: 14rem;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  line-height: 1.25;
+}
+
 address li {
   margin-bottom: 4px;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 14rem;
+  line-height: 1.25;
 }
 
 address li a {
   font-style: normal;
-}
-
-abbr {
-  text-underline-offset: 1px;
 }
 
 .wrapper {
@@ -35,17 +62,6 @@ abbr {
   /*	background-color: #fff; */
   text-align: left;
 }
-
-body {
-  font: 16px Helvetica, Arial, sans-serif;
-
-  /*	font-size: 14px/22px */
-  font-weight: 500;
-  text-align: left;
-  background: #f8f8f8;
-
-}
-
 
 /*
 body::after {
@@ -112,35 +128,22 @@ h2 {
 }
 */
 
-
-/*
-h1 {
-  font-size: 24px;
-  margin-top: 20px;
-  margin-bottom: 5px;
-}
-*/
 .headshot {
   padding-top: 20px;
 }
 
 .item-header {
+  position: relative;
   margin-top: 0;
   padding: 11px 0 0 0;
   color: #000;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 18rem;
+  line-height: 1.25;
 }
 
 .subheader {
   color: #999;
-  font-size: 16px;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-p {
-  font: 13px/18px Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16rem;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -155,15 +158,10 @@ p {
 }
 
 .page-title {
-  /*	font-size: 24px; */
-
-  /*	margin-top: 20px; */
-
-  /*	margin-bottom: 5px; */
   max-width: 650px;
   margin: 30px 0 0 0;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 36rem;
   line-height: normal;
 }
 
@@ -175,44 +173,24 @@ p {
   margin-top: 0;
   padding: 11px 0 0 0;
   color: #000;
-
-  /* font: 13px/0px; */
-
-  /* font-weight: bold; */
-  font-size: 16px;
+  font-size: 16rem;
   font-family: Lucida, Lucida Grande, Lucida Sans, Lucida Sans Unicode, Century Gothic, Avant Garde, Helvetica, Arial, sans-serif;
-  line-height: 22px;
+  line-height: 1.4;
+
 }
 
 .contact-desc {
   right: 65px;
   color: #999;
-  font-size: 14px;
+  font-size: 14rem;
   font-family: Helvetica, Arial, sans-serif;
   font-style: italic;
-
-  /*	top: -12px; */
-
-  /*
-  color: #999;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 0;
-  padding-left: 5px;
-  font-style: italic;
-  position: relative;
-*/
 }
 
 .time-desc {
-  /*
-  margin-bottom: 0;
-  padding-left: 5px;
-*/
   color: #999;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 14rem;
   font-family: Helvetica, Arial, sans-serif;
   font-style: italic;
 }
@@ -220,9 +198,10 @@ p {
 .skills-desc {
   margin-bottom: 0;
   color: #999;
-  font-size: 14px;
+  font-size: 14rem;
   font-family: Helvetica, Arial, sans-serif;
-  line-height: 16px;
+  line-height: 1.2;
+
 }
 
 .description {
@@ -235,97 +214,28 @@ p {
     padding-left: 11em;
   }
 
-  .contact-desc {
+  .contact-item,
+  .subheader,
+  .awards {
     position: relative;
+  }
+
+  .contact-desc {
+    position: absolute;
+    left: -230px;
+    width: 210px;
+    text-align: right;
   }
 
   .time-desc {
-    position: relative;
+    position: absolute;
+    left: -230px;
+    width: 210px;
+    text-align: right;
   }
 
-  .tel+.contact-desc {
-    right: 149px;
-  }
-
-  .email+.contact-desc {
-    right: 205px;
-  }
-
-  .web+.contact-desc {
-    right: 144px;
-  }
-
-  .linkedin+.contact-desc {
-    right: 252px;
-  }
-
-  .resume+.contact-desc {
-    right: 289px;
-  }
-
-  .skype+.contact-desc {
-    right: 160px;
-  }
-
-  .github+.contact-desc {
-    right: 224px;
-  }
-
-  .plunker+.contact-desc {
-    right: 255px;
-  }
-
-  .behance+.contact-desc {
-    right: 287px;
-  }
-
-  /* #address {left: -270px;} */
-
-  /* #web_dev {
-    left: -268px;
-  } */
-  .fin-int {
-    right: 428px;
-  }
-
-  .web-ass {
-    right: 292px;
-  }
-
-  .office-ass {
-    right: 482px;
-  }
-
-  .degree-hci {
-    right: 500px;
-  }
-
-  .degree-business-mis {
-    right: 372px;
-  }
-
-  .degree-web {
-    right: 423px;
-  }
-
-  .degree-business {
-    right: 382px;
-  }
-
-  .degree-video {
-    right: 440px;
-  }
-
-  .award-senator {
-    right: 317px;
-  }
-
-  .award-honor {
-    right: 370px;
-  }
-
-  .award-eli {
-    right: 370px;
+  .time-desc.bullet {
+    left: -235px;
   }
 }
 

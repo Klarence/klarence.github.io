@@ -13,10 +13,17 @@ var getAge = function () {
   return age;
 }
 
-DomReady.ready(function() {
-	// alert('dom is ready');
+document.addEventListener('DOMContentLoaded', (event) => {
+  // console.log('DOM is ready');
+  // console.log(getAge());
   document.getElementById("yearsExp").innerHTML = getAge();
-});
+})
+
+// DomReady.ready(function() {
+//   alert('dom is ready');
+//   console.log('getAge()');
+//   document.getElementById("yearsExp").innerHTML = getAge();
+// });
 
 
 // var birthdate = new Date("2009/1/1");
@@ -29,6 +36,6 @@ DomReady.ready(function() {
 	//
 	// 	function calculateAge(workExp) { // workExp is a date
 	//     var ageDifMs = Date.now() - workExp.getTime();
-	//     var ageDate = new Date(ageDifMs); // miliseconds from epoch
+	//     var ageDate = new Date(ageDifMs); // milliseconds from epoch
 	//     return Math.abs(ageDate.getUTCFullYear() - 1970);
 	// }
