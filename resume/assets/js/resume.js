@@ -1,5 +1,5 @@
 var getAge = function () {
-  var dateString = new Date("2010/1/1");
+  var dateString = new Date("2009/09/1");
 
   var today = new Date();
   var workStartDate = new Date(dateString);
