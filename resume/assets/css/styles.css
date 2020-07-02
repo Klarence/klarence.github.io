@@ -6,7 +6,7 @@ body {
   font-weight: 500;
   font-size: 16rem; /* Sets default font size to equal 16px */
   font-family: Verdena, Helvetica, Arial, sans-serif;
-  line-height: 1.2; /* line-height set with rem scales incorrectly in Safari */
+  line-height: 1.2; /* line-height set with rem scales incorrectly in Safari, I think it has something to do with resizing to a minimum viewable font-size (9px) */
   text-align: left;
   background: #f8f8f8;
 }
