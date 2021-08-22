@@ -106,7 +106,6 @@ ol, ul {
     color: #533834;
 }
 
-
 .item span.dots:first-of-type {
     background-image: linear-gradient(to right, rgba(56, 47, 47, .5) 33%, rgba(0, 0, 0, 0) 0%);
     background-position: bottom;
@@ -139,10 +138,13 @@ i.fa-pepper-hot,
     display: inline-block;
     padding-right: 8px;
     font-size: 1.25rem;
-    max-width: 80%;
-    text-transform: capitalize;
+    max-width: 69%;
     margin-bottom: 4px;
     position: relative;
+}
+
+@media only screen and (min-width: 600px) {
+    max-width: 80%;
 }
 
 .description {
@@ -169,4 +171,8 @@ i.fa-pepper-hot,
 
 .text-center {
     text-align: center;
+}
+
+.fas, .far {
+    font-size: 14px;
 }
