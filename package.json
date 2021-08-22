@@ -7,7 +7,7 @@
   "devDependencies": {
     "babel-core": "latest",
     "babel-preset-env": "latest",
-    "browser-sync": "latest",
+    "browser-sync": "^2.27.5",
     "gulp": "latest",
     "gulp-babel": "latest",
     "gulp-cssnano": "latest",
