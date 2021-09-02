@@ -13,11 +13,13 @@
     <meta name="application-name" content="Good2Eat">
     <meta name="msapplication-TileColor" content="#00a300">
     <meta name="theme-color" content="#eeeeee">
-    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="./images/safari-pinned-tab.svg" color="#00a300">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../images/apple-touch-icon.png">
+    <!--        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">-->
+    <!--    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">-->
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../images/favicon.png">
+    <!--    <link rel="manifest" href="/site.webmanifest">-->
+<!--    <link rel="mask-icon" href="./images/safari-pinned-tab.svg" color="#00a300">-->
 
     <!-- jQuery & Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
@@ -82,17 +84,13 @@
             <div class="col-md-6 col-sm-12">
                 <div class="item">
                     <h3>Veggie Spring Rolls</h3>
-                    <span class="dots"></span> <span>
+                    <span class="dots"></span> <span class="header-icons">
                         <!--                        <i data-toggle="tooltip" data-placement="top" title="gluten free">gf</i>&nbsp;-->
                         <!--                        <span class="fa-stack fa-xs" aria-label="no dairy" data-toggle="tooltip" data-placement="top" title="no dairy">-->
                         <!--                            <i class="fas fa-cow fa-stack-1x" aria-hidden="true"></i>-->
                         <!--                            <i class="far fa-ban fa-stack-2x" aria-hidden="true"></i>-->
                         <!--                        </span>-->
-                        <i class="fas fa-egg" aria-label="contains egg" data-toggle="tooltip" data-placement="top" title="contains egg"></i>&nbsp;
-                        <span class="fa-stack fa-xs" aria-label="contains dairy" data-toggle="tooltip" data-placement="top" title="contains dairy">
-                            <i class="fas fa-cow fa-stack-1x" aria-hidden="true" data-fa-transform="shrink-6 down-8"></i>
-                            <i class="far fa-glass fa-stack-2x" aria-hidden="true"></i>
-                        </span>
+                        <i class="fas fa-egg-fried allergen" aria-label="contains egg" data-toggle="tooltip" data-placement="top" title="contains egg"></i>&nbsp;
                         <i class="fas fa-leaf" aria-label="vegetarian" data-toggle="tooltip" data-placement="top" title="vegetarian"></i>
                         </span>
                     <div class="row">
@@ -109,8 +107,16 @@
             <div class="col-md-6 col-sm-12">
                 <div class="item">
                     <h3>Swedish Meatballs</h3>
-                    <span class="dots"></span> <span>
+                    <span class="dots"></span> <span class="header-icons">
+                        <span class="fa-stack fa-xs allergen" aria-label="contains dairy" data-toggle="tooltip" data-placement="top" title="contains dairy">
+                            <i class="fas fa-cow fa-stack-1x" aria-hidden="true" data-fa-transform="shrink-4 down-4"></i>
+                            <i class="fal fa-glass fa-stack-2x" aria-hidden="true"></i>
+                        </span>
+                        <i class="fas fa-egg-fried allergen" aria-label="contains egg" data-toggle="tooltip" data-placement="top" title="contains egg"></i>&nbsp;
+
+                        <i class="soybean" aria-label="contains soy" data-toggle="tooltip" data-placement="top" title="contains soy"></i>
                         <i data-toggle="tooltip" data-placement="top" title="gluten free">gf</i>&nbsp;
+
                     </span>
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
@@ -133,12 +139,14 @@
                     <!--                    <h3>Tofu & Stir Fry Mini Meal</h3>-->
                     <h3>Kung Pao Tofu w/ Teriyaki Veggie Stir Fry <small>(Mini-meal)</small>
                     </h3>
-                    <span class="dots"></span> <span>
+                    <span class="dots"></span> <span class="header-icons">
+                        <i class="soybean" aria-label="contains soy" data-toggle="tooltip" data-placement="top" title="contains soy"></i>
+                        <i class="sesame" aria-label="contains sesame" data-toggle="tooltip" data-placement="top" title="contains sesame"></i>
                         <i data-toggle="tooltip" data-placement="top" title="gluten free">gf</i>&nbsp;
-                        <span class="fa-stack fa-xs" aria-label="no dairy" data-toggle="tooltip" data-placement="top" title="no dairy">
-                            <i class="fas fa-cow fa-stack-1x" aria-hidden="true"></i>
-                            <i class="far fa-ban fa-stack-2x" aria-hidden="true"></i>
-                        </span>
+                                                                                                <!--                        <span class="fa-stack fa-xs" aria-label="no dairy" data-toggle="tooltip" data-placement="top" title="no dairy">-->
+                                                                                                <!--                            <i class="fas fa-cow fa-stack-1x" aria-hidden="true"></i>-->
+                                                                                                <!--                            <i class="far fa-ban fa-stack-2x" aria-hidden="true"></i>-->
+                                                                                                <!--                        </span>-->
                     </span>
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
@@ -156,26 +164,25 @@
             <div class="col-md-6 col-sm-12">
                 <div class="item">
                     <h3>Thai Curry Station</h3>
-                    <span class="dots"></span> <span>
-                        <span class="fa-stack fa-xs" aria-label="no dairy" data-toggle="tooltip" data-placement="top" title="no dairy">
-                            <i class="fas fa-cow fa-stack-1x" aria-hidden="true"></i>
-                            <i class="far fa-ban fa-stack-2x" aria-hidden="true"></i>
-                        </span>
-                        <i class="fas fa-leaf" aria-label="vegetarian" data-toggle="tooltip" data-placement="top" title="vegetarian"></i>
-                        &#40;<i class="fas fa-leaf-heart" aria-label="vegan" data-toggle="tooltip" data-placement="top" title="vegan option"></i>&#41;
-                        &#40;<i class="fas fa-pepper-hot" aria-label="spicy" data-toggle="tooltip" data-placement="top" title="spicy option"></i>&#41;
+                    <span class="dots"></span> <span class="header-icons">
+<!--                        <span class="fa-stack fa-xs" aria-label="no dairy" data-toggle="tooltip" data-placement="top" title="no dairy">-->
+<!--                            <i class="fas fa-cow fa-stack-1x" aria-hidden="true"></i>-->
+<!--                            <i class="far fa-ban fa-stack-2x" aria-hidden="true"></i>-->
+<!--                        </span>-->
+<!--                        <i class="fas fa-leaf" aria-label="vegetarian" data-toggle="tooltip" data-placement="top" title="vegetarian"></i>-->
+                        &#40;<i class="fas fa-pepper-hot" aria-label="spicy option" data-toggle="tooltip" data-placement="top" title="spicy option"></i>, <i class="fas fa-leaf-heart" aria-label="vegan option" data-toggle="tooltip" data-placement="top" title="vegan option"></i>&nbsp;&#41;
                     </span>
                     <div class="row description">
                         <div class="col-sm-12 col-md-6 ">
                             sweet Thai coconut curry with fluffy citrus jasmine rice
                             <ol>
                                 <li>
-                                    <i class="fas fa-turkey" aria-label="poultry" data-toggle="tooltip" data-placement="top" title="poultry"></i>
+                                    <!--                                    <i class="fas fa-turkey" aria-label="poultry" data-toggle="tooltip" data-placement="top" title="poultry"></i>-->
                                     <span>w/ marinated, grilled Chicken</span>
                                 </li>
                                 <li>
-                                    <i class="fas fa-leaf" aria-label="vegetarian" data-toggle="tooltip" data-placement="top" title="vegetarian"></i>
                                     <span>w/ curried, baked Cauliflower</span>
+                                    <i class="fas fa-leaf-heart" aria-label="vegan" data-toggle="tooltip" data-placement="top" title="vegan"></i>
                                 </li>
                             </ol>
                             <h5>Assorted Toppings</h5>
@@ -198,34 +205,58 @@
             <div class="col-md-6 col-sm-12">
                 <div class="item">
                     <h3>Stir Fry Station</h3>
-                    <span class="dots"></span> <span>(option)</span>
+                    <span class="dots"></span>
+                    <span class="header-icons">&#40;<i data-toggle="tooltip" data-placement="top" title="gluten free option">gf&nbsp;</i>&#41;</span>
                     <div class="row description">
                         <div class="col-sm-12 col-md-6 ">
                             <h4>Noodle choice:</h4>
                             <ol>
-                                <li>Soba</li>
-                                <li>Chow Mein</li>
-                                <li>Singapore Rice Noodles</li>
+                                <li>Soba
+                                    <i class="fal fa-wheat allergen" aria-label="contains wheat" data-toggle="tooltip" data-placement="top" title="contains wheat"></i>
+                                </li>
+                                <li>Chow Mein
+                                    <i class="fal fa-wheat allergen" aria-label="contains wheat" data-toggle="tooltip" data-placement="top" title="contains wheat"></i>
+                                </li>
+                                <li>Singapore Rice Noodles <i data-toggle="tooltip" data-placement="top" title="gluten free">gf</i></li>
+
                             </ol>
                             <h4>Protein choice:</h4>
                             <ol>
                                 <li>
-                                    <i class="fas fa-fish" aria-label="seafood" data-toggle="tooltip" data-placement="top" title="seafood"></i>
+                                    <!--                                    <i class="fas fa-fish" aria-label="seafood" data-toggle="tooltip" data-placement="top" title="seafood"></i>-->
                                     <span>Spicy Garlic Shrimp</span>
+                                    <i class="sesame" aria-label="contains sesame" data-toggle="tooltip" data-placement="top" title="contains sesame"></i>
+                                    <i class="far fa-fish allergen" aria-label="contains shellfish" data-toggle="tooltip" data-placement="top" title="contains shellfish"></i>
+
                                 </li>
-                                <li><i class="fas fa-cow" aria-label="beef" data-toggle="tooltip" data-placement="top" title="beef"> </i>
-                                    <span>Ginger Garlic Ground Beef</span>
-                                </li>
+                                <!--                                <li><i class="fas fa-cow" aria-label="beef" data-toggle="tooltip" data-placement="top" title="beef"> </i>-->
+                                <span>Ginger Garlic Ground Beef</span></li>
                             </ol>
                             <h4>Sauce choice:</h4>
                             <ul>
-                                <li>Teriyaki <small>sweet, slightly salty</small>
+                                <li>Teriyaki <small>sweet, slightly salty</small> <span>
+                                        <i class="soybean" aria-label="contains soy" data-toggle="tooltip" data-placement="top" title="contains soy"></i>
+                                        <i class="sesame" aria-label="contains sesame" data-toggle="tooltip" data-placement="top" title="contains sesame"></i>
+                                        <i data-toggle="tooltip" data-placement="top" title="gluten free">gf</i>
+                                    </span>
                                 </li>
-                                <li>Hoisin <small>salty, slightly sweet</small>
+                                <li>Hoisin <small>salty, slightly sweet</small> <span>
+                                        <i class="soybean" aria-label="contains soy" data-toggle="tooltip" data-placement="top" title="contains soy"></i>
+                                        <i class="sesame" aria-label="contains sesame" data-toggle="tooltip" data-placement="top" title="contains sesame"></i>
+                                        <i class="fal fa-wheat allergen" aria-label="contains wheat" data-toggle="tooltip" data-placement="top" title="contains wheat"></i>
+                                    </span>
                                 </li>
-                                <li>Sesame Ginger <small>citrus w/ ginger garlic flavor</small>
+                                <li>Sesame Ginger <small>citrus w/ ginger garlic flavor</small> <span>
+                                        <i class="soybean" aria-label="contains soy" data-toggle="tooltip" data-placement="top" title="contains soy"></i>
+                                        <i class="sesame" aria-label="contains sesame" data-toggle="tooltip" data-placement="top" title="contains sesame"></i>
+                                        <i data-toggle="tooltip" data-placement="top" title="gluten free">gf</i>
+                                    </span>
                                 </li>
-                                <li>Sweet Garlic <small>slightly spicy w/ sweet garlic flavor</small>
+                                <li>Sweet Garlic <small>slightly spicy w/ sweet garlic flavor</small> <span>
+                                        <i class="soybean" aria-label="contains soy" data-toggle="tooltip" data-placement="top" title="contains soy"></i>
+                                        <i class="sesame" aria-label="contains sesame" data-toggle="tooltip" data-placement="top" title="contains sesame"></i>
+                                        <i data-toggle="tooltip" data-placement="top" title="gluten free">gf</i>
+                                    </span>
                                 </li>
                             </ul>
                             <h5>Assorted Toppings <small>(see Thai Curry)</small>
@@ -248,7 +279,16 @@
             <div class="col-sm-12 col-md-6">
                 <div class="item">
                     <h3>Hotteok</h3>
-                    <span class="dots"></span> <span></span>
+                    <span class="dots"></span> <span class="header-icons">
+                        <i class="soybean" aria-label="contains soy" data-toggle="tooltip" data-placement="top" title="contains soy"></i>
+                        <i class="sesame" aria-label="contains sesame" data-toggle="tooltip" data-placement="top" title="contains sesame"></i>
+                        <i class="fal fa-wheat allergen" aria-label="contains wheat" data-toggle="tooltip" data-placement="top" title="contains wheat"></i>
+                        <span class="fa-stack fa-xs allergen" aria-label="contains dairy" data-toggle="tooltip" data-placement="top" title="contains dairy">
+                            <i class="fas fa-cow fa-stack-1x" aria-hidden="true" data-fa-transform="shrink-4 down-4"></i>
+                            <i class="fal fa-glass fa-stack-2x" aria-hidden="true"></i>
+                        </span>
+                        <i class="fas fa-leaf" aria-label="vegetarian" data-toggle="tooltip" data-placement="top" title="vegetarian"></i>
+                </span>
                     <p>sweet Korean pancakes, stuffed with white chocolate and cinnamon. topped with a matcha sauce and powdered sugar</p>
                 </div>
                 <div class="col-sm-12 col-md-6 dish-image">
@@ -259,7 +299,10 @@
             <div class="col-sm-12 col-md-6">
                 <div class="item">
                     <h3>Taho</h3>
-                    <span class="dots"></span> <span></span>
+                    <span class="dots"></span> <span class="header-icons">
+                        <i class="soybean" aria-label="contains soy" data-toggle="tooltip" data-placement="top" title="contains soy"></i>
+                        <i data-toggle="tooltip" data-placement="top" title="gluten free">gf&nbsp;</i>
+                    </span>
                     <p>silken tofu with a caramel sauce and brown sugar tapioca pearls</p>
                 </div>
                 <div class="col-sm-12 col-md-6 dish-image">
@@ -276,8 +319,7 @@
                 </div>
                 <div class="col-sm-4 made-by">
                     <small>Made with <i class="fas fa-heart" aria-label="love"></i> by Dream Catering</small>
-                    <br><small>featuring Chef Ian Underwood <br>
-                               &amp; Chef Zachary Sass</small>
+                    <br><small>featuring Chef Ian Underwood <br> &amp; Chef Zachary Sass</small>
                 </div>
             </div>
         </div>
