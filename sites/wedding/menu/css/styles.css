@@ -135,6 +135,7 @@ i.fa-pepper-hot,
 @media only screen and (min-width: 600px) {
     .item h3 {
         max-width: 80%;
+        margin-bottom: 16px;
     }
 
     .item span.dots:first-of-type {
@@ -151,12 +152,25 @@ i.fa-pepper-hot,
     .item span:nth-of-type(2n) {
         background-color: #fff;
     }
+
+    .row.description {
+        justify-content: center;
+    }
+
+    .toppings {
+        padding-left: 36px;
+        width: auto;
+    }
 }
 
 .description {
     clear: both;
     color: #533834;
     padding-left: 5px;
+}
+
+.toppings {
+    padding-left: 36px;
 }
 
 .dish-image img {
@@ -183,37 +197,38 @@ i.fa-pepper-hot,
     font-size: 0.65em;
     bottom: -3px;
 }
+
 .allergen {
     color: #e1515e;
 }
 
 i.peanut {
-  content: url(../../../good2eat/images/peanut.svg);
-  position: relative;
-  width: 15px;
-  margin: 4px auto;
-  filter: invert(39%) sepia(69%) saturate(4109%) hue-rotate(332deg) brightness(86%) contrast(100%);
-  vertical-align: middle;
+    content: url(../../../good2eat/images/peanut.svg);
+    position: relative;
+    width: 15px;
+    margin: 4px auto;
+    filter: invert(39%) sepia(69%) saturate(4109%) hue-rotate(332deg) brightness(86%) contrast(100%);
+    vertical-align: middle;
 }
 
 i.soybean {
-  content: url(../../../good2eat/images/soybean.png);
-  position: relative;
-  width: 14px;
-  margin: 4px auto;
-  filter: invert(39%) sepia(69%) saturate(4109%) hue-rotate(332deg) brightness(86%) contrast(100%);
-  vertical-align: middle;
+    content: url(../../../good2eat/images/soybean.png);
+    position: relative;
+    width: 14px;
+    margin: 4px auto;
+    filter: invert(39%) sepia(69%) saturate(4109%) hue-rotate(332deg) brightness(86%) contrast(100%);
+    vertical-align: middle;
 }
 
 i.sesame {
-  content: url(../../../good2eat/images/sesame.png);
-  position: relative;
-  /* width: 16px;
-  margin: 5px auto; */
-  width: 14px;
-  margin: 4px auto;
-  filter: invert(39%) sepia(69%) saturate(4109%) hue-rotate(332deg) brightness(86%) contrast(100%);
-  vertical-align: middle;
+    content: url(../../../good2eat/images/sesame.png);
+    position: relative;
+    /* width: 16px;
+    margin: 5px auto; */
+    width: 14px;
+    margin: 4px auto;
+    filter: invert(39%) sepia(69%) saturate(4109%) hue-rotate(332deg) brightness(86%) contrast(100%);
+    vertical-align: middle;
 }
 
 .tooltip-inner {
@@ -221,8 +236,8 @@ i.sesame {
     padding: 1px 2px;
 }
 
-.header-icons  i.sesame,
-.header-icons  i.soybean,
-.header-icons  i.peanut {
+.header-icons i.sesame,
+.header-icons i.soybean,
+.header-icons i.peanut {
     width: 22px;
 }
