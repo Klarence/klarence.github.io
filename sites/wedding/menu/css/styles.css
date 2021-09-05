@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Madina";
+    src: url("../../../../assets/fonts/Madina.otf") format("opentype")
+}
+
+@font-face {
+    font-family: "Love";
+    src: url("../../../../assets/fonts/Love.ttf") format("truetype")
+}
+
 * {
     box-sizing: border-box;
 }
@@ -28,7 +38,7 @@ footer p {
     margin: 20px 0;
 }
 
-footer > .container {
+ooter > .container {
     /*padding-right: 15px;*/
     /*padding-left: 15px;*/
     height: 100%;
@@ -53,14 +63,16 @@ h2:before {
     height: 1px;
 }
 
-h2:before, h2:after {
+h2.seperators:before,
+h2.seperators:after {
     content: "";
     position: absolute;
     bottom: 18px;
     height: 1px;
     width: 40px;
     margin: 0 -15px;
-    background-color: #00560b;
+    /*background-color: #1f4421;*/
+    background-color: #fff;
 }
 
 h2:after {
@@ -75,18 +87,24 @@ h4, h5 {
 }
 
 h1 {
-    font-family: 'Clicker Script', cursive;
+    font-family: Madina, 'Clicker Script', cursive;
     font-size: 48px;
     text-align: center;
-    line-height: 18px;
-    color: #00560b;
+    /*line-height: 18px;*/
+    color: #1f4421;
+    /*margin-bottom: 0;*/
+}
+
+h1 .subheader {
+    font-family: Love, 'Clicker Script', cursive;
+    font-size: 38px;
 }
 
 h2 {
-    font-family: 'Clicker Script', cursive;
+    font-family: Love, 'Clicker Script', cursive;
     font-weight: bold;
-    font-size: 38px;
-    color: #00560b;
+    font-size: 28px;
+    color: #fff;
 }
 
 ol, ul {
@@ -157,10 +175,6 @@ i.fa-pepper-hot,
         justify-content: center;
     }
 
-    .toppings {
-        padding-left: 36px;
-        width: auto;
-    }
 }
 
 .description {
@@ -170,10 +184,11 @@ i.fa-pepper-hot,
 }
 
 .toppings {
-    padding-left: 36px;
+    padding-bottom: 16px;
 }
 
 .dish-image img {
+    width: 100%;
     max-width: 100%;
 }
 
@@ -240,4 +255,12 @@ i.sesame {
 .header-icons i.soybean,
 .header-icons i.peanut {
     width: 22px;
+}
+
+header.menu-section {
+    background-color: #1f4421;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top:  36px;
 }
