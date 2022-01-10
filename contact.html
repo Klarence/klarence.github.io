@@ -53,6 +53,24 @@
 			a.appendChild(r);
 		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 	</script>
+<!--    <script src="https://www.google.com/recaptcha/api.js" async defer></script>-->
+<!--	<script>-->
+<!--		window.onload = function() {-->
+<!--          let el = document.getElementById('g-recaptcha-response');-->
+<!--          if (el) {-->
+<!--            el.setAttribute('required', 'required');-->
+<!--          }-->
+<!--        }-->
+<!--	</script>-->
+<!--    <style>-->
+<!--        #g-recaptcha-response {-->
+<!--            display: block !important;-->
+<!--            position: absolute;-->
+<!--            margin: -50px 0 0 0 !important;-->
+<!--            z-index: -999999;-->
+<!--            opacity: 0;-->
+<!--        }-->
+<!--    </style>-->
 </head>
 
 <body>
@@ -118,17 +136,17 @@
 				<div class="row">
 					<div class="col-md-6">
 						<label for="name">Name</label>
-						<input type="text" name="name" id="name">
+						<input type="text" name="name" id="name" required>
 						<!--<input type="text" placeholder="Name">-->
 					</div>
 					<div class="col-md-6">
 						<!--<input type="text" placeholder="E-mail">-->
 						<label for="email">Email</label>
-						<input type="email" name="_replyto" id="email">
+						<input type="email" name="_replyto" id="email" required>
 					</div>
 					<div class="col-md-12">
 						<label for="subject">Subject</label>
-						<input type="text" name="subject" id="subject">
+						<input type="text" name="subject" id="subject" required>
 					</div>
 					<!-- <div class="col-md-6">
 						<input type="text" placeholder="How did you hear about us?">
@@ -136,9 +154,10 @@
 					<div class="col-md-12">
 						<label for="message">Message</label>
 						<textarea type="text" name="message" placeholder="Tell me what you are thinking"
-							id="message"></textarea>
+							id="message" required></textarea>
 					</div>
 				</div>
+<!--				<div class="g-recaptcha" data-sitekey="6Lf_pgEeAAAAAIj4DPnMvJcvVsImtXBnw5vYwyoV"></div>-->
 				<div class="text-center">
 					<button class="site-btn" type="submit" value="Send">Send</button>
 					<!--<input type="submit" value="Send" class="site-btn" >-->
