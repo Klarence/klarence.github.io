@@ -53,24 +53,24 @@
 			a.appendChild(r);
 		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 	</script>
-<!--    <script src="https://www.google.com/recaptcha/api.js" async defer></script>-->
-<!--	<script>-->
-<!--		window.onload = function() {-->
-<!--          let el = document.getElementById('g-recaptcha-response');-->
-<!--          if (el) {-->
-<!--            el.setAttribute('required', 'required');-->
-<!--          }-->
-<!--        }-->
-<!--	</script>-->
-<!--    <style>-->
-<!--        #g-recaptcha-response {-->
-<!--            display: block !important;-->
-<!--            position: absolute;-->
-<!--            margin: -50px 0 0 0 !important;-->
-<!--            z-index: -999999;-->
-<!--            opacity: 0;-->
-<!--        }-->
-<!--    </style>-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script>
+		window.onload = function() {
+          let el = document.getElementById('g-recaptcha-response');
+          if (el) {
+            el.setAttribute('required', 'required');
+          }
+        }
+	</script>
+    <style>
+        #g-recaptcha-response {
+            display: block !important;
+            position: absolute;
+            margin: -50px 0 0 0 !important;
+            z-index: -999999;
+            opacity: 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -157,7 +157,7 @@
 							id="message" required></textarea>
 					</div>
 				</div>
-<!--				<div class="g-recaptcha" data-sitekey="6Lf_pgEeAAAAAIj4DPnMvJcvVsImtXBnw5vYwyoV"></div>-->
+				<div class="g-recaptcha" data-sitekey="6Lf_pgEeAAAAAIj4DPnMvJcvVsImtXBnw5vYwyoV"></div>
 				<div class="text-center">
 					<button class="site-btn" type="submit" value="Send">Send</button>
 					<!--<input type="submit" value="Send" class="site-btn" >-->
