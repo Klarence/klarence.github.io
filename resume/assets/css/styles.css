@@ -142,7 +142,7 @@ h2 {
 }
 
 .subheader {
-  color: #999;
+  color: #707070;
   font-size: 16rem;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -186,14 +186,14 @@ h2 {
 
 .contact-desc {
   right: 65px;
-  color: #999;
+  color: #707070;
   font-size: 14rem;
   font-family: Helvetica, Arial, sans-serif;
   font-style: italic;
 }
 
 .time-desc {
-  color: #999;
+  color: #707070;
   font-weight: normal;
   font-size: 14rem;
   font-family: Helvetica, Arial, sans-serif;
@@ -202,7 +202,7 @@ h2 {
 
 .skills-desc {
   margin-bottom: 0;
-  color: #999;
+  color: #707070;
   font-size: 14rem;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.2;

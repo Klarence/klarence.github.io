@@ -87,3 +87,4 @@ sites/zia/
 .idea/klarence.github.io.iml
 .idea/misc.xml
 .idea/workspace.xml
+*.xml

@@ -393,9 +393,9 @@
      style="display:none"
 ></div>
 <script async>(function ($) {
-    var $span = $('<span class="fa" style="display:none"></span>');
+    const $span = $('<span class="fa" style="display:none"></span>');
     $('#FontAwesome_fallback').append($span);
-    var f = $span.css('fontFamily');
+    const f = $span.css('fontFamily');
     if (f !== 'FontAwesome') {
         $('head').append('<link href="/css/font-awesome/all.css" rel="stylesheet">');
     }

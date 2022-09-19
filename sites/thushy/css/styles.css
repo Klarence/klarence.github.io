@@ -420,7 +420,6 @@ a:hover, a:focus {
   height: calc(100% + 80px);
   height: -moz-calc(100% + 80px);
   height: -webkit-calc(100% + 80px);
-  height: -o-calc(100% + 80px);
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
