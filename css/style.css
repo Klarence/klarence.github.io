@@ -28,7 +28,7 @@ h6 {
 }
 
 p {
-  color: #979797;
+  color: #929292;
   font-size: 18px;
   line-height: 1.8;
 }
@@ -83,8 +83,9 @@ ol {
 }
 
 .section-title #whoAmI {
-  /* color: #979797; */
-  color: #71b997;
+  /* color: #929292; */
+  /*color: #71b997;*/
+  color: #64a184;
 }
 
 /* ------------------------
@@ -174,7 +175,7 @@ ol {
 }
 
 .site-btn.btn-fade {
-  background-color: #979797;
+  background-color: #929292;
 }
 
 .site-btn.btn-line {
@@ -190,13 +191,13 @@ ol {
 
 .site-btn.btn-line-fade {
   padding: 13px 10px;
-  color: #979797;
+  color: #929292;
   background: none;
-  border: 2px solid #979797;
+  border: 2px solid #929292;
 }
 
 .site-btn.btn-line-fade:hover {
-  color: #979797;
+  color: #929292;
 }
 
 .site-btn:hover {
@@ -211,8 +212,7 @@ ol {
 .accordion-area .panel-header {
   position: relative;
   display: block;
-  padding: 12px 50px;
-  padding-left: 30px;
+  padding: 12px 50px 12px 30px;
   color: #fff;
   font-weight: 600;
   font-size: 14px;
@@ -334,7 +334,7 @@ ol {
 }
 
 .circle-progress .progress-info p {
-  color: #979797;
+  color: #929292;
   font-size: 16px;
   line-height: normal;
 }
@@ -435,7 +435,7 @@ ol {
   display: inline-block;
   margin-right: 30px;
   padding-bottom: 10px;
-  color: #979797;
+  color: #929292;
   font-size: 16px;
   cursor: pointer;
 }
@@ -555,7 +555,7 @@ ol {
 }
 
 .footer-section .copyright {
-  color: #979797;
+  color: #767676;
   font-size: 12px;
 }
 
@@ -567,7 +567,7 @@ ol {
 /* stylelint-disable */
 .social-links a {
   margin-right: 30px;
-  color: #979797;
+  color: #929292;
   font-size: 15px;
 }
 
@@ -619,7 +619,7 @@ ol {
 }
 
 .milestone h2 span.title {
-  color: #979797;
+  color: #929292;
   font-size: 18px;
 }
 
@@ -663,7 +663,7 @@ ol {
 
 .blog-content .blog-meta {
   margin-bottom: 30px;
-  color: #979797;
+  color: #929292;
   font-size: 13px;
 }
 

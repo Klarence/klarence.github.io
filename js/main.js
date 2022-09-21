@@ -85,7 +85,7 @@ if($().circleProgress){
 		value: 0.75,
 		size: 146,
 		thickness: 3,
-		fill: "#979797",
+		fill: "#929292",
 		emptyFill: "rgba(0, 0, 0, 0)"
 	});
 	//Set progress circle 2
@@ -93,7 +93,7 @@ if($().circleProgress){
 		value: 0.83,
 		size: 146,
 		thickness: 3,
-		fill: "#979797",
+		fill: "#929292",
 		emptyFill: "rgba(0, 0, 0, 0)"
 	});
 	//Set progress circle 3
@@ -101,7 +101,7 @@ if($().circleProgress){
 		value: 0.25,
 		size: 146,
 		thickness: 3,
-		fill: "#979797",
+		fill: "#929292",
 		emptyFill: "rgba(0, 0, 0, 0)"
 	});
 	//Set progress circle 4
@@ -109,7 +109,7 @@ if($().circleProgress){
 		value: 0.95,
 		size: 146,
 		thickness: 3,
-		fill: "#979797",
+		fill: "#929292",
 		emptyFill: "rgba(0, 0, 0, 0)"
 	});
 }
