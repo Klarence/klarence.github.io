@@ -1,13 +1,16 @@
 {
   "name": "klarence.github.io",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Portfolio Site",
   "main": "index.html",
-  "dependencies": {},
   "devDependencies": {
     "babel-core": "latest",
     "babel-preset-env": "latest",
     "browser-sync": "latest",
+    "eslint": "latest",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-plugin-immutable": "latest",
+    "eslint-plugin-import": "latest",
     "gulp": "latest",
     "gulp-babel": "latest",
     "gulp-cssnano": "latest",
