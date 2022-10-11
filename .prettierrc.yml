@@ -1,0 +1,21 @@
+arrowParens: 'always'
+bracketSameLine: true
+bracketSpacing: true
+embeddedLanguageFormatting: 'off'
+endOfLine: 'lf'
+jsxSingleQuote: false
+printWidth: 120
+quoteProps: 'as-needed'
+semi: true
+singleAttributePerLine: true
+singleQuote: true
+tabWidth: 2
+trailingComma: 'es5'
+useTabs: false
+overrides:
+  - files: 'docs/*.md'
+    options:
+      printWidth: 60
+  - files: '*css'
+    options:
+      singleQuote: true
