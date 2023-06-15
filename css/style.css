@@ -28,9 +28,14 @@ h6 {
 }
 
 p {
-  color: #929292;
+  color: #767676;
   font-size: 18px;
   line-height: 1.8;
+}
+
+
+.container p a {
+  text-decoration: underline;
 }
 
 img {
@@ -175,7 +180,8 @@ ol {
 }
 
 .site-btn.btn-fade {
-  background-color: #929292;
+  /*background-color: #929292;*/
+  background-color: #767676;
 }
 
 .site-btn.btn-line {
