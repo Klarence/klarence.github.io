@@ -371,64 +371,6 @@ ol {
 }
 
 /* ------------------------
-    Header Section
--------------------------- */
-.header-section {
-  position: relative;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-.site-logo {
-  padding-top: 20px;
-  font-size: 24px;
-}
-
-.main-menu ul {
-  list-style: none;
-}
-
-.main-menu ul li {
-  display: inline;
-}
-
-.main-menu ul li a {
-  display: inline-block;
-  margin-right: 10px;
-  margin-left: 15px;
-  padding: 20px 0 5px;
-  color: #001418;
-  font-size: 18px;
-}
-
-.main-menu ul li a:hover,
-.main-menu ul li a.active {
-  font-weight: bold;
-}
-
-.header-btn {
-  float: right;
-
-  /* margin-right: 0; */
-  margin: 5px 0;
-}
-
-.nav-switch {
-  display: none;
-}
-
-.intro-section {
-  /* padding: 110px 0; */
-  padding: 30px 0 60px 0;
-}
-
-/* .intro-section.slides  { */
-
-/* padding: 90px 0 60px 0; */
-
-/* } */
-
-/* ------------------------
     Portfolio Section
 -------------------------- */
 .portfolio-section {
@@ -557,40 +499,6 @@ ol {
   transform: scale(1);
   opacity: 1;
 }
-
-/* ------------------------
-    Footer Section
--------------------------- */
-.footer-section {
-  padding: 110px 0;
-}
-
-.footer-section .copyright {
-  color: #767676;
-  font-size: 12px;
-}
-
-.social-links {
-  margin-top: 60px;
-  margin-bottom: 40px;
-}
-
-/* stylelint-disable */
-.social-links a {
-  margin-right: 30px;
-  /*color: #929292;*/
-  color: #767676;
-  font-size: 15px;
-}
-
-/* stylelint-enable */
-
-/* stylelint-disable */
-.social-links a:last-child {
-  margin-right: 0;
-}
-
-/* stylelint-enable */
 
 /* ------------------------
     About Page
