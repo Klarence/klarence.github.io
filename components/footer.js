@@ -24,17 +24,17 @@ footerTemplate.innerHTML = `
     .social-links {
       margin-top: 60px;
       margin-bottom: 40px;
+      padding: 0;
       list-style: none;
+    }
+    .social-links a {
+      color: #767676;
+      font-size: 15px;
     }
     
     .social-links li {
       display: inline-flex;
       margin-right: 30px;
-    }
-    
-    .social-links a {
-      color: #767676;
-      font-size: 15px;
     }
     
     .social-links li:last-child {

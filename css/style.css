@@ -173,7 +173,6 @@ ol {
   color: #fff;
   font-size: 14px;
   text-align: center;
-
   /* background-color: #000; */
   background-color: #36634d;
   border: none;
@@ -371,6 +370,63 @@ ol {
 }
 
 /* ------------------------
+    Header Section
+-------------------------- */
+.header-section {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.site-logo {
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+.main-menu ul {
+  list-style: none;
+}
+
+.main-menu ul li {
+  display: inline;
+}
+
+.main-menu ul li a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 15px;
+  padding: 20px 0 5px;
+  color: #001418;
+  font-size: 18px;
+}
+
+.main-menu ul li a:hover,
+.main-menu ul li a.active {
+  font-weight: bold;
+}
+
+.header-btn {
+  float: right;
+  /* margin-right: 0; */
+  margin: 5px 0;
+}
+
+.nav-switch {
+  display: none;
+}
+
+.intro-section {
+  /* padding: 110px 0; */
+  padding: 30px 0 60px 0;
+}
+
+/* .intro-section.slides  { */
+
+/* padding: 90px 0 60px 0; */
+
+/* } */
+
+/* ------------------------
     Portfolio Section
 -------------------------- */
 .portfolio-section {
@@ -382,7 +438,6 @@ ol {
   list-style: none;
 }
 
-/* stylelint-disable */
 .portfolio-filter li {
   display: inline-block;
   margin-right: 30px;
@@ -393,8 +448,6 @@ ol {
   cursor: pointer;
 }
 
-/* stylelint-enable */
-
 .portfolio-filter li.mixitup-control-active {
   color: #001418;
 }
@@ -403,12 +456,9 @@ ol {
   padding: 0;
 }
 
-/* stylelint-disable */
 .gallery-block {
   position: relative;
 }
-
-/* stylelint-enable */
 
 .portfolio-item,
 .portfolio-item-link {
@@ -463,21 +513,15 @@ ol {
   padding-bottom: 45px;
 }
 
-/* stylelint-disable */
 .portfolio-meta h2 {
   font-size: 24px;
 }
 
-/* stylelint-enable */
-
-/* stylelint-disable */
 .portfolio-meta p {
   margin-bottom: 0;
   color: #a6a6a6;
   font-size: 14px;
 }
-
-/* stylelint-enable */
 
 .portfolio-intro {
   display: block;
@@ -574,13 +618,10 @@ ol {
   margin-bottom: 30px;
 }
 
-/* stylelint-disable */
 .blog-content h2 {
   margin-bottom: 15px;
   font-size: 24px;
 }
-
-/* stylelint-enable */
 
 .blog-content .blog-meta {
   margin-bottom: 30px;
@@ -589,12 +630,10 @@ ol {
   font-size: 13px;
 }
 
-/* stylelint-disable */
 .blog-content p {
   margin-bottom: 30px;
 }
 
-/* stylelint-enable */
 
 /* ------------------------
     Contact Page
@@ -604,20 +643,14 @@ ol {
   text-align: center;
 }
 
-/* stylelint-disable */
 .contact-text h2 {
   margin-bottom: 30px;
   font-size: 24px;
 }
 
-/* stylelint-enable */
-
-/* stylelint-disable */
 .contact-text p {
   font-size: 17px;
 }
-
-/* stylelint-enable */
 
 .contact-form {
   display: block;
@@ -692,36 +725,6 @@ ol {
     padding: 0 15px;
   }
 
-  .main-menu {
-    position: absolute;
-    top: 30px;
-    left: 0;
-    z-index: 999;
-    display: none;
-    width: 100%;
-    padding-top: 15px;
-    background: #efefef;
-  }
-
-  .main-menu ul li a {
-    display: block;
-    padding: 10px 15px;
-    border-bottom: 1px solid #ddd;
-  }
-
-  .main-menu ul li a.active {
-    font-weight: bold;
-    text-decoration: underline;
-  }
-
-  .main-menu ul li {
-    display: block;
-  }
-
-  .main-menu ul li:last-child a {
-    border-bottom: none;
-  }
-
   .work {
     text-align: left;
   }
@@ -730,35 +733,12 @@ ol {
     top: 99px;
   }
 
-  .nav-switch {
-    position: absolute;
-    top: 35px;
-    right: 25px;
-    display: block;
-    color: #333;
-    font-size: 30px;
-  }
-
-  .header-btn {
-    display: none;
-  }
-
   .section-title {
     font-size: 45px;
   }
 
   .portfolio-filter {
     text-align: center;
-  }
-
-  .header-section {
-    position: relative;
-    padding-top: 1em;
-    padding-bottom: 0.8em;
-  }
-
-  .logo img {
-    max-width: 25%;
   }
 
   .portfolio-item,

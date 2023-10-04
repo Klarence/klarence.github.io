@@ -19,10 +19,10 @@ $(window).on('load', function() {
 	/*------------------
 		Navigation
 	--------------------*/
-	$('.nav-switch').on('click', function(event) {
-		$('.main-menu').slideToggle(400);
-		event.preventDefault();
-	});
+	// $('.nav-switch').on('click', function(event) {
+	// 	$('.main-menu').slideToggle(400);
+	// 	event.preventDefault();
+	// });
 
 
 

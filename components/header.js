@@ -1,18 +1,25 @@
 const headerTemplate = document.createElement('template');
 
 headerTemplate.innerHTML = `
+
   <style>
-  .logo img {
-    width: 100px;
-  }
-    
-  .row {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-  .header-section {
+ #menuToggle {
+  transition: height .25s ease;
+  overflow: hidden;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.header-section {
   display: block;
   position: relative;
   padding-top: 30px;
@@ -52,20 +59,21 @@ headerTemplate.innerHTML = `
   /* margin-right: 0; */
   margin: 5px 0;
 }
+
 .site-btn {
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    min-width: 140px;
-    max-height: 51px;
-    margin-right: 15px;
-    padding: 15px 10px;
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-    text-decoration: none;
-    background-color: #36634d;
-    border: none;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  min-width: 140px;
+  max-height: 51px;
+  margin-right: 15px;
+  padding: 15px 10px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #36634d;
+  border: none;
 }
 
 .nav-switch {
@@ -77,90 +85,95 @@ headerTemplate.innerHTML = `
   padding: 30px 0 60px 0;
 }
 
-
-
-
-
-
-
 .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 .fa-bars:before {
-    content: "\\f0c9";
+  content: "\\f0c9";
 }
+
 .col-md-3, .col-lg-4 {
-position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    }
-@media (min-width: 576px) {
-  .container {
-      max-width: 540px;
-  }
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
-@media (min-width: 768px) {
-  .container {
-      max-width: 720px;
-  }
-  .col-md-3 {
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-  .col-md-9 {
-    flex: 0 0 75%;
-    max-width: 75%;
-}
-}
-@media (min-width: 992px) {
-  .container {
-      max-width: 960px;
-  }
-  .col-lg-4 {
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-  .col-lg-8 {
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
-}
-}
-@media (min-width: 1200px) {
 
-.container {
-    max-width: 1140px;
-}
-}
-.nav-switch {
-    display: none;
-}
 @media only screen and (max-width: 767px) {
-.main-menu {
+  .main-menu {
     position: absolute;
-    top: 30px;
+    top: 90px;
     left: 0;
     z-index: 999;
-    display: none;
+    /*display: none;*/
     width: 100%;
     padding-top: 15px;
     background: #efefef;
-}
-.nav-switch {
+  }
+
+  .main-menu ul li a {
+    display: block;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .main-menu ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .main-menu ul li {
+    display: block;
+  }
+
+  .main-menu ul li:last-child a {
+    border-bottom: none;
+  }
+
+  .nav-switch {
     position: absolute;
     top: 35px;
     right: 25px;
     display: block;
     color: #333;
     font-size: 30px;
-}
-.fa, 
-.fas {
+  }
+
+  .header-btn {
+    display: none;
+  }
+
+  .header-section {
+    position: relative;
+    padding-top: 1em;
+    padding-bottom: 0.8em;
+  }
+
+  .logo img {
+    max-width: 25%;
+  }
+
+  #menuToggle:not(.active) {
+    display: none;
+  }
+
+  .nav-switch {
+    position: absolute;
+    top: 35px;
+    right: 25px;
+    display: block;
+    color: #333;
+    font-size: 30px;
+  }
+
+  .fa,
+  .fas {
     font-family: 'Font Awesome 5 Pro';
     font-weight: 900;
     -moz-osx-font-smoothing: grayscale;
@@ -170,10 +183,61 @@ position: relative;
     font-variant: normal;
     text-rendering: auto;
     line-height: 1;
-}
-.header-btn {
+  }
+
+  .header-btn {
     display: none;
+  }
 }
+
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-switch {
+    display: none;
+  }
+
+  .container {
+    max-width: 720px;
+  }
+
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .col-lg-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .col-lg-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .container {
+    max-width: 1140px;
+  }
 }
   </style>
   <header class="header-section" id="mainHeader">
@@ -193,7 +257,7 @@ position: relative;
                 <a href="/contact.html"
                    class="site-btn header-btn"
                 >Get in touch</a>
-                <nav class="main-menu">
+                <nav class="main-menu" id="menuToggle">
                     <ul>
 <!--                        <li><a href="/">Home</a></li>-->
                         <li><a href="/about.html" rel="author">About</a></li>
@@ -205,8 +269,8 @@ position: relative;
             </div>
         </div>
     </div>
-    <div class="nav-switch">
-        <i class="fa fa-bars" aria-hidden="true" ></i>
+    <div class="nav-switch" id="menuToggleTrigger">
+        <i class="fa fa-bars" aria-hidden="true" aria-label="Menu"></i>
     </div>
 </header>
 `;
@@ -233,6 +297,35 @@ class Header extends HTMLElement {
         e.target.classList.add('active');
       });
     });
+
+    const menuToggle = document.querySelector('header-component').shadowRoot.querySelector('#menuToggle');
+    const menuTrigger = document.querySelector('header-component').shadowRoot.querySelector('#menuToggleTrigger');
+    if (menuTrigger) {
+      menuTrigger.addEventListener('click', (event) => {
+        event.preventDefault();
+
+        if (!menuToggle.classList.contains('active')) {
+          menuToggle.classList.add('active');
+          menuToggle.style.height = 'auto';
+
+          const height = `${menuToggle.clientHeight}px`;
+
+          menuToggle.style.height = '0px';
+
+          setTimeout(() => {
+            menuToggle.style.height = height;
+          }, 0);
+        } else {
+          menuToggle.style.height = '0px';
+
+          menuToggle.addEventListener('transitionend', () => {
+            menuToggle.classList.remove('active');
+          }, {
+            once: true,
+          });
+        }
+      });
+    }
   }
 }
 
