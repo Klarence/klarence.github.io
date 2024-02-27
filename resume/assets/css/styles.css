@@ -142,7 +142,7 @@ h2 {
 }
 
 .subheader {
-  color: #707070;
+  color: #545454;
   font-size: 16rem;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -181,19 +181,18 @@ h2 {
   font-size: 16rem;
   font-family: Lucida, Lucida Grande, Lucida Sans, Lucida Sans Unicode, Century Gothic, Avant Garde, Helvetica, Arial, sans-serif;
   line-height: 1.4;
-
 }
 
 .contact-desc {
   right: 65px;
-  color: #707070;
+  color: #545454;
   font-size: 14rem;
   font-family: Helvetica, Arial, sans-serif;
   font-style: italic;
 }
 
 .time-desc {
-  color: #707070;
+  color: #545454;
   font-weight: normal;
   font-size: 14rem;
   font-family: Helvetica, Arial, sans-serif;
@@ -202,7 +201,7 @@ h2 {
 
 .skills-desc {
   margin-bottom: 0;
-  color: #707070;
+  color: #545454;
   font-size: 14rem;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.2;
@@ -273,6 +272,4 @@ h2 {
   .career-summary p {
     max-width: 540px;
   }
-
-
 }

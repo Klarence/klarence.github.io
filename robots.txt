@@ -1,5 +1,11 @@
 # www.robotstxt.org/
 
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /
+
 # Allow crawling of all content
 User-agent: *
 Disallow:
