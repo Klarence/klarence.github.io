@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d909209-b0a2-4dc6-a4b9-0a4c9578e43e" name="Default" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash.html" beforeDir="false" afterPath="$PROJECT_DIR$/hash.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/adobe-challenge/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/adobe-challenge/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slides.html" beforeDir="false" afterPath="$PROJECT_DIR$/slides.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
-    </list>
-    <list id="80d08483-7639-49fa-83eb-c07a1452f073" name="local only" comment="local only">
+    <list default="true" id="0d909209-b0a2-4dc6-a4b9-0a4c9578e43e" name="Default" comment="update fontawesome&#10;update resume&#10;update robots file for ChatGPT&#10;Update resume styles for WCAG 2.2 AAA">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slides.html" beforeDir="false" afterPath="$PROJECT_DIR$/slides.html" afterDir="false" />
     </list>
+    <list id="80d08483-7639-49fa-83eb-c07a1452f073" name="local only" comment="local only" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +191,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/klarence/GitHub/klarence.github.io&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/klarence/GitHub/klarence.github.io/css/font-awesome&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -214,11 +205,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/font-awesome" />
       <recent name="$PROJECT_DIR$/sites/adobe-challenge" />
       <recent name="$PROJECT_DIR$/sites" />
       <recent name="$PROJECT_DIR$/partials" />
       <recent name="$PROJECT_DIR$/img/portfolio/graphics" />
-      <recent name="$PROJECT_DIR$/js/vendor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sites" />
@@ -295,6 +286,14 @@
       <workItem from="1663602593553" duration="173000" />
       <workItem from="1663602776267" duration="2866000" />
       <workItem from="1663606898401" duration="1365000" />
+      <workItem from="1701698859569" duration="4052000" />
+      <workItem from="1702190055475" duration="598000" />
+      <workItem from="1703364294620" duration="68000" />
+      <workItem from="1703364754451" duration="603000" />
+      <workItem from="1704602353057" duration="2919000" />
+      <workItem from="1708446359319" duration="11104000" />
+      <workItem from="1710009969837" duration="583000" />
+      <workItem from="1711468790190" duration="7046000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1481523722232</created>
@@ -380,7 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656348081468</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix typo and remove header styles">
+      <created>1701994168516</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701994168516</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update fontawesome&#10;update resume&#10;update robots file for ChatGPT&#10;Update resume styles for WCAD 2.2 AAA">
+      <created>1709073806435</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1709073806435</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -437,7 +450,10 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;js/app.js&#10;" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="fix header menu toggle and hotjar script" />
+    <MESSAGE value="fix typo and remove header styles" />
+    <MESSAGE value="update fontawesome&#10;update resume&#10;update robots file for ChatGPT&#10;Update resume styles for WCAD 2.2 AAA" />
+    <option name="LAST_COMMIT_MESSAGE" value="update fontawesome&#10;update resume&#10;update robots file for ChatGPT&#10;Update resume styles for WCAD 2.2 AAA" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
