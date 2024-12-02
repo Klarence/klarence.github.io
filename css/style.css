@@ -93,6 +93,10 @@ ol {
   color: #64a184;
 }
 
+.rotating-words {
+  text-align: start;
+}
+
 /* ------------------------
   Common Elements
 -------------------------- */

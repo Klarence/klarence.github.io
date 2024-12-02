@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/font-awesome/all.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="/css/rotating-text.css"/>
 
   <script src="components/header.js" type="text/javascript" defer></script>
   <script src="components/footer.js" type="text/javascript" defer></script>
@@ -58,7 +59,16 @@
       <div class="row">
         <div class="col-xl-10 offset-xl-1">
           <h1 class="sr-only">About me</h1>
-          <h2 class="section-title clearfix">I&rsquo;m a <span id="whoAmI">Web Developer</span>,
+          <h2 class="section-title clearfix rotating-words rotating-text">
+            I&rsquo;m a
+            <span class="rotating">
+              <span class="word green-sea">UX&nbsp;Engineer,</span>
+              <span class="word wisteria">Design&nbsp;Technologist,</span>
+              <span class="word peter-river">Usability&nbsp;Analyst,</span>
+              <span class="word alizarin">Accessibility&nbsp;Engineer,</span>
+              <span class="word sun-flower">Web&nbsp;Developer,</span>
+            </span>
+            <!--            <span data-id="whoAmI" class="rotating-text">Web Developer</span>,-->
             <span class="d-block">with a decade of web experience.</span>
             <!-- #A2B6AD -->
             <!-- #5caf89 -->
@@ -128,5 +138,6 @@
 <script src="js/mixitup.min.js"></script>
 <script src="js/magnific-popup.min.js"></script>
 <script src="js/main.js"></script>
+<script defer src="js/rotating-text.js"></script>
 </body>
 </html>

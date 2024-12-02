@@ -114,21 +114,22 @@ if($().circleProgress){
 	});
 }
 
-    var texts = [
-        "Design Technologist",
-        "Product Designer",
-        "Usability Analyst",
-		"Web Developer"
-        //, "Entrepreneur"
-    ];
-    var count = 0;
-
-    function changeText() {
-        $("#whoAmI").text(texts[count]);
-        count < 3 ? count++ : count = 0;
-    }
-	// console.log("Ran");
-    setInterval(changeText, 3000);
+    // var texts = [
+    //     "UX Engineer",
+    //     "Design Technologist",
+    //     "Usability Analyst",
+    //     "Accessibility Engineer",
+	// 	"Web Developer"
+    //     //, "Entrepreneur"
+    // ];
+    // var count = 0;
+	//
+    // function changeText() {
+    //     $("#whoAmI").text(texts[count]);
+    //     count < 3 ? count++ : count = 0;
+    // }
+	// // console.log("Ran");
+    // setInterval(changeText, 3000);
 
 })(jQuery);
 
