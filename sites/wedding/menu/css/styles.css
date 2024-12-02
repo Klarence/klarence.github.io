@@ -63,8 +63,8 @@ h2:before {
     height: 1px;
 }
 
-h2.seperators:before,
-h2.seperators:after {
+h2.separators:before,
+h2.separators:after {
     content: "";
     position: absolute;
     bottom: 18px;
@@ -110,6 +110,13 @@ h2 {
 ol, ul {
     margin-block-start: 0.25rem;
     padding-inline-start: 1.75rem;
+}
+
+img {
+    max-height: 240px;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    object-position: right top;
 }
 
 .item {
