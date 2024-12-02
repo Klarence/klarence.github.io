@@ -1,8 +1,3 @@
-(() => {
-
-
-console.log("rotating words");
-
 var words = document.querySelectorAll(".word");
 words.forEach(function (word) {
     var letters = word.textContent.split("");
@@ -39,4 +34,4 @@ var rotateText = function () {
 };
 rotateText();
 setInterval(rotateText, 4000);
-})();
+// https://blog.hubspot.com/website/css-animation-examples

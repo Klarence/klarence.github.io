@@ -39,4 +39,4 @@ let rotateText = () => {
 rotateText();
 setInterval(rotateText, 4000);
 
-
+// https://blog.hubspot.com/website/css-animation-examples
