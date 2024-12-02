@@ -262,7 +262,7 @@ headerTemplate.innerHTML = `
 <!--                        <li><a href="/">Home</a></li>-->
                         <li><a href="/about.html" rel="author">About</a></li>
                         <!--<li><a href="/work.html">Portfolio</a></li>-->
-                        <li><a href="/slides.html">Slides</a></li>
+<!--                        <li><a href="/slides.html">Slides</a></li>-->
                         <li><a href="/contact.html">Contact</a></li>
                     </ul>
                 </nav>
