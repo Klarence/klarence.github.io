@@ -25,10 +25,6 @@
     <!-- See Fallback Script at bottom -->
     <!--<link rel="stylesheet" href="/css/font-awesome/all.css"/>-->
 
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
     <script src="/components/header.js" type="text/javascript" defer></script>
     <script src="/components/footer.js" type="text/javascript" defer></script>
 
@@ -68,7 +64,7 @@
         <div class="row portfolios-area">
             <div class="mix col-lg-6 col-md-6 brand">
                 <a href="/images/portfolio/KOYdesigns_logo_stationary.jpg" class="portfolio-item set-bg"
-                   data-setbg="images/portfolio/KOYdesigns_logo.jpg">
+                   data-setbg="/images/portfolio/KOYdesigns_logo.jpg">
                     <div class="pi-inner">
                         <h2>+ See larger image</h2>
                     </div>
@@ -84,55 +80,55 @@
                 </a>
             </div>
             <div class="mix col-lg-6 col-md-6 digital">
-                <a href="images/portfolio/line_chart.jpg" class="portfolio-item set-bg"
-                   data-setbg="images/portfolio/line_chart.jpg">
+                <a href="/images/portfolio/line_chart.jpg" class="portfolio-item set-bg"
+                   data-setbg="/images/portfolio/line_chart.jpg">
                     <div class="pi-inner">
                         <h2>+ See Project</h2>
                     </div>
                 </a>
             </div>
             <div class="mix col-lg-6 col-md-6 digital">
-                <a href="images/portfolio/teabox-kyang-1.jpg" class="portfolio-item set-bg"
-                   data-setbg="images/portfolio/logo_tea_kyang.jpg">
+                <a href="/images/portfolio/teabox-kyang-1.jpg" class="portfolio-item set-bg"
+                   data-setbg="/images/portfolio/logo_tea_kyang.jpg">
                     <div class="pi-inner">
                         <h2>+ See Project</h2>
                     </div>
                 </a>
             </div>
             <div class="mix col-lg-6 col-md-6 digital">
-                <a href="images/portfolio/energy.jpg" class="portfolio-item set-bg"
-                   data-setbg="images/portfolio/energy.jpg">
+                <a href="/images/portfolio/energy.jpg" class="portfolio-item set-bg"
+                   data-setbg="/images/portfolio/energy.jpg">
                     <div class="pi-inner">
                         <h2>+ See Project</h2>
                     </div>
                 </a>
             </div>
             <div class="mix col-lg-6 col-md-6 digital">
-                <a href="images/portfolio/luminescence.jpg" class="portfolio-item set-bg"
-                   data-setbg="images/portfolio/luminescence.jpg">
+                <a href="/images/portfolio/luminescence.jpg" class="portfolio-item set-bg"
+                   data-setbg="/images/portfolio/luminescence.jpg">
                     <div class="pi-inner">
                         <h2>+ See Project</h2>
                     </div>
                 </a>
             </div>
             <div class="mix col-lg-6 col-md-6 digital">
-                <a href="images/portfolio/bauhaus-book_cover.png" class="portfolio-item set-bg "
-                   data-setbg="images/portfolio/bauhaus-book_cover-front.png">
+                <a href="/images/portfolio/bauhaus-book_cover.png" class="portfolio-item set-bg "
+                   data-setbg="/images/portfolio/bauhaus-book_cover-front.png">
                     <div class="pi-inner">
                         <h2>+ See Project</h2>
                     </div>
                 </a>
             </div>
             <!--<div class="mix col-lg-6 col-md-6 digital">-->
-            <!--<a href="images/portfolio/graphics_film_series_spread_grunge.jpg" class="portfolio-item set-bg" data-setbg="images/portfolio/film_series-rodriguez.jpg">-->
+            <!--<a href="images/portfolio/graphics_film_series_spread_grunge.jpg" class="portfolio-item set-bg" data-setbg="/images/portfolio/film_series-rodriguez.jpg">-->
             <!--<div class="pi-inner">-->
             <!--<h2>+ See Project</h2>-->
             <!--</div>-->
             <!--</a>-->
             <!--</div>-->
             <div class="mix col-lg-6 col-md-6 digital">
-                <a href="images/portfolio/building_map.jpg" class="portfolio-item set-bg"
-                   data-setbg="images/portfolio/building_map.jpg">
+                <a href="/images/portfolio/building_map.jpg" class="portfolio-item set-bg"
+                   data-setbg="/images/portfolio/building_map.jpg">
                     <div class="pi-inner">
                         <h2>+ See Project</h2>
                     </div>
@@ -189,14 +185,13 @@
 <div id="FontAwesome_fallback" style="display:none"></div>
 <script async>
     (function ($) {
-        var $span = $('<span class="far" style="display:none"></span>');
+        var $span = $('<span class="fa" style="display:none"></span>');
         $('#FontAwesome_fallback').append($span);
         var f = $span.css('fontFamily');
         if (f !== 'FontAwesome') {
-            $('head').append(`<script defer src="https://pro.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-GBwm0s/0wYcqnK/JmrCoRqWYIWzFiGEucsfFqkB76Ouii5+d4R31vWHPQtfhv55b" crossorigin="anonymous"></script>
-`);
-}
-})(jQuery);
+            $('head').append('<link href="/css/font-awesome/all.css" rel="stylesheet">');
+        }
+    })(jQuery);
 </script>
 </body>
 
