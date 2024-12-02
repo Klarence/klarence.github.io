@@ -3,6 +3,8 @@ const footerTemplate = document.createElement('template');
 const year = (new Date().getFullYear());
 footerTemplate.innerHTML = `
   <style>
+    [hidden] { display: none !important; }
+
   footer {
   padding: 110px 0;
   text-align: center
@@ -98,6 +100,10 @@ class Footer extends HTMLElement {
     }
 
     shadowRoot.appendChild(footerTemplate.content);
+
+    const currentRoute = window.location.pathname;
+    const contactBtn = document.querySelector('footer-component').shadowRoot.querySelector('.site-btn');
+    contactBtn.hidden = !!currentRoute.includes("contact");
   }
 }
 

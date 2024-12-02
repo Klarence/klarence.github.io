@@ -3,6 +3,7 @@ const headerTemplate = document.createElement('template');
 headerTemplate.innerHTML = `
 
   <style>
+  [hidden] { display: none !important; }
  #menuToggle {
   transition: height .25s ease;
   overflow: hidden;
@@ -280,15 +281,15 @@ class Header extends HTMLElement {
     super();
   }
 
-  connectedCallback() {
+  connectedCallback(qualifiedName, value) {
     const shadowRoot = this.attachShadow({ mode: 'open' });
 
     shadowRoot.appendChild(headerTemplate.content);
 
-    const current = window.location.pathname;
+    const currentRoute = window.location.pathname;
     const menuItems = document.querySelector('header-component').shadowRoot.querySelectorAll('.main-menu a');
     menuItems.forEach((el) => {
-      if (current.includes(el.getAttribute('href'))) {
+      if (currentRoute.includes(el.getAttribute('href'))) {
         el.classList.add('active');
       }
 
@@ -298,8 +299,11 @@ class Header extends HTMLElement {
       });
     });
 
+    const contactBtn = document.querySelector('header-component').shadowRoot.querySelector('.site-btn');
     const menuToggle = document.querySelector('header-component').shadowRoot.querySelector('#menuToggle');
     const menuTrigger = document.querySelector('header-component').shadowRoot.querySelector('#menuToggleTrigger');
+
+    contactBtn.hidden = !!currentRoute.includes("contact");
     if (menuTrigger) {
       menuTrigger.addEventListener('click', (event) => {
         event.preventDefault();
@@ -326,6 +330,8 @@ class Header extends HTMLElement {
         }
       });
     }
+
+
   }
 }
 

@@ -32,6 +32,11 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+    <script src="/components/header.js" type="text/javascript" defer></script>
+    <script src="../../components/footer.js" type="text/javascript" defer></script>
+
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171493612-1"></script>
     <script>
@@ -51,35 +56,7 @@
 </head>
 
 <body class="">
-<!-- header section start -->
-<header class="header-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-3">
-                <div class="logo">
-                    <a class="d-block" href="/"><img alt="" src="/images/KOY-designs-logo.png"></a>
-                    <!-- <h1 class="site-logo">Klarence OuYang Designs</h1> -->
-                </div>
-            </div>
-            <div class="col-lg-8 col-md-9">
-                <a href="/contact.html" class="site-btn header-btn">Get in touch</a>
-                <nav class="main-menu">
-                    <ul>
-                        <!--<li><a href="/index.html" class="active">Home</a></li>-->
-                        <li><a href="/about.html">About</a></li>
-                        <!--<li><a href="/work.html">Portfolio</a></li>-->
-                        <li><a href="/slides.html">Slides</a></li>
-                        <li><a href="/contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-    <div class="nav-switch">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-</header>
-<!-- header section end -->
+<header-component></header-component>
 
 <!-- intro section start -->
 <section class="intro-section">
@@ -252,37 +229,8 @@
     <div class="loader"></div>
 </div>
 
-<!-- footer section start -->
-<footer class="footer-section text-center">
-    <div class="container">
-        <h2 class="section-title mb-5">Thanks for Looking! <br/> <small>I welcome feedback</small></h2>
-        <a href="/contact.html" class="site-btn">Get in touch</a>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/klarence" aria-label="LinkedIn"><span
-                    class="fab fa-linkedin-in"></span></a>
-            <!--<a href="https://twitter.com/klarenceouyang" aria-label="Twitter"><span class="fab fa-twitter"></span></a>-->
-            <a href="https://www.facebook.com/klarence.ouyang" aria-label="Facebook"><span
-                    class="fab fa-facebook-f"></span></a>
-            <!--<a href=""><span class="fab fa-instagram" aria-label="Instagram"></span></a>-->
-            <!--<a href=""><span class="fab fa-pinterest-p" aria-label="Pinterest"></span></a>-->
-            <a href="https://github.com/Klarence" aria-label="GitHub"><span class="fab fa-github"></span></a>
-            <a href="https://stackoverflow.com/users/4267591/klarence" aria-label="Stack Overflow"><span
-                    class="fab fa-stack-overflow"></span></a>
-            <!--<a href="https://dribbble.com/klarence" aria-label="Dribbble"><span class="fab fa-dribbble"></span></a>-->
-            <!--<a href="https://www.behance.net/klarenceouyang" aria-label="Behance"><span class="fab fa-behance"></span></a>-->
-            <!--<a href=""><span class="fab fa-medium-m" aria-label="Medium Blog"></span></a>-->
-<!--            <a href="https://angel.co/klarence-ouyang?public_profile=1" aria-label="Angellist"><span-->
-                    class="fab fa-angellist"></span></a>
-        </div>
-        <small class="copyright">
-            Copyright &copy; 2010&mdash;<script>
-            document.write(new Date().getFullYear());
-        </script>
-            All rights reserved.
-        </small>
-    </div>
-</footer>
-<!-- footer section end -->
+<footer-component></footer-component>
+
 
 <!--====== Scripts  ======-->
 <!-- jQuery -->
