@@ -117,8 +117,32 @@ img {
     aspect-ratio: 1 / 1;
     object-fit: contain;
     object-position: right top;
+    display: none;
 }
 
+table {
+    width: auto;
+    margin-right: 0;
+    margin-left: auto;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 0 0 4px 40px;
+}
+
+caption {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+th {
+    text-align: left;
+    font-weight: normal;
+}
+td {
+    position: relative;
+    text-align: center;
+    transform: translateX(-128px);
+}
 .item {
     position: relative;
     overflow: hidden;
