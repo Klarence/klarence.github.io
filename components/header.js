@@ -246,7 +246,7 @@ headerTemplate.innerHTML = `
         <div class="row">
             <div class="col-lg-4 col-md-3">
                 <div class="logo">
-<!--                    <a class="d-block" href="#">-->
+                    <a class="d-block" href="/">
                     <img alt="KOY Designs"
                          src="/images/KOY-designs-logo.png"
                          loading="eager">
