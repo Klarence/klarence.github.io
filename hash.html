@@ -6,12 +6,10 @@
 	<meta name="description" content="Klarence OuYang Portfolio Website">
 	<meta name="keywords" content="portfolio, onepage, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->
+
 	<link href="images/favicon.ico" rel="shortcut icon"/>
 
-
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
-
 
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/font-awesome/all.css"/>
@@ -64,8 +62,10 @@
 		}
 	</style>
 
+	<script src="components/header.js" type="text/javascript" defer></script>
+	<script src="components/footer.js" type="text/javascript" defer></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171493612-1"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171493612-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -82,34 +82,7 @@
 		<div class="loader"></div>
 	</div>
 
-
-	<header class="header-section">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="logo">
-					<a class="d-block" href="index.html"><img alt="" src="./images/KOY-designs-logo.png" loading="eager"></a>
-					<!-- <h1 class="site-logo">Klarence OuYang Designs</h1> -->
-				</div>
-				<div class="work container text-left text-md-right">
-					<nav class="main-menu">
-						<ul>
-							<!--<li><a href="index.html">Home</a></li>-->
-							<li><a href="about.html">About</a></li>
-							<li><a href="work.html" class="active">Portfolio</a></li>
-							<li><a href="slides.html">Slides</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-				<a href="contact.html" class="site-btn header-btn">Get in touch</a>
-			</div>
-		</div>
-		<div class="nav-switch">
-			<i class="fa fa-bars" aria-hidden="true"></i>
-		</div>
-	</header>
-
-
+	<header-component></header-component>
 
 	<!-- password protected section start -->
 	<section class="portfolio-section pt100">
@@ -129,42 +102,7 @@
 	</section>
 		<!--https://github.com/matteobrusa/Password-protection-for-static-pages-->
 	<!-- password protected section end -->
-
-
-
-	<footer class="footer-section">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-8">
-					<h2 class="section-title mb-5">Page Locked</h2>
-					<a href="contact.html" class="site-btn">Get in touch</a>
-				</div>
-				<div class="col-md-4 text-md-right">
-					<div class="social-links">
-            <a href="https://www.linkedin.com/in/klarence" aria-label="LinkedIn"><span class="fab fa-linkedin-in"></span></a>
-            <!--<a href="https://twitter.com/klarenceouyang" aria-label="Twitter"><span class="fab fa-twitter"></span></a>-->
-            <a href="https://www.facebook.com/klarence.ouyang" aria-label="Facebook"><span class="fab fa-facebook-f"></span></a>
-            <!--<a href=""><span class="fab fa-instagram" aria-label="Instagram"></span></a>-->
-            <!--<a href=""><span class="fab fa-pinterest-p" aria-label="Pinterest"></span></a>-->
-            <a href="https://github.com/Klarence" aria-label="GitHub"><span class="fab fa-github"></span></a>
-            <a href="https://stackoverflow.com/users/4267591/klarence" aria-label="Stack Overflow"><span class="fab fa-stack-overflow"></span></a>
-            <!--<a href="https://dribbble.com/klarence" aria-label="Dribbble"><span class="fab fa-dribbble"></span></a>-->
-            <!--<a href="https://www.behance.net/klarenceouyang" aria-label="Behance"><span class="fab fa-behance"></span></a>-->
-            <!--<a href=""><span class="fab fa-medium-m" aria-label="Medium Blog"></span></a>-->
-<!--            <a href="https://angel.co/klarence-ouyang?public_profile=1" aria-label="Angellist"><span class="fab fa-angellist"></span></a>-->
-        </div>
-					<small class="copyright">
-						Copyright &copy; 2010&mdash;<script>document.write(new Date().getFullYear());</script>
-						All rights reserved.
-					</small>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-
-
-
+	<footer-component></footer-component>
 
 	<script src="js/jquery-3.5.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
