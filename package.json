@@ -4,6 +4,7 @@
   "description": "Portfolio Site",
   "main": "index.html",
   "devDependencies": {
+    "@eslint/js": "latest",
     "babel-core": "latest",
     "babel-preset-env": "latest",
     "browser-sync": "latest",
