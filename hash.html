@@ -75,7 +75,7 @@
 </script>
 
 <!-- Hotjar Tracking Code for www.klarence.net -->
-<script src="js/hotjar.js"></script>
+<script src="/js/hotjar.js"></script>
 </head>
 <body class="body-pad">
 	<div id="preloader">
@@ -114,11 +114,12 @@
 
 	<script type="text/javascript">
         "use strict";
+		let $password = $("#password");
         function loadPage(pwd) {
-            var hash= pwd;
-            hash= Sha1.hash(pwd);
-            var url= hash + "/index.html";
-            $.ajax({
+			let hash = pwd;
+			hash= Sha1.hash(pwd);
+			const url = hash + "/index.html";
+			$.ajax({
                 url : url,
                 dataType : "html",
                 success : function(data) {
@@ -127,20 +128,20 @@
                 error : function(xhr, ajaxOptions, thrownError) {
                     parent.location.hash= hash;
                     //$("#wrongPassword").show();
-                    $("#password").attr("placeholder","wrong password");
-                    $("#password").val("");
+					$password.attr("placeholder","wrong password");
+					$password.val("");
                 }
             });
         }
         $("#loginbutton").on("click", function() {
             loadPage($("#password").val());
         });
-        $("#password").keypress(function(e) {
-            if (e.which == 13) {
+		$password.keypress(function(e) {
+            if (e.which === 13) {
                 loadPage($("#password").val());
             }
         });
-        $("#password").focus();
+		$password.focus();
 	</script>
 </body>
 </html>

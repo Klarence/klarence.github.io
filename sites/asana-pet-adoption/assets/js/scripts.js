@@ -7,14 +7,14 @@
             })
                 .then(function (html) {
                     // Initialize the DOM parser
-                    var parser = new DOMParser();
+                    const parser = new DOMParser();
 
                     // Parse the text
-                    var doc = parser.parseFromString(html, "text/html");
+                    const doc = parser.parseFromString(html, "text/html");
 
                     // You can now even select part of that html as you would in the regular DOM
                     // Example:
-                    var docArticle = doc.querySelector('header').innerHTML;
+                    const docArticle = doc.querySelector('header').innerHTML;
 
                     console.log(doc);
                     document.getElementById("header").innerHTML = docArticle
@@ -31,14 +31,14 @@
             })
                 .then(function (html) {
                     // Initialize the DOM parser
-                    var parser = new DOMParser();
+                    const parser = new DOMParser();
 
                     // Parse the text
-                    var doc = parser.parseFromString(html, "text/html");
+                    const doc = parser.parseFromString(html, "text/html");
 
                     // You can now even select part of that html as you would in the regular DOM
                     // Example:
-                    var docArticle = doc.querySelector('footer').innerHTML;
+                    const docArticle = doc.querySelector('footer').innerHTML;
 
                     console.log(doc);
                     document.getElementById("footer").innerHTML = docArticle
