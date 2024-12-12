@@ -40,3 +40,22 @@ rotateText();
 setInterval(rotateText, 4000);
 
 // https://blog.hubspot.com/website/css-animation-examples
+
+// Old Implementation
+// var texts = [
+//     "UX Engineer",
+//     "Design Technologist",
+//     "Usability Analyst",
+//     "Accessibility Engineer",
+// eslint-disable-next-line no-tabs
+// 	"Web Developer"
+//     //, "Entrepreneur"
+// ];
+// var count = 0;
+//
+// function changeText() {
+//     $("#whoAmI").text(texts[count]);
+//     count < 3 ? count++ : count = 0;
+// }
+// // console.log("Ran");
+// setInterval(changeText, 3000);
