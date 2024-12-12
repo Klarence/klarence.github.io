@@ -255,7 +255,6 @@ h2 {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     -ms-filter: "FlipH";
-    filter: FlipH;
   }
 
   .column-left {

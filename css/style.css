@@ -137,32 +137,15 @@ ol {
 
 @keyframes loader {
   0% {
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
   50% {
-    -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
   }
 
   100% {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
-  }
-}
-
-@-webkit-keyframes loader {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-
-  50% {
-    -webkit-transform: rotate(180deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
   }
 }
 
@@ -331,7 +314,6 @@ ol {
 }
 
 .circle-progress canvas {
-  -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
@@ -490,7 +472,6 @@ ol {
 }
 
 .img-popup-warp .mfp-content {
-  -webkit-transform: scale(0.8);
   -ms-transform: scale(0.8);
   transform: scale(0.8);
   opacity: 0;
@@ -500,7 +481,6 @@ ol {
 }
 
 .img-popup-warp.mfp-ready .mfp-content {
-  -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
   opacity: 1;
