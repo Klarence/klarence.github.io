@@ -1,0 +1,41 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+    ". intro intro intro intro intro intro intro intro intro intro ."
+    "page page page page page page page page page page page page";
+}
+
+.about-header {
+    grid-area: intro;
+    display: block;
+    padding: 30px 0 60px 0;
+}
+
+.page-section {
+    display: grid;
+    grid-area: page;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+    ". blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb blurb"
+    "img img img img img img img img img img img img";
+}
+
+@media only screen and (width >= 768px) {
+    .page-section {
+        grid-template-areas:
+        ". blurb blurb blurb blurb blurb blurb img img img img img";
+    }
+}
+
+.blurb {
+    grid-area: blurb;
+}
+
+.headshot {
+    display: grid;
+    grid-area: img;
+    justify-content: center;
+}

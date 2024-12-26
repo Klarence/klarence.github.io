@@ -1,140 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Klarence OuYang&rsquo;s Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="Klarence OuYang&rsquo;s Portfolio Website">
-    <meta name="keywords" content="portfolio, creative">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Klarence OuYang&rsquo;s Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Klarence OuYang&rsquo;s Portfolio Website">
+  <meta name="keywords" content="portfolio, creative">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="images/favicon.ico" rel="shortcut icon"/>
+  <link href="images/favicon.ico" rel="shortcut icon" />
 
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="assets/fa-pro/css/all.min.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="/css/rotating-text.css"/>
+  <!--    <link rel="stylesheet" href="css/bootstrap.min.css"/>-->
+  <link rel="stylesheet" href="assets/fa-pro/css/all.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/about.css" />
+  <link rel="stylesheet" href="/css/rotating-text.css" />
 
-    <script src="components/header.js" type="text/javascript" defer></script>
-    <script src="components/footer.js" type="text/javascript" defer></script>
+  <script src="components/header.js" type="text/javascript" defer></script>
+  <script src="components/footer.js" type="text/javascript" defer></script>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171493612-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171493612-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-        gtag('js', new Date());
+    gtag('js', new Date());
 
-        gtag('config', 'UA-171493612-1');
-    </script>
-    <script src="/js/hotjar.js"></script>
+    gtag('config', 'UA-171493612-1');
+  </script>
+  <script src="/js/hotjar.js"></script>
 </head>
 <body>
 <div id="preloader">
-    <div class="loader"></div>
+  <div class="loader"></div>
 </div>
 
 <header-component></header-component>
-<main>
+<main class="about">
 
-    <!-- <section class="intro-section">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-xl-10 offset-xl-1">
-                    <h2 class="section-title">I&rsquo;m a freelance <span>digital designer</span>, with +10 years of experience</h2>
-                </div>
-            </div>
-        </div>
-    </section> -->
+  <!-- <section class="intro-section">
+      <div class="container text-center">
+          <div class="row">
+              <div class="col-xl-10 offset-xl-1">
+                  <h2 class="section-title">I&rsquo;m a freelance <span>digital designer</span>, with +10 years of experience</h2>
+              </div>
+          </div>
+      </div>
+  </section> -->
 
-    <section class="intro-section">
-        <div class="container text-center">
-            <div class="row">
-                <header class="col-xl-10 offset-xl-1">
-                    <h1 class="sr-only">About me</h1>
-                    <h2 class="section-title text-uppercase rotating-words mb-4">
-                        Who Am I?
-                    </h2>
-                    <h3 class="section-title clearfix rotating-words rotating-text">
-                        I&rsquo;m a
-                        <span class="rotating">
+
+  <header class="about-header">
+    <h1 class="sr-only">About me</h1>
+    <h2 class="section-title text-uppercase">
+      Who Am I?
+    </h2>
+    <h3 class="section-subtitle clearfix rotating-words rotating-text">
+      I&rsquo;m a
+      <span class="rotating">
                           <span class="word green-sea">UX&nbsp;Engineer,</span>
                           <span class="word wisteria">Design&nbsp;Technologist,</span>
                           <span class="word peter-river">Usability&nbsp;Analyst,</span>
                           <span class="word alizarin">Accessibility&nbsp;Engineer,</span>
                           <span class="word sun-flower">Web&nbsp;Developer,</span>
                         </span>
-                        <!--            <span data-id="whoAmI" class="rotating-text">Web Developer</span>,-->
-                        <span class="d-block">with a decade of web experience.</span>
-                        <!-- #A2B6AD -->
-                        <!-- #5caf89 -->
-                    </h3>
-                </header>
-            </div>
-        </div>
-    </section>
+      <!--            <span data-id="whoAmI" class="rotating-text">Web Developer</span>,-->
+      <span>with a decade of web experience.</span>
+    </h3>
+  </header>
 
-    <section class="page-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <p> Hi, I am Klarence! I'm a Design Engineer who has over a decade of web development experience.
-                        I’m passionate about design, technology, and understanding how people interact with computers
-                        to create meaningful and intuitive experiences.
-                    </p>
-                    <p>
-                        My specialties include frontend development (like responsive design and crafting scalable,
-                        performant CSS), accessibility, interaction design, information architecture, and usability.
-                    </p>
-                    <p>
-                        Feel free to take a look at my
-                        <a href="https://www.linkedin.com/in/klarence"
-                           aria-label="Klarence's LinkedIn Profile">LinkedIn</a>
-                        or check out my
-                        <a href="./resume/index.html" aria-label="Klarence's Resume">resume</a>&ndash;I’d love to
-                        connect!
-                    </p>
-                    <div class="row mt-5">
-                        <div class="col-md-12">
-                            <h3>Years of Experience</h3>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="milestone">
-                                <h2><span>10</span><span class="title">Web Developer</span></h2>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="milestone">
-                                <h2><span>5</span><span class="title">UX Analyst</span></h2>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="milestone">
-                                <h2><span>3</span><span class="title">Product Designer</span></h2>
-                            </div>
-                        </div>
-                    </div>
-                    <!--<div class="mt-5">-->
-                    <!--<p>-->
-                    <!--Please feel free to browse my <a href="https://www.linkedin.com/in/klarence">LinkedIn</a> or check out my <a href="./resume/resume.html">resume</a>.-->
-                    <!--</p>-->
-                    <!--</div>-->
-                    <!--<figure class="mt-5">-->
-                    <!--<img src="images/sign.png" alt="">-->
-                    <!--</figure>-->
-                </div>
-                <div class="col-lg-5 offset-lg-1">
-                    <figure class="">
-                        <img src="images/klarence_headshot.jpg" alt="Klarence Head Shot Photo" loading="lazy">
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </section>
+
+  <section class="page-section">
+    <div class="blurb">
+      <p> Hi, I am Klarence! I'm a Design Engineer who has over a decade of web development experience.
+          I’m passionate about design, technology, and understanding how people interact with computers
+          to create meaningful and intuitive experiences.
+      </p>
+      <p>
+        My specialties include frontend development (such as responsive design and crafting scalable,
+        performant CSS), accessibility, interaction design, information architecture, and usability.
+      </p>
+      <p>
+        Feel free to take a look at my
+        <a href="https://www.linkedin.com/in/klarence"
+           aria-label="Klarence's LinkedIn Profile">LinkedIn</a>
+        or check out my
+        <a href="./resume/index.html" aria-label="Klarence's Resume">resume</a>&ndash;I’d love to
+        connect!
+      </p>
+      <div class="experience">
+          <h4 id="yrsOfExp">Years of Experience</h4>
+          <div class="milestone">
+            <h5><span class="title">Web Developer</span><span aria-describedby="yrsOfExp">10</span></h5>
+          </div>
+          <div class="milestone">
+            <h5><span class="title">UX Analyst</span><span>5</span></h5>
+          </div>
+          <div class="milestone">
+            <h5><span class="title">Product Designer</span><span>3</span></h5>
+          </div>
+      </div>
+      <!--<div class="mt-5">-->
+      <!--<p>-->
+      <!--Please feel free to browse my <a href="https://www.linkedin.com/in/klarence">LinkedIn</a> or check out my <a href="./resume/resume.html">resume</a>.-->
+      <!--</p>-->
+      <!--</div>-->
+      <!--<figure class="mt-5">-->
+      <!--<img src="images/sign.png" alt="">-->
+      <!--</figure>-->
+    </div>
+    <div class="headshot">
+      <figure class="">
+        <img src="images/klarence_headshot.jpg" alt="Klarence Head Shot Photo" loading="lazy">
+      </figure>
+    </div>
+  </section>
 
 </main>
 <footer-component></footer-component>
