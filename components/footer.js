@@ -2,47 +2,49 @@ const footerTemplate = document.createElement('template');
 
 const year = (new Date().getFullYear());
 footerTemplate.innerHTML = `
-  <style>
-    [hidden] { display: none !important; }
+<style>
+  [hidden] { display: none !important; }
 
   footer {
   padding: 110px 0;
   text-align: center
   }
+  
   .footer-title {
     font-size: 60px;
     margin-bottom: 3rem;
   }
   
-    .footer-section {
-      padding: 110px 0;
-    }
+  .footer-section {
+    padding: 110px 0;
+  }
     
-    .footer-section .copyright {
-      color: #767676;
-      font-size: 12px;
-    }
-    
-    .social-links {
-      margin-top: 60px;
-      margin-bottom: 40px;
-      padding: 0;
-      list-style: none;
-    }
-    .social-links a {
-      color: #767676;
-      font-size: 15px;
-    }
-    
-    .social-links li {
-      display: inline-flex;
-      margin-right: 30px;
-    }
-    
-    .social-links li:last-child {
-      margin-right: 0;
-    }
-    .site-btn {
+  .footer-section .copyright {
+    color: #767676;
+    font-size: 12px;
+  }
+  
+  .social-links {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 0;
+    list-style: none;
+  }
+  .social-links a {
+    color: #767676;
+    font-size: 15px;
+  }
+  
+  .social-links li {
+    display: inline-flex;
+    margin-right: 30px;
+  }
+  
+  .social-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .site-btn {
     position: relative;
     z-index: 1;
     display: inline-block;
@@ -55,8 +57,8 @@ footerTemplate.innerHTML = `
     text-decoration: none;
     background-color: #36634d;
     border: none;
-}
-  </style>
+  }
+</style>
   <footer id="pageFooter"
         class="footer-section text-center"
 >

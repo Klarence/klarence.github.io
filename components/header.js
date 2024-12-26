@@ -2,11 +2,12 @@ const headerTemplate = document.createElement('template');
 
 headerTemplate.innerHTML = `
 
-  <style>
-  [hidden] { display: none !important; }
- #menuToggle {
-  transition: height .25s ease;
-  overflow: hidden;
+<style>
+[hidden] { display: none !important; }
+
+#menuToggle {
+transition: height .25s ease;
+overflow: hidden;
 }
 
 .logo img {
@@ -104,7 +105,6 @@ headerTemplate.innerHTML = `
   padding-right: 15px;
   padding-left: 15px;
 }
-
 
 @media only screen and (max-width: 767px) {
   .main-menu {
@@ -240,8 +240,8 @@ headerTemplate.innerHTML = `
     max-width: 1140px;
   }
 }
-  </style>
-  <header class="header-section" id="mainHeader">
+</style>
+<header class="header-section" id="mainHeader">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-3">
