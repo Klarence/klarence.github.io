@@ -4,32 +4,21 @@
   "description": "Portfolio Site",
   "main": "index.html",
   "devDependencies": {
-    "@eslint/js": "latest",
-    "babel-core": "latest",
-    "babel-preset-env": "latest",
-    "browser-sync": "latest",
-    "eslint": "latest",
-    "eslint-config-airbnb-base": "latest",
-    "eslint-plugin-immutable": "latest",
-    "eslint-plugin-import": "latest",
-    "gulp": "latest",
-    "gulp-babel": "latest",
-    "gulp-cssnano": "latest",
-    "gulp-newer": "latest",
-    "gulp-purgecss": "latest",
-    "gulp-stylelint": "latest",
-    "jshint": "latest",
-    "prettier": "latest",
-    "prettier-stylelint": "latest",
-    "pump": "latest",
-    "stylelint": "latest",
-    "stylelint-config-rational-order": "latest",
-    "stylelint-config-recommended": "latest",
-    "stylelint-config-standard": "latest"
-  },
-  "scripts": {
-    "build": "gulp",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "@eslint/js": "^9.17.0",
+    "htmllint": "^0.8.0",
+    "eslint": "^9.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-immutable": "^1.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "jshint": "^2.13.6",
+    "prettier": "^3.4.2",
+    "prettier-stylelint": "^0.4.2",
+    "stylelint": "^16.11.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-recommended": "^14.0.1",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "stylelint-order": "^6.0.4"
   },
   "repository": {
     "type": "git",
@@ -41,8 +30,7 @@
     "design",
     "web",
     "development",
-    "resume",
-    "wedding"
+    "resume"
   ],
   "author": "Klarence OuYang",
   "license": "ISC",
@@ -51,7 +39,6 @@
   },
   "homepage": "https://github.com/Klarence/klarence.github.io#readme",
   "website-locations": [
-    "https://klarence.net",
-    "https://koydesigns.net"
+    "https://klarence.net"
   ]
 }
