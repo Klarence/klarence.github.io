@@ -95,10 +95,6 @@ overflow: hidden;
   margin-left: auto;
 }
 
-.fa-bars:before {
-  content: "\\f0c9";
-}
-
 .col-md-3, .col-lg-4 {
   position: relative;
   width: 100%;
@@ -142,8 +138,7 @@ overflow: hidden;
     top: 35px;
     right: 25px;
     display: block;
-    color: #333;
-    font-size: 30px;
+    /*color: #333;*/
   }
 
   .header-btn {
@@ -171,19 +166,6 @@ overflow: hidden;
     display: block;
     color: #333;
     font-size: 30px;
-  }
-
-  .fa,
-  .fas {
-    font-family: 'Font Awesome 5 Pro';
-    font-weight: 900;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
   }
 
   .header-btn {
@@ -246,7 +228,7 @@ overflow: hidden;
         <div class="row">
             <div class="col-lg-4 col-md-3">
                 <div class="logo">
-                    <a class="d-block" href="/">
+                    <a href="/">
                     <img alt="KOY Designs"
                          src="/images/KOY-designs-logo.png"
                          loading="eager">
@@ -271,7 +253,7 @@ overflow: hidden;
         </div>
     </div>
     <div class="nav-switch" id="menuToggleTrigger">
-        <i class="fa fa-bars" aria-hidden="true" aria-label="Menu"></i>
+        <img src="/assets/fa-pro/svgs/solid/bars.svg" alt="Navigation Menu" width="30" height="30" />
     </div>
 </header>
 `;
