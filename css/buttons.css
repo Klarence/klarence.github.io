@@ -1,4 +1,3 @@
-/* === Buttons === */
 .site-btn {
     position: relative;
     z-index: 1;
@@ -14,6 +13,7 @@
     /* background-color: #000; */
     background-color: #36634d;
     border: none;
+    border-radius: 8px;
 }
 
 .site-btn.btn-fade {

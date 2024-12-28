@@ -76,6 +76,7 @@ overflow: hidden;
   text-decoration: none;
   background-color: #36634d;
   border: none;
+  border-radius: 8px;
 }
 
 .nav-switch {
@@ -169,10 +170,6 @@ overflow: hidden;
     font-size: 30px;
     background-color: transparent;
     border: none;
-  }
-
-  .header-btn {
-    display: none;
   }
 }
 

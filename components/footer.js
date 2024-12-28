@@ -76,6 +76,7 @@ footerTemplate.innerHTML = `
     text-decoration: none;
     background-color: #36634d;
     border: none;
+    border-radius: 8px;
   }
 </style>
   <footer id="pageFooter"
