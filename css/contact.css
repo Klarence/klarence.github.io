@@ -1,0 +1,63 @@
+.contact-text {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.contact-text h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.contact-text p {
+    font-size: 17px;
+}
+
+.contact-form {
+    display: block;
+    width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 30px;
+    padding-left: 8px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+.contact-form textarea {
+    height: 200px;
+}
+
+.contact-form ::placeholder {
+    font-style: italic;
+}
+
+.contact-form-inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.full {
+    width: 100%;
+}
+
+.half {
+    width: 100%;
+}
+
+@media only screen and (width <= 767px) {
+    .half {
+        width: 50%;
+        padding-right: 12px;
+    }
+
+    .half + .half {
+        padding-right: 0
+    }
+}

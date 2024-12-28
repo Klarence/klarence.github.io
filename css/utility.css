@@ -1,0 +1,42 @@
+
+.body-pad {
+    padding: 0 40px;
+}
+
+.spad {
+    padding: 100px 0;
+}
+
+.pt100 {
+    padding-top: 100px;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.text-center {
+    text-align: center;
+    width: 100%;
+}
+
+.padding-sm {
+    padding: 8px;
+}
+
+.img-center {
+    display: block;
+    margin: auto;
+}

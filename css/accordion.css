@@ -1,0 +1,65 @@
+
+/* ===  Accordion  === */
+.accordion-area .panel {
+    margin-bottom: 30px;
+}
+
+.accordion-area .panel-header {
+    position: relative;
+    display: block;
+    padding: 12px 50px 12px 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    background: #000;
+    border: 2px solid #000;
+    transition: all 0.4s ease-out 0s;
+}
+
+.accordion-area .panel-header.active {
+    color: #000;
+    background: transparent;
+}
+
+.accordion-area .panel-link::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -4px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    content: "+";
+}
+
+.accordion-area .panel-header.active .panel-link::after {
+    color: #000;
+    content: "-";
+}
+
+.accordion-area .panel-header.active .panel-link.collapsed::after {
+    content: "+";
+}
+
+.accordion-area .panel-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.accordion-area .panel-body p {
+    margin-bottom: 0;
+    padding-top: 25px;
+    font-size: 14px;
+}
+
+.accordion-area .panel-body {
+    padding: 0 5px;
+}

@@ -1,0 +1,41 @@
+
+/* ===  Tab  === */
+.tab-element .nav-tabs {
+    margin-bottom: 35px;
+    border-bottom: none;
+}
+
+.tab-element .nav-tabs .nav-link {
+    min-width: 118px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    /* color: #222; */
+    padding: 15px 40px;
+    color: #fff;
+
+    /* font-size: 14px; */
+    font-weight: 500;
+    font-size: 16px;
+    background: #000;
+    border: 2px solid #000;
+    border-radius: 0;
+}
+
+.tab-element .nav-tabs .nav-item:last-child .nav-link {
+    margin-right: 0;
+}
+
+.tab-element .nav-tabs .nav-link.active {
+    color: #000;
+    background: transparent;
+}
+
+.tab-element .tab-pane h4 {
+    margin: 25px 0 20px;
+    font-size: 18px;
+}
+
+.tab-element .tab-pane p {
+    font-size: 14px;
+}

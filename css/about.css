@@ -39,3 +39,58 @@
     grid-area: img;
     justify-content: center;
 }
+
+
+/* ------------------------
+    About Page
+-------------------------- */
+.pic-frame {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.pic-frame::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: calc(100% - 25px);
+    height: calc(100% - 25px);
+    border: 2px solid #000;
+    content: "";
+}
+
+.experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.experience h4 {
+    flex-basis: 100%;
+}
+
+.milestone {
+    margin-top: 15px;
+}
+
+.milestone h5 {
+    font-size: 60px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.milestone h2 span {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.milestone h5 span.title {
+    /* color: #929292; */
+    color: #767676;
+    font-size: 18px;
+}

@@ -1,0 +1,79 @@
+
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+    color: #4e4e4e;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    /* font-family: "Josefin Sans", "Open Sans", sans-serif; */
+}
+
+body {
+    margin: 0 auto;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: block;
+    width: max-content;
+    margin: 0;
+
+    /* color: #001418;   */
+    color: #4e4e4e;
+    font-weight: 600;
+    font-family: "Josefin Sans", "Open Sans", sans-serif;
+}
+
+p {
+    color: #767676;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+
+img {
+    /* Don't make images wider than their container */
+    max-width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}

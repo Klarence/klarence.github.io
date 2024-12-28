@@ -1,0 +1,55 @@
+.logo img {
+    width: 100px;
+}
+
+
+video.img-center {
+    /* position: relative;
+      left: 50%;
+      transform: translateX(-50%); */
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.circle-progress {
+    position: relative;
+    text-align: center;
+}
+
+.circle-progress canvas {
+    transform: rotate(90deg);
+}
+
+.circle-progress .progress-info {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+
+.circle-progress .progress-info h2 {
+    font-size: 36px;
+}
+
+.circle-progress .progress-info p {
+    /* color: #929292; */
+    color: #767676;
+    font-size: 16px;
+    line-height: normal;
+}
+
+
+
+.img-popup-warp .mfp-content {
+    transform: scale(0.8);
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.img-popup-warp.mfp-ready .mfp-content {
+    transform: scale(1);
+    opacity: 1;
+}
+

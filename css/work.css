@@ -1,0 +1,16 @@
+@media only screen and (width <= 1448px) {
+    .work.container {
+        width: auto;
+    }
+}
+
+@media only screen and (width <= 767px) {
+
+    .work {
+        text-align: left;
+    }
+
+    .work .main-menu {
+        top: 99px;
+    }
+}

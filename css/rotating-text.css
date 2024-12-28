@@ -46,4 +46,17 @@
   color: #f1c40f;
 }
 
+/* .section-title #whoAmI { */
+/*  !* color: #929292; *! */
+/*  !* color: #71b997; *! */
+/*  color: #64a184; */
+/* } */
+.rotating-words {
+  text-align: start;
+}
+.rotating-words .rotating + span {
+  display: flex;
+  margin-top: 1.1rem;
+}
+
 /*# sourceMappingURL=rotating-text.css.map */
