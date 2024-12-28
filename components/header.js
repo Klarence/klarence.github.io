@@ -80,14 +80,23 @@ overflow: hidden;
 
 .nav-switch {
   display: none;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  /*color: #333;*/
+  filter: invert(16%) sepia(18%) saturate(10%) hue-rotate(338deg) brightness(98%) contrast(88%);
+  &:hover {
+    transform: scale(1.25);
+    filter: invert(0%) sepia(100%) saturate(21%) hue-rotate(2deg) brightness(92%) contrast(108%);
+  }
 }
+
 
 .intro-section {
   /* padding: 110px 0; */
   padding: 30px 0 60px 0;
 }
 
-.container {
+.header-container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -133,15 +142,6 @@ overflow: hidden;
     border-bottom: none;
   }
 
-  .nav-switch {
-    position: absolute;
-    top: 35px;
-    right: 25px;
-    display: block;
-    /*color: #333;*/
-    filter: invert(16%) sepia(18%) saturate(10%) hue-rotate(338deg) brightness(98%) contrast(88%);
-  }
-
   .header-btn {
     display: none;
   }
@@ -159,7 +159,7 @@ overflow: hidden;
   #menuToggle:not(.active) {
     display: none;
   }
-
+  
   .nav-switch {
     position: absolute;
     top: 35px;
@@ -167,6 +167,8 @@ overflow: hidden;
     display: block;
     color: #333;
     font-size: 30px;
+    background-color: transparent;
+    border: none;
   }
 
   .header-btn {
@@ -176,7 +178,7 @@ overflow: hidden;
 
 
 @media (min-width: 576px) {
-  .container {
+  .header-container {
     max-width: 540px;
   }
 }
@@ -186,7 +188,7 @@ overflow: hidden;
     display: none;
   }
 
-  .container {
+  .header-container {
     max-width: 720px;
   }
 
@@ -202,7 +204,7 @@ overflow: hidden;
 }
 
 @media (min-width: 992px) {
-  .container {
+  .header-container {
     max-width: 960px;
   }
 
@@ -219,13 +221,13 @@ overflow: hidden;
 
 @media (min-width: 1200px) {
 
-  .container {
+  .header-container {
     max-width: 1140px;
   }
 }
 </style>
 <header class="header-section" id="mainHeader">
-    <div class="container">
+    <div class="header-container">
         <div class="row">
             <div class="col-lg-4 col-md-3">
                 <div class="logo">
@@ -253,9 +255,9 @@ overflow: hidden;
             </div>
         </div>
     </div>
-    <div class="nav-switch" id="menuToggleTrigger">
+    <button class="nav-switch" id="menuToggleTrigger">
         <img src="/assets/fa-pro/svgs/solid/bars.svg" alt="Navigation Menu" width="30" height="30" />
-    </div>
+    </button>
 </header>
 `;
 
