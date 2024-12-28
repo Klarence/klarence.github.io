@@ -2,6 +2,21 @@
 <html lang="en">
 
 <head>
+  <!-- Google Tag Manager -->
+  <script>(function(w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start':
+        new Date().getTime(), event: 'gtm.js',
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-MRTPDFCR');</script>
+  <!-- End Google Tag Manager -->
   <title>Klarence OuYang&rsquo;s Portfolio</title>
   <meta charset="UTF-8">
   <meta name="description" content="Klarence OuYang&rsquo;s Portfolio Website">
@@ -9,30 +24,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="images/favicon.ico" rel="shortcut icon" />
-
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
 
-
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/fa-pro/css/all.min.css" />
+  <!--  <link rel="stylesheet" href="assets/fa-pro/css/all.min.css" />-->
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/contact.css" />
 
 
   <script src="components/header.js" type="text/javascript" defer></script>
   <script src="components/footer.js" type="text/javascript" defer></script>
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171493612-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'UA-171493612-1');
-  </script>
 
   <!-- Hotjar Tracking Code for www.klarence.net -->
   <script src="/js/hotjar.js"></script>
@@ -57,49 +57,39 @@
 </head>
 
 <body>
-<div id="preloader">
-  <div class="loader"></div>
-</div>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRTPDFCR"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <header-component></header-component>
-<main>
-
-  <section class="intro-section slides">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h2 class="section-title">Contact</h2>
-        </div>
-      </div>
-    </div>
-  </section>
-
+<main class="padding-sm">
   <section class="page-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 offset-lg-3 contact-text">
+    <h2 class="section-title">Contact</h2>
+        <div class="contact-text">
           <h1 class="sr-only">Contact me</h1>
-          <h2>Let&rsquo;s chat</h2>
+          <h2 class="text-center">Let&rsquo;s chat</h2>
           <p>I am always looking for my next challenge. <br />Especially if it has to do with Design,
-            Technology, or Usability.</p>
+             Technology, or Usability.</p>
           <!--<p><small>Note to recruiters. </small></p>-->
         </div>
-      </div>
       <form class="contact-form" action="https://formspree.io/mqkyqvaj" method="POST">
-        <div class="row">
-          <div class="col-md-6">
+        <div class="contact-form-inputs">
+          <div class="half">
             <label for="name">Name</label>
             <input type="text" name="name" id="name" required>
           </div>
-          <div class="col-md-6">
+          <div class="half">
             <label for="email">Email</label>
             <input type="email" name="_replyto" id="email" required>
           </div>
-          <div class="col-md-12">
+          <div class="full">
             <label for="subject">Subject</label>
             <input type="text" name="subject" id="subject" required>
           </div>
-          <div class="col-md-12">
+          <div class="full">
             <label for="message">Message</label>
             <textarea type="text" name="message" placeholder="Tell me what you are thinking"
                       id="message" required></textarea>
@@ -110,15 +100,10 @@
           <button class="site-btn" type="submit" value="Send" aria-label="Send Message">Send</button>
         </div>
       </form>
-    </div>
   </section>
 </main>
 <footer-component></footer-component>
 
-<script src="js/jquery-3.5.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/mixitup.min.js"></script>
-<script src="js/magnific-popup.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 
