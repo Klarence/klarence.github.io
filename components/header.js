@@ -139,6 +139,7 @@ overflow: hidden;
     right: 25px;
     display: block;
     /*color: #333;*/
+    filter: invert(16%) sepia(18%) saturate(10%) hue-rotate(338deg) brightness(98%) contrast(88%);
   }
 
   .header-btn {

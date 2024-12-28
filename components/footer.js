@@ -30,6 +30,10 @@ footerTemplate.innerHTML = `
     padding: 0;
     list-style: none;
   }
+  .social-links img {
+    /*color: #767676;*/
+    filter: invert(48%) sepia(1%) saturate(337%) hue-rotate(350deg) brightness(95%) contrast(90%);
+  }
   .social-links a {
     color: #767676;
     font-size: 15px;
@@ -68,13 +72,25 @@ footerTemplate.innerHTML = `
            class="site-btn"
         >Get in touch</a>
         <ul class="social-links">
-            <li><a href="https://www.linkedin.com/in/klarence" rel="external" aria-label="LinkedIn"><span class="fab fa-linkedin-in"></span></a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/klarence" rel="external" aria-label="LinkedIn">
+                <img src="/assets/fa-pro/svgs/brands/linkedin-in.svg" width="15" height="15"  alt="LinkedIn"/>
+              </a>
+            </li>
 <!--            <li>&lt;!&ndash;<a href="https://twitter.com/klarenceouyang" rel="external"><span class="fab fa-twitter"></span></a>&ndash;&gt;</li>-->
-            <li><a href="https://www.facebook.com/klarence.ouyang" rel="external" aria-label="Facebook"><span class="fab fa-facebook-f"></span></a></li>
+            <li>
+              <a href="https://www.facebook.com/klarence.ouyang" rel="external" aria-label="Facebook">
+              <img src="/assets/fa-pro/svgs/brands/facebook-f.svg" width="15" height="15"  alt="Facebook"/>
+              </a>
+            </li>
 <!--            <li><a href=""><span class="fab fa-instagram" rel="external"></span></a></li>-->
 <!--            <li><a href=""><span class="fab fa-pinterest-p"></span></a></li>-->
-            <li><a href="https://github.com/Klarence" rel="external" aria-label="GitHub"><span class="fab fa-github"></span></a></li>
-            <li><a href="https://stackoverflow.com/users/4267591/klarence" rel="external" aria-label="Stack Overflow"><span class="fab fa-stack-overflow"></span></a></li>
+            <li>
+              <a href="https://github.com/Klarence" rel="external" aria-label="GitHub">
+              <img src="/assets/fa-pro/svgs/brands/github.svg" width="15" height="15"  alt="GitHub"/>
+              </a>
+            </li>
+<!--            <li><a href="https://stackoverflow.com/users/4267591/klarence" rel="external" aria-label="Stack Overflow"><span class="fab fa-stack-overflow"></span></a></li>-->
 <!--            <li><a href="https://dribbble.com/klarence" rel="external"><span class="fab fa-dribbble"></span></a></li>-->
 <!--            <li><a href="https://www.behance.net/klarenceouyang" rel="external"><span class="fab fa-behance"></span></a></li>-->
 <!--            <li><a href=""><span class="fab fa-medium-m" rel="external"></span></a></li>-->
