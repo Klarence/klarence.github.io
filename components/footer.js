@@ -110,13 +110,8 @@ class Footer extends HTMLElement {
   }
 
   connectedCallback() {
-    const fontAwesome = document.querySelector('link[href*="font-awesome"]');
     const shadowRoot = this.attachShadow({ mode: 'open' });
-
-    if (fontAwesome) {
-      shadowRoot.appendChild(fontAwesome.cloneNode());
-    }
-
+    
     shadowRoot.appendChild(footerTemplate.content);
 
     const currentRoute = window.location.pathname;
