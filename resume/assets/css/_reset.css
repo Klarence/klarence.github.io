@@ -18,16 +18,21 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
     padding: 0;
-    border: 0;
-    /*font-size: 100%;*/
-    /*font: inherit;*/
+
+    /* font-size: 100%; */
+
+    /* font: inherit; */
     vertical-align: baseline;
+    border: 0;
 }
 
 /* make sure to set some focus styles for accessibility */
-/*:focus {*/
-/*    outline: 0;*/
-/*}*/
+
+/* :focus { */
+
+/*    outline: 0; */
+
+/* } */
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -36,7 +41,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-	/*line-height: 1;*/
+	/* line-height: 1; */
 }
 
 ol, ul {
@@ -47,8 +52,8 @@ blockquote, q {
 	quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote::before, blockquote::after,
+q::before, q::after {
 	content: '';
 	content: none;
 }
@@ -58,20 +63,16 @@ table {
 	border-spacing: 0;
 }
 
-input[type=search]::-webkit-search-cancel-button,
-input[type=search]::-webkit-search-decoration,
-input[type=search]::-webkit-search-results-button,
-input[type=search]::-webkit-search-results-decoration {
-    -webkit-appearance: none;
-    -moz-appearance: none;
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    appearance: none;
 }
 
-input[type=search] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
+input[type="search"] {
     box-sizing: content-box;
+    appearance: none;
 }
 
 textarea {
@@ -89,8 +90,8 @@ canvas,
 video {
     display: inline-block;
     *display: inline;
-    *zoom: 1;
     max-width: 100%;
+    *zoom: 1;
 }
 
 /**
@@ -119,11 +120,15 @@ audio:not([controls]) {
  *    user zoom.
  */
 
-/*html {*/
-/*    font-size: 100%; !* 1 *!*/
-/*    -webkit-text-size-adjust: 100%; !* 2 *!*/
-/*    -ms-text-size-adjust: 100%; !* 2 *!*/
-/*}*/
+/* html { */
+
+/*    font-size: 100%; !* 1 *! */
+
+/*    -webkit-text-size-adjust: 100%; !* 2 *! */
+
+/*    -ms-text-size-adjust: 100%; !* 2 *! */
+
+/* } */
 
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
@@ -173,9 +178,9 @@ form {
  */
 
 fieldset {
-    border: 1px solid #c0c0c0;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
+    border: 1px solid #c0c0c0;
 }
 
 /**
@@ -185,10 +190,10 @@ fieldset {
  */
 
 legend {
-    border: 0; /* 1 */
+    *margin-left: -7px; /* 3 */
     padding: 0;
     white-space: normal; /* 2 */
-    *margin-left: -7px; /* 3 */
+    border: 0; /* 1 */
 }
 
 /**
@@ -202,8 +207,8 @@ button,
 input,
 select,
 textarea {
-    font-size: 100%; /* 1 */
     margin: 0; /* 2 */
+    font-size: 100%; /* 1 */
     vertical-align: baseline; /* 3 */
     *vertical-align: middle; /* 3 */
 }
@@ -244,9 +249,9 @@ button,
 html input[type="button"], /* 1 */
 input[type="reset"],
 input[type="submit"] {
-    -webkit-appearance: button; /* 2 */
-    cursor: pointer; /* 3 */
     *overflow: visible;  /* 4 */
+    cursor: pointer; /* 3 */
+    appearance: button; /* 2 */
 }
 
 /**
@@ -268,9 +273,9 @@ html input[disabled] {
 input[type="checkbox"],
 input[type="radio"] {
     box-sizing: border-box; /* 1 */
-    padding: 0; /* 2 */
-    *height: 13px; /* 3 */
     *width: 13px; /* 3 */
+    *height: 13px; /* 3 */
+    padding: 0; /* 2 */
 }
 
 /**
@@ -279,11 +284,9 @@ input[type="radio"] {
  *    (include `-moz` to future-proof).
  */
 
-input[type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box; /* 2 */
+input[type="search"] { /* 2 */
     box-sizing: content-box;
+    appearance: textfield; /* 1 */
 }
 
 /**
@@ -293,7 +296,7 @@ input[type="search"] {
 
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
+    appearance: none;
 }
 
 /**
@@ -302,8 +305,8 @@ input[type="search"]::-webkit-search-decoration {
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-    border: 0;
     padding: 0;
+    border: 0;
 }
 
 /**
@@ -334,14 +337,9 @@ textarea {
 }
 
 
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
 ::selection {
-    background: #b3d4fc;
     text-shadow: none;
+    background: #b3d4fc;
 }
 
 img {
@@ -349,9 +347,9 @@ img {
 }
 
 fieldset {
-    border: 0;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 textarea {
@@ -360,7 +358,7 @@ textarea {
 
 .chromeframe {
     margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
     padding: 0.2em 0;
+    color: #000;
+    background: #ccc;
 }
