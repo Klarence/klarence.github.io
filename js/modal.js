@@ -1,4 +1,4 @@
-(() => {
+ (() => {
   const triggers = document.getElementsByClassName('modal-trigger');
   const triggerArray = Array.from(triggers).entries();
   const modals = document.getElementsByClassName('dialog');
