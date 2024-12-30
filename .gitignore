@@ -10,3 +10,5 @@
 builds/
 dist/
 
+*.map
+*.map
