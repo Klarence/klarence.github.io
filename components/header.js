@@ -1,68 +1,74 @@
 const headerTemplate = document.createElement('template');
 
 headerTemplate.innerHTML = `
-
 <style>
 [hidden] { display: none !important; }
-
-#menuToggle {
-transition: height .25s ease;
-overflow: hidden;
-}
-
-.logo img {
-  width: 100px;
-}
-
-.row {
-  display: flex;
-  flex-wrap: nowrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
 
 .header-section {
   display: block;
   position: relative;
   padding-top: 30px;
   padding-bottom: 20px;
+  width: 100vw;
 }
 
-.site-logo {
-  padding-top: 20px;
-  font-size: 24px;
+.header-container {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
 }
 
-.main-menu ul {
-  list-style: none;
+.logo img {
+  min-width: 100px;
+  height: auto;
+  aspect-ratio: 1 / 1;
 }
 
-.main-menu ul li {
-  display: inline;
+.nav-links {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
-.main-menu ul li a {
-  text-decoration: none;
-  display: inline-block;
-  margin-right: 10px;
-  margin-left: 15px;
-  padding: 20px 0 5px;
-  color: #001418;
-  font-size: 18px;
+#menuToggle {
+  transition: height .25s ease;
+  overflow: hidden;
 }
 
-.main-menu ul li a:hover,
-.main-menu ul li a.active {
-  font-weight: bold;
-}
+.main-menu {
+  width: 100%;
+  text-align: center;
+  ul {
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
 
-.header-btn {
-  float: right;
-  /* margin-right: 0; */
-  margin: 5px 0;
+    li {
+      display: inline;
+      a {
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 10px;
+        padding: 20px 0 5px;
+        color: #001418;
+        font-size: 18px;
+        min-width: 64px;
+        &:hover,
+        &.active {
+          font-weight: bold;
+        }
+      }
+    }
+  }
 }
 
 .site-btn {
+  box-sizing: border-box;
   position: relative;
   z-index: 1;
   display: inline-block;
@@ -77,11 +83,22 @@ overflow: hidden;
   background-color: #36634d;
   border: none;
   border-radius: 8px;
+  .header-btn {
+    float: right;
+    margin: 5px 0;
+  }
 }
 
 .nav-switch {
   display: none;
   cursor: pointer;
+  position: absolute;
+  top: 35px;
+  right: 12px;
+  color: #333;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
   transition: all 0.3s linear;
   /*color: #333;*/
   filter: invert(16%) sepia(18%) saturate(10%) hue-rotate(338deg) brightness(98%) contrast(88%);
@@ -91,133 +108,57 @@ overflow: hidden;
   }
 }
 
-
-.intro-section {
-  /* padding: 110px 0; */
-  padding: 30px 0 60px 0;
-}
-
-.header-container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.col-md-3, .col-lg-4 {
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-@media only screen and (max-width: 767px) {
+@media only screen and (width <= 767px) {
+  .header-section {
+    padding-top: 1em;
+    padding-bottom: 0.8em;
+  }
+  
   .main-menu {
     position: absolute;
     top: 90px;
     left: 0;
     z-index: 999;
-    /*display: none;*/
-    width: 100%;
+    width: 100vw;
     padding-top: 15px;
     background: #efefef;
+    justify-content: center;
+    display: flex;
+    
+    ul {
+      li {
+        display: block;
+        text-align: center;
+  
+        &:last-child a {
+          border-bottom: none;
+        }
+        
+        a {
+          display: block;
+          padding: 10px 15px;
+          border-bottom: 1px solid #ddd;
+          &.active {
+            font-weight: bold;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
   }
 
-  .main-menu ul li a {
-    display: block;
-    padding: 10px 15px;
-    border-bottom: 1px solid #ddd;
-  }
-
-  .main-menu ul li a.active {
-    font-weight: bold;
-    text-decoration: underline;
-  }
-
-  .main-menu ul li {
-    display: block;
-  }
-
-  .main-menu ul li:last-child a {
-    border-bottom: none;
-  }
-
-  .header-btn {
-    display: none;
-  }
-
-  .header-section {
-    position: relative;
-    padding-top: 1em;
-    padding-bottom: 0.8em;
-  }
-
-  .logo img {
-    max-width: 25%;
-  }
-
-  #menuToggle:not(.active) {
+  .header-btn,
+  #menuToggle:not(.active){
     display: none;
   }
   
   .nav-switch {
-    position: absolute;
-    top: 35px;
-    right: 25px;
     display: block;
-    color: #333;
-    font-size: 30px;
-    background-color: transparent;
-    border: none;
   }
 }
 
-
-@media (min-width: 576px) {
-  .header-container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .nav-switch {
-    display: none;
-  }
-
-  .header-container {
-    max-width: 720px;
-  }
-
-  .col-md-3 {
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-
-  .col-md-9 {
-    flex: 0 0 75%;
-    max-width: 75%;
-  }
-}
-
-@media (min-width: 992px) {
-  .header-container {
-    max-width: 960px;
-  }
-
-  .col-lg-4 {
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-
-  .col-lg-8 {
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
-  }
-}
-
-@media (min-width: 1200px) {
-
+@media (width >= 1200px) {
   .header-container {
     max-width: 1140px;
   }
@@ -225,32 +166,27 @@ overflow: hidden;
 </style>
 <header class="header-section" id="mainHeader">
     <div class="header-container">
-        <div class="row">
-            <div class="col-lg-4 col-md-3">
-                <div class="logo">
-                    <a href="/">
-                    <img alt="KOY Designs"
-                         src="/images/KOY-designs-logo.png"
-                         loading="eager">
-                    </a>
-                    <!-- <h1 class="site-logo">Klarence OuYang Designs</h1> -->
-                </div>
-            </div>
-            <div class="col-lg-8 col-md-9">
-                <a href="/contact.html"
-                   class="site-btn header-btn"
-                >Get in touch</a>
-                <nav class="main-menu" id="menuToggle">
-                    <ul>
+          <div class="logo">
+              <a href="/">
+              <img alt="KOY Designs"
+                   src="/images/KOY-designs-logo.png"
+                   loading="eager">
+              </a>
+          </div>
+          <div class="nav-links">
+              <a href="/contact.html"
+                 class="site-btn header-btn"
+              >Get in touch</a>
+              <nav class="main-menu" id="menuToggle">
+                  <ul>
 <!--                        <li><a href="/">Home</a></li>-->
-                        <li><a href="/about.html" rel="author">About</a></li>
-                        <!--<li><a href="/work.html">Portfolio</a></li>-->
+                      <li><a href="/about.html" rel="author">About</a></li>
+                      <!--<li><a href="/work.html">Portfolio</a></li>-->
 <!--                        <li><a href="/slides.html">Slides</a></li>-->
-                        <li><a href="/contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+                      <li><a href="/contact.html">Contact</a></li>
+                  </ul>
+              </nav>
+          </div>
     </div>
     <button class="nav-switch" id="menuToggleTrigger">
         <img src="/assets/fa-pro/svgs/solid/bars.svg" alt="Navigation Menu" width="30" height="30" />

@@ -6,8 +6,8 @@
 /node_modules/
 /elements.html
 *.iml
+*.map
 *.xml
 builds/
 dist/
 
-*.map

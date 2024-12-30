@@ -4,22 +4,18 @@ const year = (new Date().getFullYear());
 footerTemplate.innerHTML = `
 <style>
   [hidden] { display: none !important; }
-
+  
   footer {
-  padding: 110px 0;
-  text-align: center
+    padding: 90px 0;
+    text-align: center
   }
   
   .footer-title {
     font-size: 60px;
     margin-bottom: 3rem;
   }
-  
-  .footer-section {
-    padding: 110px 0;
-  }
     
-  .footer-section .copyright {
+  .copyright {
     color: #767676;
     font-size: 12px;
   }
@@ -29,13 +25,26 @@ footerTemplate.innerHTML = `
     margin-bottom: 40px;
     padding: 0;
     list-style: none;
-  }
-  .social-links img {
-    transition: all 0.3s linear;
-    /*color: #767676;*/
-    filter: invert(48%) sepia(1%) saturate(337%) hue-rotate(350deg) brightness(95%) contrast(90%);
-    &:hover {
-      transform: scale(1.5);
+    
+    a {
+      color: #767676;
+      font-size: 15px;
+    }
+    
+    img {
+      transition: all 0.3s linear;
+      filter: invert(48%) sepia(1%) saturate(337%) hue-rotate(350deg) brightness(95%) contrast(90%);
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
+    
+    li {
+    display: inline-flex;
+    margin-right: 30px;
+      &:last-child {
+        margin-right: 0;
+      }
     }
   }
   
@@ -47,20 +56,6 @@ footerTemplate.innerHTML = `
   }
   img.linkedin:hover {
     filter: invert(26%) sepia(99%) saturate(2689%) hue-rotate(183deg) brightness(90%) contrast(101%);
-  }
-  
-  .social-links a {
-    color: #767676;
-    font-size: 15px;
-  }
-  
-  .social-links li {
-    display: inline-flex;
-    margin-right: 30px;
-  }
-  
-  .social-links li:last-child {
-    margin-right: 0;
   }
   
   .site-btn {
@@ -79,14 +74,11 @@ footerTemplate.innerHTML = `
     border-radius: 8px;
   }
 </style>
-  <footer id="pageFooter"
-        class="footer-section text-center"
->
+  <footer id="pageFooter" class="footer-section text-center">
     <div class="container">
         <h2 class="footer-title">Let&rsquo;s work together</h2>
         <a href="/contact.html"
-           class="site-btn"
-        >Get in touch</a>
+          class="site-btn">Get in touch</a>
         <ul class="social-links">
             <li>
               <a href="https://www.linkedin.com/in/klarence" rel="external" aria-label="LinkedIn">
