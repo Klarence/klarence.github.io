@@ -4,7 +4,7 @@
 .portfolio-section {
     overflow: hidden;
     display: grid;
-    gap: 24px;
+    gap: 30px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: masonry;
 }
@@ -81,6 +81,8 @@
     border-radius: 8px;
     cursor: pointer;
     overflow: hidden;
+    padding-block: 0;
+    padding-inline: 0;
     /*width: 100%;*/
     /*height: 100%;*/
 
