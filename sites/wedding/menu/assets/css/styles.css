@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Madina";
-    src: url("../../../../assets/fonts/Madina.otf") format("opentype")
+    src: url("../fonts/Madina.otf") format("opentype")
 }
 
 @font-face {
     font-family: "Love";
-    src: url("../../../../assets/fonts/Love.ttf") format("truetype")
+    src: url("../fonts/Love.ttf") format("truetype")
 }
 
 * {
@@ -257,7 +257,7 @@ i.fa-pepper-hot,
 }
 
 i.peanut {
-    content: url(../../../good2eat/images/peanut.svg);
+    content: url(../../../../good2eat/images/peanut.svg);
     position: relative;
     width: 15px;
     margin: 4px auto;
@@ -266,7 +266,7 @@ i.peanut {
 }
 
 i.soybean {
-    content: url(../../../good2eat/images/soybean.png);
+    content: url(../../../../good2eat/images/soybean.png);
     position: relative;
     width: 14px;
     margin: 4px auto;
@@ -275,7 +275,7 @@ i.soybean {
 }
 
 i.sesame {
-    content: url(../../../good2eat/images/sesame.png);
+    content: url(../../../../good2eat/images/sesame.png);
     position: relative;
     /* width: 16px;
     margin: 5px auto; */
