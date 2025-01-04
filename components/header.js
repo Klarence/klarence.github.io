@@ -24,8 +24,8 @@ headerTemplate.innerHTML = `
 
 .logo img {
   min-width: 100px;
+  max-width: 128px;
   height: auto;
-  aspect-ratio: 1 / 1;
 }
 
 .nav-links {
@@ -51,16 +51,20 @@ headerTemplate.innerHTML = `
     li {
       display: inline;
       a {
+        text-transform: uppercase;
         text-decoration: none;
         display: inline-block;
         margin-right: 10px;
         padding: 20px 0 5px;
         color: #001418;
         font-size: 18px;
-        min-width: 64px;
+        min-width: 72px;
         &:hover,
         &.active {
           font-weight: bold;
+          text-decoration: underline;
+          text-underline-offset: 2px;
+          text-decoration-thickness: 2px;
         }
       }
     }
@@ -83,6 +87,9 @@ headerTemplate.innerHTML = `
   background-color: #36634d;
   border: none;
   border-radius: 8px;
+  &:hover {
+    font-weight: bold;
+  }
   .header-btn {
     float: right;
     margin: 5px 0;
@@ -168,9 +175,11 @@ headerTemplate.innerHTML = `
     <div class="header-container">
           <div class="logo">
               <a href="/">
-              <img alt="KOY Designs"
-                   src="/images/KOY-designs-logo.png"
-                   loading="eager">
+              <picture>
+                <source type="image/webp" srcset="/images/portfolio/koy-logo-128.webp">
+                <source type="image/png" srcset="/images/portfolio/koy-logo.png">
+                <img src="/images/portfolio/koy-logo.png" alt="KOYdesigns" loading="eager" width="128" height="80">
+              </picture>
               </a>
           </div>
           <div class="nav-links">
