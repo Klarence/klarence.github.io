@@ -56,13 +56,14 @@
 }
 
 .half {
+    box-sizing: border-box;
     width: 100%;
 }
 
 @media only screen and (width >= 576px) {
     .half {
         width: 50%;
-        padding-right: 12px;
+        padding-right: 24px;
     }
 
     .half + .half {
