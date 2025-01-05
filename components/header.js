@@ -25,7 +25,8 @@ headerTemplate.innerHTML = `
 .logo img {
   min-width: 100px;
   max-width: 128px;
-  height: auto;padding: 8px;
+  height: auto;
+  padding: 8px;
 }
 
 .nav-links {
@@ -188,7 +189,6 @@ headerTemplate.innerHTML = `
               >Get in touch</a>
               <nav class="main-menu" id="menuToggle">
                   <ul>
-<!--                        <li><a href="/">Home</a></li>-->
                       <li><a href="/about.html" rel="author">About</a></li>
                       <!--<li><a href="/work.html">Portfolio</a></li>-->
 <!--                        <li><a href="/slides.html">Slides</a></li>-->
