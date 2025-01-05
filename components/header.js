@@ -25,7 +25,7 @@ headerTemplate.innerHTML = `
 .logo img {
   min-width: 100px;
   max-width: 128px;
-  height: auto;
+  height: auto;padding: 8px;
 }
 
 .nav-links {
