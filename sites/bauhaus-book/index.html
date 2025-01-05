@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start':
+        new Date().getTime(), event: 'gtm.js',
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-MRTPDFCR');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Klarence OuYang">
+  <meta name="description" content="Klarence OuYang&rsquo;s Portfolio Website">
+  <meta name="keywords" content="portfolio, creative">
+
+  <title>Bauhaus Booklet</title>
+
+  <link href="/images/favicon.ico" rel="shortcut icon" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload"
+        as="style"
+        href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+    <link rel="preload" as="style" href="css/page-flip.css">
+  <!--  <link rel="preconnect" href="https://fonts.googleapis.com">-->
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+  <!--  <link rel="stylesheet" href="css/home.css" />-->
+  <link rel="stylesheet" href="css/page-flip.css" />
+
+  <script defer src="/components/header.js" type="module"></script>
+</head>
+<body lang="en-US">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRTPDFCR"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header-component></header-component>
+
+<main style="max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;">
+  <section>
+    <header>
+      <h1>Bauhaus Booklet</h1>
+    </header>
+    <div class="container" style="justify-items: center; margin-bottom: 12px;">
+      <div>
+        <button type="button" class="btn-prev">Previous page</button>
+        [<span class="page-current">1</span> of <span class="page-total">-</span>]
+        <button type="button" class="btn-next">Next page</button>
+      </div>
+      <div>
+        State: <i class="page-state">read</i>, orientation: <i class="page-orientation">landscape</i>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="flip-book" id="bauhausBook">
+        <div class="page page-cover page-cover-top">
+          <div class="page-content">
+            <div class="page-image" style="background-image: url(images/bauhaus-cover-front.png)"></div>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <div class="page-image" style="background-image: url(images/bauhaus-blank-left.png)"></div>
+          </div>
+        </div>
+        <!-- PAGES .... -->
+        <div class="page">
+          <div class="page-content">
+            <div class="page-image" style="background-image: url(images/bauhaus-pg1.png)"></div>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <div class="page-image" style="background-image: url(images/bauhaus-pg2.png)"></div>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <div class="page-image" style="background-image: url(images/bauhaus-pg3.png)"></div>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <div class="page-image" style="background-image: url(images/bauhaus-pg4.png)"></div>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <div class="page-image" style="background-image: url(images/bauhaus-pg5.png)"></div>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <div class="page-image" style="background-image: url(images/bauhaus-pg6.png)"></div>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <div class="page-image" style="background-image: url(images/bauhaus-pg7.png)"></div>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <div class="page-image" style="background-image: url(images/bauhaus-pg8.png)"></div>
+          </div>
+        </div>
+        <div class="page">
+          <div class="page-content">
+            <div class="page-image" style="background-image: url(images/bauhaus-pg9.png)"></div>
+          </div>
+        </div>
+
+        <div class="page page-cover page-cover-bottom">
+          <div class="page-content">
+            <div class="page-image" style="background-image: url(images/bauhaus-cover-back.png)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="./js/page-flip.browser.js"></script>
+<script defer src="./js/pageFlip.js"></script>
+</body>
+</html>

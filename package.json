@@ -5,11 +5,11 @@
   "main": "index.html",
   "devDependencies": {
     "@eslint/js": "^9.17.0",
-    "htmllint": "^0.8.0",
     "eslint": "^9.17.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-immutable": "^1.0.0",
     "eslint-plugin-import": "^2.31.0",
+    "htmllint": "^0.8.0",
     "jshint": "^2.13.6",
     "prettier": "^3.4.2",
     "prettier-stylelint": "^0.4.2",
