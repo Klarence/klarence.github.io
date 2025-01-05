@@ -1,6 +1,3 @@
-/* ------------------------
-    Portfolio Section
--------------------------- */
 .portfolio-section {
     overflow: hidden;
     display: grid;
@@ -43,21 +40,19 @@
 .portfolio-filter {
     padding-bottom: 100px;
     list-style: none;
-}
+    li {
+        display: inline-block;
+        margin-right: 30px;
+        padding-bottom: 10px;
 
-.portfolio-filter li {
-    display: inline-block;
-    margin-right: 30px;
-    padding-bottom: 10px;
-
-    /* color: #929292; */
-    color: #767676;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.portfolio-filter li.mixitup-control-active {
-    color: #001418;
+        /* color: #929292; */
+        color: #767676;
+        font-size: 16px;
+        cursor: pointer;
+        &.mixitup-control-active {
+            color: #001418;
+        }
+    }
 }
 
 .gallery-block {
@@ -104,19 +99,18 @@
     height: 100%;
     background: transparent;
     transition: all 0.4s ease 0s;
-}
 
-.portfolio-item .pi-inner h2,
-.portfolio-item-link .pi-inner h2 {
-    position: absolute;
-    bottom: 50px;
-    left: 50px;
-    color: #fff;
-    font-weight: 400;
-    font-size: 30px;
-    letter-spacing: 10px;
-    opacity: 0;
-    transition: all 0.3s ease 0s;
+    h2 {
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
+        color: #fff;
+        font-weight: 400;
+        font-size: 30px;
+        letter-spacing: 10px;
+        opacity: 0;
+        transition: all 0.3s ease 0s;
+    }
 }
 
 .portfolio-item:hover .pi-inner,
@@ -137,16 +131,14 @@
 
 .portfolio-meta {
     padding-bottom: 45px;
-}
-
-.portfolio-meta h2 {
-    font-size: 24px;
-}
-
-.portfolio-meta p {
-    margin-bottom: 0;
-    color: #a6a6a6;
-    font-size: 14px;
+    h2 {
+        font-size: 24px;
+    }
+    p {
+        margin-bottom: 0;
+        color: #a6a6a6;
+        font-size: 14px;
+    }
 }
 
 .portfolio-intro {
@@ -154,27 +146,27 @@
 }
 
 /* Medium screen : 992px. */
-@media only screen and (width >= 992px) and (width <= 1199px) {
-    .portfolio-item,
-    .portfolio-item-link {
-        height: 450px;
-    }
-}
+//@media only screen and (width >= 992px) and (width <= 1199px) {
+//    .portfolio-item,
+//    .portfolio-item-link {
+//        height: 450px;
+//    }
+//}
 
-@media only screen and (width >= 768px) and (width <= 991px) {
-    .portfolio-item,
-    .portfolio-item-link {
-        height: 350px;
-    }
-}
+//@media only screen and (width >= 768px) and (width <= 991px) {
+//    .portfolio-item,
+//    .portfolio-item-link {
+//        height: 350px;
+//    }
+//}
 
-@media only screen and (width >= 1200px) {
-    .modal-trigger,
-    .portfolio-item-link {
-        max-width: 560px;
-        max-height: 560px;
-    }
-}
+//@media only screen and (width >= 1200px) {
+//    .modal-trigger,
+//    .portfolio-item-link {
+//        max-width: 600px;
+//        max-height: 600px;
+//    }
+//}
 
 .set-bg {
     background-repeat: no-repeat;
