@@ -67,6 +67,7 @@
     position: relative;
     display: block;
     background-position: center center;
+    overflow: hidden;
 }
 
 .portfolio-item-link:focus-visible {
@@ -84,6 +85,11 @@
     padding-inline: 0;
     width: 100%;
     height: 100%;
+
+    picture {
+        display: flex;
+        justify-content: center;
+    }
 
     img {
         /*width: 100%;*/
@@ -149,38 +155,8 @@
     display: block;
 }
 
-/* Medium screen : 992px. */
-//@media only screen and (width >= 992px) and (width <= 1199px) {
-//    .portfolio-item,
-//    .portfolio-item-link {
-//        height: 450px;
-//    }
-//}
-
-//@media only screen and (width >= 768px) and (width <= 991px) {
-//    .portfolio-item,
-//    .portfolio-item-link {
-//        height: 350px;
-//    }
-//}
-
-//@media only screen and (width >= 1200px) {
-//    .modal-trigger,
-//    .portfolio-item-link {
-//        max-width: 600px;
-//        max-height: 600px;
-//    }
-//}
 
 .set-bg {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/*.element {*/
-/*    margin-bottom: 100px;*/
-/*}*/
-
-/*.element:last-child {*/
-/*    margin-bottom: 0;*/
-/*}*/
