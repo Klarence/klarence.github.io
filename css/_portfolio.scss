@@ -1,5 +1,5 @@
 .portfolio-section {
-    overflow: hidden;
+    overflow: visible;
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr;
@@ -67,7 +67,8 @@
     position: relative;
     display: block;
     background-position: center center;
-    overflow: hidden;
+    box-shadow: 4px 2px 6px 4px rgba(113, 113, 113, 0.2);
+    border-radius: 8px;
 }
 
 .portfolio-item-link:focus-visible {

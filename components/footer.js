@@ -34,7 +34,8 @@ footerTemplate.innerHTML = `
     img {
       transition: all 0.3s linear;
       filter: invert(48%) sepia(1%) saturate(337%) hue-rotate(350deg) brightness(95%) contrast(90%);
-      &:hover {
+      &:hover, 
+      &:focus-visible {
         transform: scale(1.5);
       }
     }
@@ -48,13 +49,16 @@ footerTemplate.innerHTML = `
     }
   }
   
-  img.facebook:hover {
+  img.facebook:hover, 
+  img.facebook:focus-visible {
     filter: invert(33%) sepia(65%) saturate(3188%) hue-rotate(203deg) brightness(99%) contrast(92%);
   }
-  img.github:hover {
+  img.github:hover, 
+  img.github:focus-visible {
     filter: invert(56%) sepia(58%) saturate(3677%) hue-rotate(225deg) brightness(106%) contrast(94%);
   }
-  img.linkedin:hover {
+  img.linkedin:hover,
+  img.linkedin:focus-visible {
     filter: invert(26%) sepia(99%) saturate(2689%) hue-rotate(183deg) brightness(90%) contrast(101%);
   }
   
@@ -72,6 +76,10 @@ footerTemplate.innerHTML = `
     background-color: #36634d;
     border: none;
     border-radius: 8px;
+    &:hover, 
+    &:focus-visible {
+      font-weight: bold;
+    }
   }
 </style>
   <footer id="pageFooter" class="footer-section text-center">

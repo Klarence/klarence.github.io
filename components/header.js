@@ -61,6 +61,7 @@ headerTemplate.innerHTML = `
         font-size: 18px;
         min-width: 72px;
         &:hover,
+        &:focus-visible,
         &.active {
           font-weight: bold;
           text-decoration: underline;
@@ -88,7 +89,8 @@ headerTemplate.innerHTML = `
   background-color: #36634d;
   border: none;
   border-radius: 8px;
-  &:hover {
+  &:hover, 
+  &:focus-visible {
     font-weight: bold;
   }
   .header-btn {
@@ -110,7 +112,8 @@ headerTemplate.innerHTML = `
   transition: all 0.3s linear;
   /*color: #333;*/
   filter: invert(16%) sepia(18%) saturate(10%) hue-rotate(338deg) brightness(98%) contrast(88%);
-  &:hover {
+  &:hover,
+  &:focus-visible {
     transform: scale(1.25);
     filter: invert(0%) sepia(100%) saturate(21%) hue-rotate(2deg) brightness(92%) contrast(108%);
   }
