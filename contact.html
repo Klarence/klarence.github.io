@@ -16,7 +16,7 @@
     f.parentNode.insertBefore(j, f);
   })(window, document, 'script', 'dataLayer', 'GTM-MRTPDFCR');</script>
   <!-- End Google Tag Manager -->
-  <title>Klarence OuYang&rsquo;s Portfolio</title>
+  <title>Contact Klarence OuYang</title>
   <meta charset="UTF-8">
   <meta name="description" content="Klarence OuYang&rsquo;s Portfolio Website">
   <meta name="keywords" content="portfolio, creative">
@@ -26,8 +26,8 @@
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
   <link rel="stylesheet" href="css/contact.css" />
 
-  <script src="components/header.js" type="text/javascript" defer></script>
-  <script src="components/footer.js" type="text/javascript" defer></script>
+  <script src="components/header.js" type="module"></script>
+  <script src="components/footer.js" type="module"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script>
     window.onload = function() {
@@ -65,9 +65,11 @@
         <div class="contact-text">
           <h1 class="sr-only">Contact me</h1>
           <h2 class="text-center">Let&rsquo;s chat</h2>
-          <p>I am always looking for my next challenge. <br />Especially if it has to do with Design,
-             Technology, or Usability.</p>
-          <!--<p><small>Note to recruiters. </small></p>-->
+          <p>
+            Connect with me on <a href="https://www.linkedin.com/in/klarence/" target="_blank">LinkedIn</a>,
+            email me at <a href="mailto:klarence.ux@gmail.com?subject=Greetings&body=I%20found%20your%20email%20from%20your%20site%20klarence.net.%0D%0A" >klarence.ux@gmail.com</a>,
+            or send me a message below.
+          </p>
         </div>
       <form class="contact-form" action="https://formspree.io/mqkyqvaj" method="POST">
         <div class="contact-form-inputs">
@@ -85,7 +87,7 @@
           </div>
           <div class="full">
             <label for="message">Message</label>
-            <textarea type="text" name="message" placeholder="Tell me what you are thinking"
+            <textarea name="message" placeholder="Tell me what you are thinking"
                       id="message" required></textarea>
           </div>
         </div>

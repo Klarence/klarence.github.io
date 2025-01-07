@@ -133,8 +133,7 @@ headerTemplate.innerHTML = `
     justify-content: center;
     display: flex;
     
-    ul {
-      li {
+    li {
         display: block;
         text-align: center;
   
@@ -151,13 +150,11 @@ headerTemplate.innerHTML = `
             text-decoration: underline;
           }
         }
-      }
     }
-
   }
 
   .header-btn,
-  #menuToggle:not(.active){
+  #menuToggle:not(.active) {
     display: none;
   }
   
@@ -179,7 +176,7 @@ headerTemplate.innerHTML = `
               <picture>
                 <source type="image/webp" srcset="/images/portfolio/koy-logo-128.webp">
                 <source type="image/png" srcset="/images/portfolio/koy-logo.png">
-                <img src="/images/portfolio/koy-logo.png" alt="KOYdesigns" loading="eager" width="128" height="80">
+                <img src="/images/portfolio/koy-logo.png" alt="KOY designs, Klarence's initials K, O, and Y creating a fish." loading="eager" width="128" height="80">
               </picture>
               </a>
           </div>

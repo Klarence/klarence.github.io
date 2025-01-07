@@ -8,6 +8,7 @@
     const openModal = () => {
       modals[index].classList.add('show');
       modals[index].showModal();
+      closeButtons[index].autofocus = true;
     };
     const closeModal = () => {
       modals[index].classList.remove('show');
