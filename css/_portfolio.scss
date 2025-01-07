@@ -3,7 +3,6 @@
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: masonry;
 }
 
 @media only screen and (width <= 767px) {
@@ -68,6 +67,11 @@
     position: relative;
     display: block;
     background-position: center center;
+}
+
+.portfolio-item-link:focus-visible {
+    outline-offset: 3px;
+    outline: rgb(0, 191, 255) solid 3px;
 }
 
 .modal-trigger,

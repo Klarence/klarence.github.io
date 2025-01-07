@@ -23,6 +23,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="images/favicon.ico" rel="shortcut icon" />
+  <link rel="preload" as="style" href="css/contact.css">
+
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
   <link rel="stylesheet" href="css/contact.css" />
 
@@ -66,8 +68,9 @@
           <h1 class="sr-only">Contact me</h1>
           <h2 class="text-center">Let&rsquo;s chat</h2>
           <p>
-            Connect with me on <a href="https://www.linkedin.com/in/klarence/" target="_blank">LinkedIn</a>,
-            email me at <a href="mailto:klarence.ux@gmail.com?subject=Greetings&body=I%20found%20your%20email%20from%20your%20site%20klarence.net.%0D%0A" >klarence.ux@gmail.com</a>,
+            Connect with me on <a href="https://www.linkedin.com/in/klarence/" target="_blank"
+                                  title="Open a new page to go to LinkedIn">LinkedIn</a>,
+            email me at <a href="mailto:klarence.ux@gmail.com?subject=Greetings&body=I%20found%20your%20email%20from%20your%20site%20klarence.net.%0D%0A">klarence.ux@gmail.com</a>,
             or send me a message below.
           </p>
         </div>
@@ -91,8 +94,10 @@
                       id="message" required></textarea>
           </div>
         </div>
-        <label class="sr-only" for="recaptcha-accessible-status">Google Recaptcha</label>
-        <div class="g-recaptcha" data-sitekey="6Lf_pgEeAAAAAIj4DPnMvJcvVsImtXBnw5vYwyoV"></div>
+        <label>
+          <span class="sr-only">Google Recaptcha</span>
+          <span class="g-recaptcha" data-sitekey="6Lf_pgEeAAAAAIj4DPnMvJcvVsImtXBnw5vYwyoV"></span>
+        </label>
         <div class="text-center">
           <button class="site-btn" type="submit" value="Send" aria-label="Send Message">Send</button>
         </div>
