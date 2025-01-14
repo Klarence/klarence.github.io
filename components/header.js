@@ -27,6 +27,12 @@ headerTemplate.innerHTML = `
   max-width: 128px;
   height: auto;
   padding: 8px;
+  transition: all 0.3s linear;
+  &:hover,
+  &:focus,
+  &:focus-visible {
+    transform: scale(1.1);
+  }
 }
 
 .nav-links {
@@ -65,8 +71,8 @@ headerTemplate.innerHTML = `
         &.active {
           font-weight: bold;
           text-decoration: underline;
-          text-underline-offset: 2px;
-          text-decoration-thickness: 2px;
+          text-underline-offset: 3px;
+          text-decoration-thickness: 3px;
         }
       }
     }
@@ -89,8 +95,10 @@ headerTemplate.innerHTML = `
   background-color: #36634d;
   border: none;
   border-radius: 8px;
+  transition: all 0.3s linear;
   &:hover, 
   &:focus-visible {
+    transform: scale(1.1);
     font-weight: bold;
   }
   .header-btn {
