@@ -132,7 +132,6 @@ h2 {
 
 .headshot {
   padding-top: 20px;
-  transform: scaleX(-1);
 }
 
 .item-header {
@@ -253,7 +252,8 @@ h2 {
 
     /* box-shadow: 3px 3px 7px #777; */
     margin-right: 59px;
-    transform: scaleX(1);
+    transform: scaleX(-1);
+    -ms-filter: "FlipH";
   }
 
   .column-left {
