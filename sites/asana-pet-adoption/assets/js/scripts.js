@@ -88,7 +88,7 @@
                 return `
                     <img id="dog-${index}" 
                     data-location="${dog.image}" 
-                    src="${JSON.stringify(dog.thumb)}"
+                    src="${dog.thumb}"
                     alt="thumbnail images of puppy dogs for adoption"/>
                 `;
             }).join('');
