@@ -9,7 +9,6 @@
     "eslint-plugin-immutable": "^1.0.0",
     "eslint-plugin-import": "^2.31.0",
     "htmllint": "^0.8.0",
-    "html-minifier": "^4.0.0",
     "jshint": "^2.13.6",
     "prettier": "^3.4.2",
     "prettier-stylelint": "^0.4.2",
