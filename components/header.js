@@ -25,7 +25,7 @@ headerTemplate.innerHTML = `
 .logo img {
   min-width: 100px;
   max-width: 128px;
-  height: auto;
+  /*height: auto;*/
   padding: 8px;
   transition: all 0.3s linear;
   &:hover,
@@ -185,7 +185,7 @@ headerTemplate.innerHTML = `
           <div class="logo">
               <a href="/">
               <picture>
-                <source type="image/webp" srcset="/images/portfolio/koy-logo-128.webp">
+                <source type="image/webp" srcset="/images/portfolio/koy-logo-128.webp, /images/portfolio/koy-logo-128.webp 2x">
                 <source type="image/png" srcset="/images/portfolio/koy-logo.png">
                 <img src="/images/portfolio/koy-logo.png" alt="KOY designs, Klarence's initials K, O, and Y creating a fish." loading="eager" width="128" height="80">
               </picture>
