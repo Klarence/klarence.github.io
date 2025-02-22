@@ -6,6 +6,9 @@ Disallow: /
 User-agent: Googlebot
 Disallow: /
 
+User-agent: Google-Extended
+Disallow: /
+
 # Allow crawling of all content
 User-agent: *
 Disallow:
