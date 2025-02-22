@@ -38,6 +38,8 @@ p {
 img {
   /* Don't make images wider than their container */
   max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
 a:hover,
