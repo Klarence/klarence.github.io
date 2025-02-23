@@ -109,6 +109,17 @@ button:focus-visible {
   outline-offset: 3px;
 }
 
+/* ===  Layout  === */
+main {
+  padding: 0 24px;
+}
+
+@media only screen and (width > 1200px) {
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
 .rotating-text .rotating {
   display: inline-flex;
   margin: 0;
