@@ -7,6 +7,8 @@ headerTemplate.innerHTML = `
 :host {
   max-width: 1200px;
   margin: 0 auto;
+  display: block;
+  height: 130px;
 }
 
 .header-section {
@@ -22,8 +24,6 @@ headerTemplate.innerHTML = `
   flex-wrap: nowrap;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
   justify-content: space-between;
 }
 

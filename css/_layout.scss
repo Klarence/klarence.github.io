@@ -1,5 +1,11 @@
 /* ===  Layout  === */
 
+// Duplicated to fix Lighthouse CLS
+header-component {
+  display: block;
+  height: 130px;
+}
+
 main {
   padding: 0 24px;
 }

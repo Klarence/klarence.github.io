@@ -110,6 +110,11 @@ button:focus-visible {
 }
 
 /* ===  Layout  === */
+header-component {
+  display: block;
+  height: 130px;
+}
+
 main {
   padding: 0 24px;
 }
