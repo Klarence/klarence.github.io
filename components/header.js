@@ -4,6 +4,11 @@ headerTemplate.innerHTML = `
 <style>
 [hidden] { display: none !important; }
 
+:host {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .header-section {
   display: block;
   position: relative;
@@ -25,7 +30,7 @@ headerTemplate.innerHTML = `
 .logo img {
   min-width: 100px;
   max-width: 128px;
-  /*height: auto;*/
+  height: auto;
   padding: 8px;
   transition: all 0.3s linear;
   &:hover,
@@ -183,12 +188,13 @@ headerTemplate.innerHTML = `
 <header class="header-section" id="mainHeader">
     <div class="header-container">
           <div class="logo">
-              <a href="/">
-              <picture>
-                <source type="image/webp" srcset="/images/portfolio/koy-logo-128.webp, /images/portfolio/koy-logo-256.webp 2x">
-                <source type="image/png" srcset="/images/portfolio/koy-logo.png">
-                <img src="/images/portfolio/koy-logo.png" alt="KOY designs, Klarence's initials K, O, and Y creating a fish." loading="eager" width="128" height="80">
-              </picture>
+              <a href="/" aria-label="Go to Klarence's Home Page">
+                  <picture>
+                    <source type="image/svg+xml" srcset="/images/portfolio/koy-logo.svg">
+                    <source type="image/webp" srcset="/images/portfolio/koy-logo-128.webp">
+                    <source type="image/png" srcset="/images/portfolio/koy-logo.png">
+                    <img src="/images/portfolio/koy-logo.svg" alt="KOY designs, Klarence's initials K, O, and Y creating a fish." loading="eager" width="128" height="80">
+                  </picture>
               </a>
           </div>
           <div class="nav-links">
@@ -205,7 +211,7 @@ headerTemplate.innerHTML = `
               </nav>
           </div>
     </div>
-    <button class="nav-switch" id="menuToggleTrigger">
+    <button class="nav-switch" id="menuToggleTrigger" aria-label="Toggle Navigation Menu">
         <img src="/assets/fa-pro/svgs/solid/bars.svg" alt="Navigation Menu" width="30" height="30" />
     </button>
 </header>
