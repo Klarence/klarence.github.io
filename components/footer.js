@@ -85,7 +85,7 @@ footerTemplate.innerHTML = `
   <footer id="pageFooter" class="footer-section text-center">
     <div class="container">
         <h2 class="footer-title">Let&rsquo;s work together</h2>
-        <a href="/contact.html"
+        <a href="/contact"
           class="site-btn">Get in touch</a>
         <ul class="social-links">
             <li>

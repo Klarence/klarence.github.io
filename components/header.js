@@ -198,15 +198,15 @@ headerTemplate.innerHTML = `
               </a>
           </div>
           <div class="nav-links">
-              <a href="/contact.html"
+              <a href="/contact"
                  class="site-btn header-btn"
               >Get in touch</a>
               <nav class="main-menu" id="menuToggle">
                   <ul>
-                      <li><a href="/about.html" rel="author">About</a></li>
+                      <li><a href="/about" rel="author">About</a></li>
                       <!--<li><a href="/work.html">Portfolio</a></li>-->
 <!--                        <li><a href="/slides.html">Slides</a></li>-->
-                      <li><a href="/contact.html">Contact</a></li>
+                      <li><a href="/contact">Contact</a></li>
                   </ul>
               </nav>
           </div>
