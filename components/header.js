@@ -116,8 +116,8 @@ headerTemplate.innerHTML = `
   display: none;
   cursor: pointer;
   position: absolute;
-  top: 35px;
-  right: 12px;
+  top: 36px;
+  right: 24px;
   color: #333;
   font-size: 30px;
   background-color: transparent;
