@@ -36,3 +36,7 @@ User-agent: YouBot
 Disallow: /
 User-agent: PiplBot
 Disallow: /
+User-agent: *
+Allow: /
+
+Sitemap: https://klarence.net/sitemap.txt
