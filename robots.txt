@@ -37,6 +37,6 @@ Disallow: /
 User-agent: PiplBot
 Disallow: /
 User-agent: *
-Allow: /
+Disallow:
 
 Sitemap: https://klarence.net/sitemap.txt
