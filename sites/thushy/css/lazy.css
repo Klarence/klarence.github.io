@@ -2,21 +2,18 @@
 .separator {
   margin-top: 100px;
   height: 56px;
-  /*background: url("../images/seperator.png") no-repeat center center;*/
-  background: url("https://res.cloudinary.com/thushy/image/upload/v1570422424/wedding/images/seperator_c45jll.png") no-repeat center center;
+  background: url("../images/seperator.png") no-repeat center center;
 }
 
 .overlay {
-  /*background: url("../images/overlay.png") repeat;*/
-  background: url("https://res.cloudinary.com/thushy/image/upload/v1570422453/wedding/images/overlay_np8eqx.png") repeat;
+  background: url("../images/overlay.png") repeat;
   position: absolute;
   width: 100%;
   height: 100%;
 }
 
 .overlay2 {
-  /*background: url("../images/overlay2.png") repeat;*/
-  background: url("https://res.cloudinary.com/thushy/image/upload/v1570422423/wedding/images/overlay2_rqpnj4.png") repeat;
+  background: url("../images/overlay2.png") repeat;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -24,19 +21,16 @@
 }
 
 .pattern {
-  /*background: var(--primary-color) url("../images/pattern.png") repeat center center;*/
-  background: var(--primary-color) url("https://res.cloudinary.com/thushy/image/upload/v1570422442/wedding/images/pattern_ywrcg1.png") repeat center center;
+  background: var(--primary-color) url("../images/pattern.png") repeat center center;
 }
 
 .man .ch-item {
-  /*background-image: url("../images/couple/klarence.jpg");*/
-  background-image: url("https://res.cloudinary.com/thushy/image/upload/v1570422490/wedding/images/couple/klarence_prqm9p.jpg");
+  background-image: url("../images/couple/klarence.jpg");
   background-size: 300px 300px;
 }
 
 .woman .ch-item {
-  /*background-image: url("../images/couple/thushy_headshot-hawaii.jpg");*/
-  background-image: url("https://res.cloudinary.com/thushy/image/upload/v1570422471/wedding/images/couple/thushy_headshot-hawaii_dnhjd7.jpg");
+  background-image: url("../images/couple/thushy_headshot-hawaii.jpg");
   background-size: 300px 300px;
 }
 
@@ -44,12 +38,10 @@
 .common-parallax {
   height: 450px;
   text-align: center;
-  /*background: url("../images/paris/thushy_and_klarence_10-small.jpg") 50% no-repeat fixed;*/
-  background: url("https://res.cloudinary.com/thushy/image/upload/v1570422415/wedding/images/paris/thushy_and_klarence_10-small_nfizim.jpg") 50% no-repeat fixed;
+  background: url("../images/paris/thushy_and_klarence_10-small.jpg") 50% no-repeat fixed;
   background-size: cover;
 }
 
 .post-author {
-  /*background: #fff url("../images/pattern.png") repeat center center;*/
-  background: #fff url("https://res.cloudinary.com/thushy/image/upload/v1570422442/wedding/images/pattern_ywrcg1.png") repeat center center;
+  background: #fff url("../images/pattern.png") repeat center center;
 }
