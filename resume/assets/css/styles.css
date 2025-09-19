@@ -329,15 +329,16 @@ textarea {
 }
 
 html {
-  font-size: 6.25%; /* Sets a relative unit value allows for browser font size to affect web page */
+  font-size: 18px; /* Sets a relative unit value allows for browser font size to affect web page */
 }
 
 body {
   font-weight: 500;
-  font-size: 16rem; /* Sets default font size to equal 16px */
+  font-size: 1rem;
   font-family: Verdena, Helvetica, Arial, sans-serif;
   line-height: 1.2; /* line-height set with rem scales incorrectly in Safari, I think it has something to do with resizing to a minimum viewable font-size (9px) */
   text-align: left;
+  color: #222;
   background: #f8f8f8;
 }
 
@@ -368,14 +369,14 @@ abbr {
 }
 
 p {
-  font-size: 14rem;
+  font-size: 0.875rem;
   font-family: Verdana, Helvetica, Arial, sans-serif;
   line-height: 1.25;
 }
 
 address li {
   margin-bottom: 4px;
-  font-size: 14rem;
+  font-size: 0.875rem;
   line-height: 1.25;
 }
 
@@ -386,8 +387,8 @@ address li a {
 .wrapper {
   max-width: 820px;
   margin: 0 auto;
-  padding-right: 0.5em;
-  padding-left: 0.5em;
+  padding-right: 8px;
+  padding-left: 8px;
   /*	background-color: #fff; */
   text-align: left;
 }
@@ -459,14 +460,14 @@ h2 {
   position: relative;
   margin-top: 0;
   padding: 11px 0 0 0;
-  color: #000;
-  font-size: 18rem;
+  color: #333;
+  font-size: 1.125rem;
   line-height: 1.25;
 }
 
 .subheader {
   color: #545454;
-  font-size: 16rem;
+  font-size: 1rem;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -483,7 +484,7 @@ h2 {
   max-width: 650px;
   margin: 30px 0 0 0;
   font-weight: 300;
-  font-size: 36rem;
+  font-size: 2.25rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: normal;
 }
@@ -500,7 +501,7 @@ h2 {
   margin-top: 0;
   padding: 11px 0 0 0;
   color: #000;
-  font-size: 16rem;
+  font-size: 1rem;
   font-family: Lucida, Lucida Grande, Lucida Sans, Lucida Sans Unicode, Century Gothic, Avant Garde, Helvetica, Arial, sans-serif;
   line-height: 1.4;
 }
@@ -508,7 +509,7 @@ h2 {
 .contact-desc {
   right: 65px;
   color: #545454;
-  font-size: 14rem;
+  font-size: 0.875rem;
   font-family: Helvetica, Arial, sans-serif;
   font-style: italic;
 }
@@ -516,7 +517,7 @@ h2 {
 .time-desc {
   color: #545454;
   font-weight: normal;
-  font-size: 14rem;
+  font-size: 0.875rem;
   font-family: Helvetica, Arial, sans-serif;
   font-style: italic;
 }
@@ -524,7 +525,7 @@ h2 {
 .skills-desc {
   margin-bottom: 0;
   color: #545454;
-  font-size: 14rem;
+  font-size: 0.875rem;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.2;
 }

@@ -85,8 +85,13 @@ footerTemplate.innerHTML = `
   <footer id="pageFooter" class="footer-section text-center">
     <div class="container">
         <h2 class="footer-title">Let&rsquo;s work together</h2>
-        <a href="/contact"
-          class="site-btn">Get in touch</a>
+          <p>
+            Connect with me on <a href="https://www.linkedin.com/in/klarence/" target="_blank"
+                                  title="Open a new page to go to Klarence's LinkedIn Profile">LinkedIn</a>,
+            email me at <a href="mailto:klarence.ux@gmail.com?subject=Greetings&body=I%20found%20your%20email%20from%20your%20site%20klarence.net.%0D%0A">klarence.ux@gmail.com</a>.
+          </p>
+<!--        <a href="/contact"-->
+<!--          class="site-btn">Get in touch</a>-->
         <ul class="social-links">
             <li>
               <a href="https://www.linkedin.com/in/klarence" rel="external" aria-label="LinkedIn">
@@ -127,7 +132,7 @@ class Footer extends HTMLElement {
 
   connectedCallback() {
     const shadowRoot = this.attachShadow({ mode: 'open' });
-    
+
     shadowRoot.appendChild(footerTemplate.content);
 
     const currentRoute = window.location.pathname;

@@ -303,6 +303,10 @@ main {
   flex-basis: 100%;
 }
 
+#yrsOfExp {
+    font-size: 2rem;
+}
+
 .milestone {
   margin-top: 15px;
 }

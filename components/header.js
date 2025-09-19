@@ -197,23 +197,23 @@ headerTemplate.innerHTML = `
                   </picture>
               </a>
           </div>
-          <div class="nav-links">
-              <a href="/contact"
-                 class="site-btn header-btn"
-              >Get in touch</a>
-              <nav class="main-menu" id="menuToggle">
-                  <ul>
-                      <li><a href="/about" rel="author">About</a></li>
-                      <!--<li><a href="/work.html">Portfolio</a></li>-->
-<!--                        <li><a href="/slides.html">Slides</a></li>-->
-                      <li><a href="/contact">Contact</a></li>
-                  </ul>
-              </nav>
+<!--          <div class="nav-links">-->
+<!--              <a href="/contact"-->
+<!--                 class="site-btn header-btn"-->
+<!--              >Get in touch</a>-->
+<!--              <nav class="main-menu" id="menuToggle">-->
+<!--                  <ul>-->
+<!--                      <li><a href="/" rel="author">About</a></li>-->
+<!--                      &lt;!&ndash;<li><a href="/work.html">Portfolio</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <li><a href="/slides.html">Slides</a></li>&ndash;&gt;-->
+<!--                      <li><a href="/contact">Contact</a></li>-->
+<!--                  </ul>-->
+<!--              </nav>-->
           </div>
     </div>
-    <button class="nav-switch" id="menuToggleTrigger" aria-label="Toggle Navigation Menu">
-        <img src="/assets/fa-pro/svgs/solid/bars.svg" alt="Navigation Menu" width="30" height="30" />
-    </button>
+<!--    <button class="nav-switch" id="menuToggleTrigger" aria-label="Toggle Navigation Menu">-->
+<!--        <img src="/assets/fa-pro/svgs/solid/bars.svg" alt="Navigation Menu" width="30" height="30" />-->
+<!--    </button>-->
 </header>
 `;
 
