@@ -272,3 +272,19 @@ h2 {
     max-width: 540px;
   }
 }
+
+.skills-section {
+  li {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-bottom: .875rem;
+    ul li {
+      font-size: 1rem;
+      font-weight: normal;
+      display: inline;
+    }
+  }
+  //ul li ul {
+  //  list-style: none;
+  //}
+}

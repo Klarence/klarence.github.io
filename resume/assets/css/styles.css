@@ -582,5 +582,15 @@ h2 {
     max-width: 540px;
   }
 }
+.skills-section li {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-bottom: 0.875rem;
+}
+.skills-section li ul li {
+  font-size: 1rem;
+  font-weight: normal;
+  display: inline;
+}
 
 /*# sourceMappingURL=styles.css.map */
